@@ -34,5 +34,3 @@ You can run the FlanT5 inference code.
 python src/flan-inference-code.py
 ```
 
-## File List
-
