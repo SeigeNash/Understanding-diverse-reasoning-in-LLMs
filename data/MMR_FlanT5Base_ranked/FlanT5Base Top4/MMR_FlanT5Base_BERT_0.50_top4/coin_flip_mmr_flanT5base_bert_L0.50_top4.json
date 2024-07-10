@@ -1,0 +1,2302 @@
+[
+    {
+        "sample_index": 1,
+        "prompt": "A coin is heads up. Lucky does not flip the coin. Mireya flips the coin. Jj flips the coin. Kc flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Whitney. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin starts heads up.\nLucky does not flip the coin, so it remains heads up.\nMireya flips the coin, so it is now tails up.\nJj flips the coin, so it is now heads up again.\nKc flips the coin, so it is now tails up.\n\nTherefore, the answer is no, the coin is not heads up.",
+                0.33657991886138916
+            ]
+        ]
+    },
+    {
+        "sample_index": 4,
+        "prompt": "A coin is heads up. Breanna flips the coin. Trey does not flip the coin. Omar flips the coin. Patrice does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mireya, Jj and Kc. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nBreanna flips the coin. It is now tails up. Trey does not flip the coin. It is still tails up. Omar flips the coin. It is now heads up. Patrice does not flip the coin. It is still heads up.",
+                0.2789750397205353
+            ],
+            [
+                3,
+                " \n\nFirst, we know that the coin starts heads up. \nSecond, we know that Breanna flips the coin, so the coin is now tails up. \nThird, we know that Trey does not flip the coin, so the coin remains tails up. \nFourth, we know that Omar flips the coin, so the coin is now heads up again. \nFinally, we know that Patrice does not flip the coin, so the coin remains heads up. \n\nTherefore, the final answer is that the coin is heads up.",
+                0.20886968076229095
+            ],
+            [
+                5,
+                " \n\nIn the beginning, the coin is heads up. \n\nAfter Breanna flips the coin, the coin is now tails up. \n\nHowever, since Trey does not flip the coin, the coin remains tails up. \n\nWhen Omar flips the coin, the coin is now heads up again. \n\nLastly, since Patrice does not flip the coin, the coin remains heads up. \n\nIn conclusion, the coin is heads up.",
+                0.21025367081165314
+            ]
+        ]
+    },
+    {
+        "sample_index": 6,
+        "prompt": "A coin is heads up. Walter does not flip the coin. Mikayla does not flip the coin. Larry does not flip the coin. Ryan does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Breanna. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. \nWalter does not flip the coin. \nMikayla does not flip the coin. \nLarry does not flip the coin. \nRyan does not flip the coin.\n\nThe coin is still heads up.",
+                0.491814523935318
+            ]
+        ]
+    },
+    {
+        "sample_index": 10,
+        "prompt": "A coin is heads up. Jesse flips the coin. Roderick flips the coin. Travis does not flip the coin. Rita does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Walter. So the coin was flipped by Walter. So the coin was flipped by Mikayla. So the coin was flipped by Larry. So the coin was flipped by Ryan. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin is heads up.\nJesse flips the coin.\nThe coin is now tails up.\nRoderick flips the coin.\nThe coin is now heads up.\nTravis does not flip the coin.\nRita does not flip the coin.\n\nSo, the coin is heads up again.",
+                0.3362208306789398
+            ],
+            [
+                4,
+                " \n\nJesse flips the coin. It is now tails up. \nRoderick flips the coin. It is now heads up again. \nTravis does not flip the coin. The coin remains heads up. \nRita does not flip the coin. The coin remains heads up.",
+                0.3198520243167877
+            ]
+        ]
+    },
+    {
+        "sample_index": 15,
+        "prompt": "A coin is heads up. Jae does not flip the coin. Dennis does not flip the coin. Cris flips the coin. Bernadette flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jesse and Roderick. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                "\n\nJae does not flip the coin. The coin is still heads up.\nDennis does not flip the coin. The coin is still heads up.\nCris flips the coin. The coin is now tails up.\nBernadette flips the coin. The coin is now heads up again.",
+                0.2621587812900543
+            ]
+        ]
+    },
+    {
+        "sample_index": 16,
+        "prompt": "A coin is heads up. Hank does not flip the coin. Janine does not flip the coin. Frankie flips the coin. Isa flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Cris and Bernadette. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                "\n\nHank does not flip the coin. This leaves the coin in the heads up position.\nJanine does not flip the coin. This leaves the coin in the heads up position.\nFrankie flips the coin. This reverses the coin, so it is now tails up.\nIsa flips the coin. This reverses the coin, so it is now heads up again.\n\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.22770293056964874
+            ]
+        ]
+    },
+    {
+        "sample_index": 18,
+        "prompt": "A coin is heads up. Christy flips the coin. Rey does not flip the coin. Michelle flips the coin. Dolly does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Frankie and Isa. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin is heads up. Christy flips the coin. Rey does not flip the coin. The coin is now tails up. Michelle flips the coin. The coin is now heads up. Dolly does not flip the coin. The coin is still heads up.",
+                0.40405312180519104
+            ],
+            [
+                2,
+                " \n\nChristy flips the coin. Rey does not flip the coin.\n\nChristy has flipped the coin, so the coin is now tails up. Rey has not flipped the coin, so the current state of the coin is not affected by Rey.\n\nMichelle flips the coin. Dolly does not flip the coin.\n\nMichelle has flipped the coin, so the coin is now heads up again. Dolly has not flipped the coin, so the current state of the coin is not affected by Dolly.\n\nTherefore, the coin is heads up.",
+                0.2913338541984558
+            ]
+        ]
+    },
+    {
+        "sample_index": 19,
+        "prompt": "A coin is heads up. Annie does not flip the coin. To\u00f1o flips the coin. Sharon flips the coin. Delores flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Christy. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \nAnnie does not flip the coin. This means that the coin does not change. It is still heads up. \nTo\u00f1o flips the coin. This means that the coin is now tails up. \nSharon flips the coin. This means that the coin is now heads up again. \nDelores flips the coin. This means that the coin is now tails up. \nSo, to answer your question, the coin is not heads up anymore.",
+                0.25399890542030334
+            ]
+        ]
+    },
+    {
+        "sample_index": 20,
+        "prompt": "A coin is heads up. Jessy does not flip the coin. Libby does not flip the coin. Danielle flips the coin. Red flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by To<unk>o, Sharon and Delores. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin starts heads up. \nJessy does not flip the coin, so it remains heads up. \nLibby does not flip the coin, so it remains heads up. \nDanielle flips the coin, so it is now tails up. \nRed flips the coin, so it is now heads up again. \n\nSo the answer is yes, the coin is heads up again.",
+                0.2969007194042206
+            ]
+        ]
+    },
+    {
+        "sample_index": 21,
+        "prompt": "A coin is heads up. Jorge does not flip the coin. Natalia does not flip the coin. Bryant flips the coin. Kiran flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Danielle and Red. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " Jorge did not flip the coin, so the coin is still heads up. Natalia did not flip the coin, so the coin is still heads up. Bryant flipped the coin, so the coin is now tails up. Kiran flipped the coin, so the coin is now heads up.",
+                0.210125133395195
+            ]
+        ]
+    },
+    {
+        "sample_index": 24,
+        "prompt": "A coin is heads up. Domingo does not flip the coin. Briana flips the coin. Michael flips the coin. Joan does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Bryant and Kiran. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                "\n\nThe coin is heads up.\n\nDomingo does not flip the coin. The coin is still heads up.\n\nBriana flips the coin. The coin is now tails up.\n\nMichael flips the coin. The coin is now heads up again.\n\nJoan does not flip the coin. The coin is still heads up.",
+                0.3068822920322418
+            ]
+        ]
+    },
+    {
+        "sample_index": 27,
+        "prompt": "A coin is heads up. Penny flips the coin. Harry does not flip the coin. Jessica does not flip the coin. Horacio flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> Briana flips the coin. Michael flips the coin. Joan does not flip the coin. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up. Penny flips the coin. \n\nThe coin is now tails up. Harry does not flip the coin. \n\nThe coin is still tails up. Jessica does not flip the coin. \n\nThe coin is still tails up. Horacio flips the coin. \n\nThe coin is now heads up.",
+                0.3292756974697113
+            ]
+        ]
+    },
+    {
+        "sample_index": 29,
+        "prompt": "A coin is heads up. Rena does not flip the coin. Devon does not flip the coin. Rosalinda does not flip the coin. Paulina does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Penny. So the coin was flipped 1 time, which is heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nA coin is heads up. \nRena does not flip the coin. \n\nThe coin is still heads up. \n\nDevon does not flip the coin. \n\nThe coin is still heads up. \n\nRosalinda does not flip the coin. \n\nThe coin is still heads up. \n\nPaulina does not flip the coin. \n\nThe coin is still heads up.",
+                0.36796674132347107
+            ],
+            [
+                7,
+                " \n\nRena does not flip the coin. So the coin remains heads up. \nDevon does not flip the coin. So the coin remains heads up.\nRosalinda does not flip the coin. So the coin remains heads up. \nPaulina does not flip the coin. So the coin remains heads up. \n\nIn conclusion, since no one flipped the coin, the coin remains heads up.",
+                0.3252643644809723
+            ]
+        ]
+    },
+    {
+        "sample_index": 34,
+        "prompt": "A coin is heads up. Mauricio flips the coin. Lee does not flip the coin. Madi does not flip the coin. Lizzie flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Rena, Devon, Rosalinda and Paulina. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nMauricio flips the coin. The coin is now tails up. \nLee does not flip the coin. The coin is still tails up. \nMadi does not flip the coin. The coin is still tails up. \nLizzie flips the coin. The coin is now heads up.",
+                0.2152603417634964
+            ]
+        ]
+    },
+    {
+        "sample_index": 37,
+        "prompt": "A coin is heads up. Ari flips the coin. Jasmine does not flip the coin. Elliot flips the coin. Kendrick flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mauricio. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                "\n\nAri flips the coin. This means that the coin is now tails up.\nJasmine does not flip the coin. This means that the coin remains tails up.\nElliot flips the coin. This means that the coin is now heads up again.\nKendrick flips the coin. This means that the coin is now tails up.\n\nSo, to answer the question, no, the coin is not heads up anymore.",
+                0.25428012013435364
+            ]
+        ]
+    },
+    {
+        "sample_index": 40,
+        "prompt": "A coin is heads up. Kennedy flips the coin. Ginny does not flip the coin. Iliana flips the coin. Sky does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ari, Elliot and Kendrick. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nA coin is heads up. \n\nThis is our starting point, and we know it to be true. \n\nKennedy flips the coin. \n\nThis means that the coin is now tails up. \n\nGinny does not flip the coin. \n\nThis leaves the coin tails up. \n\nIliana flips the coin. \n\nThis means the coin is now heads up again. \n\nSky does not flip the coin. \n\nThis leaves the coin heads up, which is our original starting point.",
+                0.24856746196746826
+            ],
+            [
+                6,
+                "\n\nKennedy flips the coin, so now it is tails up.\nGinny does not flip the coin, so it remains tails up.\nIliana flips the coin, so now it is heads up.\nSky does not flip the coin, so it remains heads up.\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.24407678842544556
+            ],
+            [
+                0,
+                " \n\nFirst, Kennedy flips the coin. This means that if the coin was heads up, it is now tails up. \nThen, Ginny does not flip the coin. This means that if the coin was heads up, it is still heads up. \nNow, Iliana flips the coin. This means that if the coin was tails up, it is now heads up. \nLastly, Sky does not flip the coin. This means that if the coin was tails up, it is still tails up. \n\nTo sum it up, the coin is heads up.",
+                0.24457614123821259
+            ]
+        ]
+    },
+    {
+        "sample_index": 44,
+        "prompt": "A coin is heads up. Skylar flips the coin. Chrissy does not flip the coin. Misty flips the coin. Kike flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Kennedy. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up. \nSkylar flips the coin. Now it is tails up. \nChrissy does not flip the coin. It remains tails up. \nMisty flips the coin. Now it is heads up again. \nKike flips the coin. Now it is tails up. \n\nSo, the final answer is that the coin is tails up.",
+                0.3322329819202423
+            ]
+        ]
+    },
+    {
+        "sample_index": 51,
+        "prompt": "A coin is heads up. Alexandria does not flip the coin. Meghan does not flip the coin. Autumn does not flip the coin. Robert does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Skylar, Misty and Kike. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nThe coin is heads up. Alexandria does not flip the coin.\n\nThat means the coin is still heads up. \n\nMeghan does not flip the coin.\n\nThat means the coin is still heads up. \n\nAutumn does not flip the coin.\n\nThat means the coin is still heads up. \n\nRobert does not flip the coin.\n\nThat means the coin is still heads up.",
+                0.30034226179122925
+            ]
+        ]
+    },
+    {
+        "sample_index": 52,
+        "prompt": "A coin is heads up. Jr flips the coin. Meredith flips the coin. Zoe does not flip the coin. Robby does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by no one. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nA coin is heads up. \n\nThat's our starting point, and it's true. \n\nJr flips the coin.\n\nThat means the coin is now tails up. So it's no longer true that the coin is heads up. \n\nMeredith flips the coin.\n\nThat means the coin is now heads up again. So it's true that the coin is heads up. \n\nZoe does not flip the coin.\n\nThat doesn't change anything, so it's still true that the coin is heads up. \n\nRobby does not flip the coin",
+                0.2752116024494171
+            ],
+            [
+                7,
+                " \n\nJr flips the coin. The coin is now tails up. \nMeredith flips the coin. The coin is now heads up again. \nZoe does not flip the coin. The coin remains heads up. \nRobby does not flip the coin. The coin remains heads up. \n\nSo yes, the coin is still heads up.",
+                0.24428363144397736
+            ]
+        ]
+    },
+    {
+        "sample_index": 54,
+        "prompt": "A coin is heads up. Shari flips the coin. Bella flips the coin. Liza does not flip the coin. Maira does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jr and Meredith. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin starts heads up. \nShari flips the coin, so it is now tails up. \nBella flips the coin, so it is now heads up again. \nLiza does not flip the coin, so it remains heads up. \nMaira does not flip the coin, so it remains heads up. \n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.3009953498840332
+            ],
+            [
+                5,
+                " \n\nWhen Shari flips the coin, it becomes tails up. \nWhen Bella flips the coin, it becomes heads up again. \nSince Liza and Maira don't flip the coin, it remains heads up. \n\nTherefore, the answer is yes.",
+                0.22642524540424347
+            ],
+            [
+                3,
+                " \n\nShari flips the coin. This means that if the coin was heads up, it is now tails up. \nBella flips the coin. This means that if the coin was tails up, it is now heads up. \nLiza does not flip the coin. This means that the current state of the coin (heads up or tails up) remains the same. \nMaira does not flip the coin. This means that the current state of the coin (heads up or tails up) remains the same. \n\nTherefore, the final state of the coin is heads up.",
+                0.2190002202987671
+            ]
+        ]
+    },
+    {
+        "sample_index": 55,
+        "prompt": "A coin is heads up. Lazaro does not flip the coin. Ana flips the coin. Charlotte flips the coin. Precious flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Shari and Bella. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nLazaro does not flip the coin, so the coin remains heads up.\nAna flips the coin, so the coin is now tails up.\nCharlotte flips the coin, so the coin is now heads up again.\nPrecious flips the coin, so the coin is now tails up.\n\nSo the final answer is that the coin is tails up.",
+                0.22862446308135986
+            ]
+        ]
+    },
+    {
+        "sample_index": 56,
+        "prompt": "A coin is heads up. Imelda flips the coin. Andi flips the coin. Mack does not flip the coin. Rigoberto flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ana, Charlotte and Precious. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up.\nImelda flips the coin. The coin is now tails up.\nAndi flips the coin. The coin is now heads up.\nMack does not flip the coin. The coin is still heads up.\nRigoberto flips the coin. The coin is now tails up.\n\nTherefore, the answer is no, the coin is not heads up anymore.",
+                0.34156620502471924
+            ]
+        ]
+    },
+    {
+        "sample_index": 60,
+        "prompt": "A coin is heads up. Vicente does not flip the coin. Dayana does not flip the coin. Kasey does not flip the coin. Lin does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Imelda, Andi and Rigoberto. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                7,
+                " \nThe coin is heads up. \nVicente does not flip the coin. \nDayana does not flip the coin. \nKasey does not flip the coin. \nLin does not flip the coin. \nThe coin is still heads up.",
+                0.48868462443351746
+            ]
+        ]
+    },
+    {
+        "sample_index": 63,
+        "prompt": "A coin is heads up. Dave does not flip the coin. Ernesto does not flip the coin. Liam does not flip the coin. Marsha does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Vicente, Dayana, Kasey and Lin. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nA coin is heads up. \nDave does not flip the coin. \nTherefore, the coin is still heads up. \nErnesto does not flip the coin. \nTherefore, the coin is still heads up. \nLiam does not flip the coin. \nTherefore, the coin is still heads up. \nMarsha does not flip the coin. \nTherefore, the coin is still heads up. \n\nIn conclusion, since no one flipped the coin, the coin remained heads up.",
+                0.2953958213329315
+            ]
+        ]
+    },
+    {
+        "sample_index": 64,
+        "prompt": "A coin is heads up. Ira flips the coin. Paola flips the coin. Jose Antonio does not flip the coin. Maria does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Dave. Dave does not flip the coin. Ernesto does not flip the coin. Liam does not flip the coin. Marsha does not flip the coin. So the coin was flipped by Dave, Ernesto, Liam and Marsha. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.",
+        "ranking": [
+            [
+                0,
+                " Ira flips the coin, so the probability of the coin being heads up is now 1/2. Paola flips the coin, so the probability of the coin being heads up is now 1/4. Jose Antonio does not flip the coin, so the probability of the coin being heads up remains 1/4. Maria does not flip the coin, so the probability of the coin being heads up remains 1/4.\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.21599173545837402
+            ]
+        ]
+    },
+    {
+        "sample_index": 65,
+        "prompt": "A coin is heads up. Manish does not flip the coin. Lu flips the coin. Karl does not flip the coin. Don flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ira and Paola. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \n\nManish does not flip the coin. This means that the coin remains heads up. \n\nLu flips the coin. This means that the coin is now tails up. \n\nKarl does not flip the coin. This means that the coin remains tails up. \n\nDon flips the coin. This means that the coin is now heads up again. \n\nSo, to answer your question, the coin is heads up.",
+                0.32360124588012695
+            ]
+        ]
+    },
+    {
+        "sample_index": 68,
+        "prompt": "A coin is heads up. Maura flips the coin. Selvin does not flip the coin. Tabitha flips the coin. Gino flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Lu. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " The coin is heads up. Maura flips the coin. That means the coin is now tails up. Selvin does not flip the coin. That means the coin is still tails up. Tabitha flips the coin. That means the coin is now heads up again. Gino flips the coin. That means the coin is now tails up. So, the final answer is that the coin is tails up.",
+                0.29637277126312256
+            ],
+            [
+                7,
+                " Maura flips the coin, so now it is tails up. Selvin does not flip the coin, so it remains tails up. Tabitha flips the coin, so now it is heads up again. Gino flips the coin, so now it is tails up. So, the final answer is that the coin is tails up.",
+                0.2770877778530121
+            ]
+        ]
+    },
+    {
+        "sample_index": 74,
+        "prompt": "A coin is heads up. Michele flips the coin. Karan does not flip the coin. Abraham does not flip the coin. Ellen flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Maura, Tabitha and Gino. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nMichele flips the coin. It is now tails up.\nKaran does not flip the coin. It is still tails up.\nAbraham does not flip the coin. It is still tails up.\nEllen flips the coin. It is now heads up.",
+                0.30835863947868347
+            ],
+            [
+                4,
+                "\n\nThe coin starts heads up.\nMichele flips the coin, so it's now tails up.\nKaran does not flip the coin, so it remains tails up.\nAbraham does not flip the coin, so it remains tails up.\nEllen flips the coin, so it's now heads up again.\n\n",
+                0.28716081380844116
+            ]
+        ]
+    },
+    {
+        "sample_index": 75,
+        "prompt": "A coin is heads up. Laila does not flip the coin. Audrey does not flip the coin. Glenn does not flip the coin. Rhonda does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ellen. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up. \nLaila does not flip the coin. \n\nThe coin is still heads up. \n\nAudrey does not flip the coin. \n\nThe coin is still heads up. \n\nGlenn does not flip the coin. \n\nThe coin is still heads up. \n\nRhonda does not flip the coin. \n\nThe coin is still heads up.",
+                0.3615008592605591
+            ],
+            [
+                0,
+                " If no one flips the coin, then the coin remains in the same state, which means it is still heads up.",
+                0.16734595596790314
+            ]
+        ]
+    },
+    {
+        "sample_index": 77,
+        "prompt": "A coin is heads up. Janet does not flip the coin. Ant does not flip the coin. Vickie flips the coin. Elias flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Laila, Audrey, Glenn and Rhonda. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nJanet does not flip the coin. So the coin is still heads up. \nAnt does not flip the coin. So the coin is still heads up.\nVickie flips the coin. So the coin is now tails up. \nElias flips the coin. So the coin is now heads up again. \n\n",
+                0.20760977268218994
+            ]
+        ]
+    },
+    {
+        "sample_index": 78,
+        "prompt": "A coin is heads up. Russ flips the coin. Berta does not flip the coin. Mandy does not flip the coin. Lydia flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Vickie and Elias. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up. \nRuss flips the coin. The coin is now tails up. \nBerta does not flip the coin. The coin is still tails up. \nMandy does not flip the coin. The coin is still tails up. \nLydia flips the coin. The coin is now heads up again.",
+                0.344936341047287
+            ]
+        ]
+    },
+    {
+        "sample_index": 81,
+        "prompt": "A coin is heads up. Amparo flips the coin. Gianna does not flip the coin. Dion flips the coin. Tessa flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Russ. Berta does not flip the coin. Mandy does not flip the coin. Lydia flips the coin. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nAmparo flips the coin. It is now tails up. \nGianna does not flip the coin. It is still tails up.\nDion flips the coin. It is now heads up.\nTessa flips the coin. It is now tails up.\n\nSo, the final answer is no, the coin is not heads up.",
+                0.351837158203125
+            ]
+        ]
+    },
+    {
+        "sample_index": 92,
+        "prompt": "A coin is heads up. Tomas does not flip the coin. Nic flips the coin. Zoila flips the coin. Calvin does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Amparo, Dion and Tessa. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is no.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nTomas does not flip the coin. \nThat means the state of the coin remains the same. \n\nNic flips the coin. \nThat means the state of the coin is reversed. \n\nZoila flips the coin. \nThat means the state of the coin is reversed again. \n\nCalvin does not flip the coin. \nThat means the state of the coin remains the same. \n\nTherefore, the final state of the coin is heads up.",
+                0.22674424946308136
+            ]
+        ]
+    },
+    {
+        "sample_index": 96,
+        "prompt": "A coin is heads up. Carolyn flips the coin. Sasha does not flip the coin. Mercy does not flip the coin. Keri flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Nic. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " Carolyn flips the coin, so it is now tails up. Sasha does not flip the coin, so it remains tails up. Mercy does not flip the coin, so it remains tails up. Keri flips the coin, so it is now heads up again. \n\nSo to answer the question, yes, the coin is heads up again.",
+                0.26337024569511414
+            ]
+        ]
+    },
+    {
+        "sample_index": 101,
+        "prompt": "A coin is heads up. April does not flip the coin. Molly does not flip the coin. Maurice flips the coin. Jaclyn flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Carolyn. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up.\n\nApril does not flip the coin.\n\nMolly does not flip the coin.\n\nMaurice flips the coin. Now, it is tails up.\n\nJaclyn flips the coin. Now, it is heads up again.",
+                0.3935178518295288
+            ],
+            [
+                5,
+                " \n\nInitially, the coin is heads up. \nApril does not flip the coin, so the coin remains heads up. \nMolly does not flip the coin, so the coin remains heads up. \nMaurice flips the coin, so the coin is now tails up. \nJaclyn flips the coin, so the coin is now heads up again. \n\nSo, to answer the question, the final state of the coin is heads up.",
+                0.21642880141735077
+            ],
+            [
+                4,
+                "\n\nApril does not flip the coin: The coin is still heads up.\nMolly does not flip the coin: The coin is still heads up.\nMaurice flips the coin: The coin is now tails up.\nJaclyn flips the coin: The coin is now heads up again.\n\n",
+                0.2543626129627228
+            ]
+        ]
+    },
+    {
+        "sample_index": 102,
+        "prompt": "A coin is heads up. Markus does not flip the coin. Kathryn does not flip the coin. Giovanna does not flip the coin. Kent does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Maurice and Jaclyn. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \nStep 1: Markus does not flip the coin. \nStep 2: Kathryn does not flip the coin. \nStep 3: Giovanna does not flip the coin. \nStep 4: Kent does not flip the coin.\nGiven that nobody flips the coin, the answer is yes, the coin is still heads up.",
+                0.2319287806749344
+            ],
+            [
+                4,
+                " \n\nMarkus does not flip the coin. This leaves the coin in the heads up position.\nKathryn does not flip the coin. This leaves the coin in the heads up position.\nGiovanna does not flip the coin. This leaves the coin in the heads up position.\nKent does not flip the coin. This leaves the coin in the heads up position.\n\nSo yes, the coin is still heads up.",
+                0.22512197494506836
+            ],
+            [
+                0,
+                " If Markus does not flip the coin, then it remains heads up. The same goes for Kathryn, Giovanna, and Kent. So, yes, the coin is still heads up.",
+                0.17420782148838043
+            ]
+        ]
+    },
+    {
+        "sample_index": 104,
+        "prompt": "A coin is heads up. Quinton does not flip the coin. Sam flips the coin. Soledad does not flip the coin. Becca flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Kathryn. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up. \nQuinton does not flip the coin. This leaves the coin heads up. \nSam flips the coin. This leaves the coin tails up. \nSoledad does not flip the coin. This leaves the coin tails up. \nBecca flips the coin. This leaves the coin heads up. \n\nSo the coin is heads up again.",
+                0.3359619081020355
+            ]
+        ]
+    },
+    {
+        "sample_index": 106,
+        "prompt": "A coin is heads up. Manolo does not flip the coin. Bobbie does not flip the coin. Ash does not flip the coin. Jaqueline does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Sam. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nA coin is heads up. \nManolo does not flip the coin. \nBobbie does not flip the coin. \nAsh does not flip the coin. \nJaqueline does not flip the coin. \n\nThe coin is still heads up.",
+                0.5299205780029297
+            ],
+            [
+                1,
+                " \n\nA coin is heads up. \n\nThat's the starting point, and nothing has happened to change that, so yes, the coin is still heads up. \n\nManolo does not flip the coin. \n\nAgain, nothing has happened to change the starting point, so yes, the coin is still heads up. \n\nBobbie does not flip the coin. \n\nAgain, nothing has happened to change the starting point, so yes, the coin is still heads up. \n\nAsh does not flip the coin. \n\nAgain, nothing has happened to change the starting",
+                0.256594717502594
+            ]
+        ]
+    },
+    {
+        "sample_index": 107,
+        "prompt": "A coin is heads up. Jorge Luis does not flip the coin. Mo flips the coin. Alexia flips the coin. Jerry does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Manolo, Bobbie, Ash and Jaqueline. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \nJorge Luis does not flip the coin, so the coin remains heads up. \nMo flips the coin, so the coin is now tails up. \nAlexia flips the coin, so the coin is now heads up again. \nJerry does not flip the coin, so the coin remains heads up.",
+                0.18523453176021576
+            ]
+        ]
+    },
+    {
+        "sample_index": 111,
+        "prompt": "A coin is heads up. Dalila flips the coin. Emily flips the coin. Casey does not flip the coin. Clifford does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mo and Alexia. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin starts heads up. \n\nDalila flips the coin, so it is now tails up. \n\nEmily flips the coin, so it is now heads up again. \n\nCasey does not flip the coin, so it remains heads up. \n\nClifford does not flip the coin, so it remains heads up.",
+                0.2841036021709442
+            ]
+        ]
+    },
+    {
+        "sample_index": 114,
+        "prompt": "A coin is heads up. Hayden flips the coin. Maya does not flip the coin. Zack flips the coin. Roberto flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Dalila and Emily. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                "\n\nHayden flips the coin. This means that the coin is now tails up.\n\nMaya does not flip the coin. This means that the coin stays tails up.\n\nZack flips the coin. This means that the coin is now heads up again.\n\nRoberto flips the coin. This means that the coin is now tails up.\n\n\nSo, to answer the question, the coin is not heads up anymore.",
+                0.23807664215564728
+            ]
+        ]
+    },
+    {
+        "sample_index": 116,
+        "prompt": "A coin is heads up. Madeline flips the coin. Mckenzie does not flip the coin. Louie does not flip the coin. Dylan flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Hayden, Zack and Roberto. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is no.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. \nMadeline flips the coin. \nThe coin is now tails up. \nMckenzie does not flip the coin. \nThe coin is still tails up. \nLouie does not flip the coin. \nThe coin is still tails up. \nDylan flips the coin. \nThe coin is now heads up.",
+                0.347394734621048
+            ],
+            [
+                1,
+                " \n\nMadeline flips the coin. It is now tails up. \nMckenzie does not flip the coin. It is still tails up. \nLouie does not flip the coin. It is still tails up. \nDylan flips the coin. It is now heads up. \n\nTherefore, after Dylan flips the coin, it is heads up.",
+                0.30179837346076965
+            ]
+        ]
+    },
+    {
+        "sample_index": 120,
+        "prompt": "A coin is heads up. Margaret does not flip the coin. Rosi flips the coin. Willy flips the coin. Charlene does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Madeline. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                "\n\nThe coin starts heads up.\nMargaret does not flip the coin, so it remains heads up.\nRosi flips the coin, so it is now tails up.\nWilly flips the coin, so it is now heads up again.\nCharlene does not flip the coin, so it remains heads up.\n\nTherefore, the final answer is yes, the coin is still heads up.",
+                0.320622056722641
+            ],
+            [
+                5,
+                " \n1. The coin starts heads up.\n2. Margaret does not flip the coin, so it remains heads up.\n3. Rosi flips the coin, so it is now tails up.\n4. Willy flips the coin, so it is now heads up again.\n5. Charlene does not flip the coin, so it remains heads up.\n\nTherefore, the final answer is that the coin is heads up.",
+                0.20503757894039154
+            ]
+        ]
+    },
+    {
+        "sample_index": 122,
+        "prompt": "A coin is heads up. Davis flips the coin. Jules does not flip the coin. Fabiola flips the coin. Cherie does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Rosi, Willy and Charlene. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nDavis flips the coin.\n\nThis means that the coin starts out heads up, and then Davis flips it. The end result is that the coin is now tails up. \n\nJules does not flip the coin.\n\nThis means that the coin remains tails up. \n\nFabiola flips the coin.\n\nThis means that the coin starts out tails up, and then Fabiola flips it. The end result is that the coin is now heads up. \n\nCherie does not flip the coin.\n\nThis means that the coin remains heads up. \n\nSo,",
+                0.27801984548568726
+            ]
+        ]
+    },
+    {
+        "sample_index": 124,
+        "prompt": "A coin is heads up. Jeff does not flip the coin. Jen flips the coin. Giselle flips the coin. Noel does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Davis. So the coin was flipped once. The coin started heads up, so after one flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \n1. Jeff does not flip the coin.\n2. Jen flips the coin.\n3. Giselle flips the coin.\n4. Noel does not flip the coin.\n\nAt the end of step 2, the coin is heads up. Jen flips it, so it is now tails up. Giselle flips it, so it is now heads up again. Noel does not flip it, so it remains heads up.",
+                0.2777772545814514
+            ]
+        ]
+    },
+    {
+        "sample_index": 129,
+        "prompt": "A coin is heads up. Jordan does not flip the coin. Yoni flips the coin. Lawrence does not flip the coin. Aura flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jen, Giselle and Noel. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nJordan does not flip the coin. The coin is still heads up. \nYoni flips the coin. The coin is tails up. \nLawrence does not flip the coin. The coin is still tails up. \nAura flips the coin. The coin is heads up.",
+                0.22403083741664886
+            ]
+        ]
+    },
+    {
+        "sample_index": 136,
+        "prompt": "A coin is heads up. Daniella flips the coin. Dianne does not flip the coin. Ram flips the coin. Mirian flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Yoni. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up.\nDaniella flips the coin.\n\nNow the coin is tails up.\n\nDianne does not flip the coin.\nRam flips the coin.\n\nNow the coin is heads up again.\n\nMirian flips the coin.\n\nNow the coin is tails up.",
+                0.3694704473018646
+            ]
+        ]
+    },
+    {
+        "sample_index": 138,
+        "prompt": "A coin is heads up. Ericka does not flip the coin. Aly flips the coin. Darius does not flip the coin. Reed flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Daniella, Ram and Mirian. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                5,
+                " Ericka does not flip the coin, so the coin is still heads up. Aly flips the coin, so now the coin is tails up. Darius does not flip the coin, so it remains tails up. Reed flips the coin, so now it is heads up again. Therefore, the answer is yes - the coin is still heads up.",
+                0.20364798605442047
+            ]
+        ]
+    },
+    {
+        "sample_index": 140,
+        "prompt": "A coin is heads up. Dino flips the coin. Toby does not flip the coin. Abigail flips the coin. Manuela does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Reed. So the coin was flipped 4 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up. \nDino flips the coin. \n\nThe coin is now tails up. \n\nToby does not flip the coin. \n\nThe coin is still tails up. \n\nAbigail flips the coin. \n\nThe coin is now heads up. \n\nManuela does not flip the coin. \n\nThe coin is still heads up.",
+                0.31796643137931824
+            ],
+            [
+                5,
+                " \n\nDino flips the coin and it is now tails up. \nToby does not flip the coin, so it remains tails up. \nAbigail flips the coin and it is now heads up. \nManuela does not flip the coin, so it remains heads up.",
+                0.2708676755428314
+            ]
+        ]
+    },
+    {
+        "sample_index": 141,
+        "prompt": "A coin is heads up. Shannon does not flip the coin. Millie flips the coin. Rosemary does not flip the coin. Priyanka flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Dino. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. Shannon does not flip the coin.\nThe coin is still heads up. Millie flips the coin.\nThe coin is now tails up. Rosemary does not flip the coin.\nThe coin is still tails up. Priyanka flips the coin.\nThe coin is now heads up.\n\nSo, the coin is heads up again.",
+                0.3460090458393097
+            ]
+        ]
+    },
+    {
+        "sample_index": 142,
+        "prompt": "A coin is heads up. Cristian flips the coin. Nik does not flip the coin. Gwen flips the coin. Josiah flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Millie. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nCristian flips the coin: now it is tails up.\nNik does not flip the coin: it remains tails up.\nGwen flips the coin: now it is heads up again.\nJosiah flips the coin: now it is tails up again.\n\nSo, the answer is No.",
+                0.26410722732543945
+            ],
+            [
+                4,
+                " \nFirst, Cristian flips the coin. So, if it was heads up, it's now tails up. \nNext, Nik doesn't flip the coin, so it stays tails up. \nThen, Gwen flips the coin, so if it was tails up, it's now heads up. \nLastly, Josiah flips the coin, so if it was heads up, it's now tails up.\n\nTherefore, the coin is tails up.",
+                0.19641302525997162
+            ]
+        ]
+    },
+    {
+        "sample_index": 145,
+        "prompt": "A coin is heads up. Barb does not flip the coin. Gage flips the coin. Kristian flips the coin. Asia does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Cristian, Gwen and Josiah. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up. \nBarb does not flip the coin. \nThe coin is still heads up. \nGage flips the coin. \nThe coin is now tails up. \nKristian flips the coin. \nThe coin is now heads up again. \nAsia does not flip the coin. \nThe coin remains heads up.",
+                0.34063246846199036
+            ]
+        ]
+    },
+    {
+        "sample_index": 146,
+        "prompt": "A coin is heads up. Emilia flips the coin. Jonas flips the coin. Christi does not flip the coin. Sophia does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Gage, Kristian and Asia. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                "\n\nEmilia flips the coin, so the coin is now tails up.\n\nJonas flips the coin, so the coin is now heads up again.\n\nChristi does not flip the coin, so the coin remains heads up.\n\nSophia does not flip the coin, so the coin remains heads up.\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.19330845773220062
+            ]
+        ]
+    },
+    {
+        "sample_index": 149,
+        "prompt": "A coin is heads up. Abdi does not flip the coin. Clyde does not flip the coin. Ana Maria does not flip the coin. Pepe does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Emilia and Jonas. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up.\nAbdi does not flip the coin.\nClyde does not flip the coin.\nAna Maria does not flip the coin.\nPepe does not flip the coin.\n\nThe coin is still heads up.",
+                0.525174081325531
+            ],
+            [
+                7,
+                " If Abdi does not flip the coin, then the coin must still be heads up. If Clyde does not flip the coin, then the coin must still be heads up. If Ana Maria does not flip the coin, then the coin must still be heads up. If Pepe does not flip the coin, then the coin must still be heads up. So, yes, the coin is still heads up.",
+                0.18850219249725342
+            ],
+            [
+                4,
+                " \n\nThe coin is heads up. This is our starting point. \nAbdi does not flip the coin. The coin remains heads up. \nClyde does not flip the coin. The coin remains heads up. \nAna Maria does not flip the coin. The coin remains heads up. \nPepe does not flip the coin. The coin remains heads up. \n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.24703973531723022
+            ]
+        ]
+    },
+    {
+        "sample_index": 153,
+        "prompt": "A coin is heads up. Orlando does not flip the coin. Colby does not flip the coin. Julius flips the coin. Ofelia flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Clyde. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin is heads up. \nOrlando does not flip the coin. \nColby does not flip the coin.\n Julius flips the coin. \nOfelia flips the coin.\n\nThe coin is still heads up.",
+                0.4884069859981537
+            ],
+            [
+                7,
+                " \nOrlando does not flip the coin. So the current state of the coin is still heads up. \nColby does not flip the coin. So the current state of the coin is still heads up.\nJulius flips the coin. This means that the current state of the coin is now tails up.\nOfelia flips the coin. This means that the current state of the coin is now heads up again.\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.26340237259864807
+            ]
+        ]
+    },
+    {
+        "sample_index": 154,
+        "prompt": "A coin is heads up. Rogelio flips the coin. Freddy does not flip the coin. Ivan flips the coin. Madeleine does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Julius and Ofelia. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up.\nRogelio flips the coin. \n\nThis means that the coin is now tails up. \n\nFreddy does not flip the coin.\n\nThis means that the coin is still tails up. \n\nIvan flips the coin.\n\nThis means that the coin is now heads up again. \n\nMadeleine does not flip the coin.\n\nThis means that the coin is still heads up.",
+                0.31564047932624817
+            ]
+        ]
+    },
+    {
+        "sample_index": 158,
+        "prompt": "A coin is heads up. Myriam does not flip the coin. Jos\u00e9 flips the coin. Cecy flips the coin. Faisal flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Rogelio. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up. \nMyriam does not flip the coin. \nJos\u00e9 flips the coin. \nCecy flips the coin. \nFaisal flips the coin.\n\nSo, the order is important here. The coin starts as heads up, then Jos\u00e9 flips it, so it's now tails up, then Cecy flips it, so it's heads up again, then Faisal flips it, so it's tails up again.",
+                0.43734845519065857
+            ],
+            [
+                0,
+                " \n\nMyriam does not flip the coin. The coin is still heads up. \nJos\u00e9 flips the coin. The coin is now tails up. \nCecy flips the coin. The coin is now heads up again. \nFaisal flips the coin. The coin is now tails up.",
+                0.2308400422334671
+            ]
+        ]
+    },
+    {
+        "sample_index": 159,
+        "prompt": "A coin is heads up. Memo flips the coin. Joey does not flip the coin. Phil flips the coin. Samuel flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jos\u00e9, Cecy and Faisal. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nMemo flips the coin. This means that the coin is now tails up.\nJoey does not flip the coin. This means that the coin remains tails up.\nPhil flips the coin. This means that the coin is now heads up again.\nSamuel flips the coin. This means that the coin is now tails up.\n\nSo, to answer your question, the coin is not heads up anymore.",
+                0.24645356833934784
+            ]
+        ]
+    },
+    {
+        "sample_index": 161,
+        "prompt": "A coin is heads up. Selina flips the coin. Tasha flips the coin. Jarrod does not flip the coin. Maddy does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Phil and Samuel. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is no.</s>",
+        "ranking": [
+            [
+                6,
+                "\n\nSelina flips the coin. The coin is now tails up.\nTasha flips the coin. The coin is now heads up.\nJarrod does not flip the coin. The coin is still heads up.\nMaddy does not flip the coin. The coin is still heads up.\n\nThe coin is still heads up.",
+                0.23819869756698608
+            ]
+        ]
+    },
+    {
+        "sample_index": 162,
+        "prompt": "A coin is heads up. Talia flips the coin. Nicki does not flip the coin. Tia flips the coin. Divya does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Selina and Tasha. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                "\n\nTalia flips the coin.\n\nThe coin is now tails up.\n\nNicki does not flip the coin.\n\nThe coin is still tails up.\n\nTia flips the coin.\n\nThe coin is now heads up again.\n\nDivya does not flip the coin.\n\nThe coin is still heads up.",
+                0.21306860446929932
+            ]
+        ]
+    },
+    {
+        "sample_index": 171,
+        "prompt": "A coin is heads up. Sunil flips the coin. Tiana does not flip the coin. Darla does not flip the coin. Darnell flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Talia. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. \nSunil flips the coin. The coin is now tails up. \nTiana does not flip the coin. The coin is still tails up.\nDarla does not flip the coin. The coin is still tails up. \nDarnell flips the coin. The coin is now heads up.",
+                0.3102881610393524
+            ]
+        ]
+    },
+    {
+        "sample_index": 176,
+        "prompt": "A coin is heads up. Cat does not flip the coin. Alisha flips the coin. Ramon does not flip the coin. Norberto flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Darnell. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nThe coin is heads up. \n\nCat does not flip the coin. The coin is still heads up. \n\nAlisha flips the coin. The coin is now tails up. \n\nRamon does not flip the coin. The coin is still tails up. \n\nNorberto flips the coin. The coin is now heads up.",
+                0.3375343084335327
+            ],
+            [
+                4,
+                " \n\nA coin is heads up. This is the starting point, so we'll say that it's true.\nCat does not flip the coin. This doesn't change the statement, so it's still true.\nAlisha flips the coin. Now the coin is heads down, so the statement is false.\nRamon does not flip the coin. This doesn't change the statement, so it's still false.\nNorberto flips the coin. Now the coin is heads up again, so the statement is true.\n\n",
+                0.2785640358924866
+            ],
+            [
+                5,
+                " \n\nA coin is heads up. \n\nThat's the starting state. \n\nCat does not flip the coin.\n\nThe coin's state is unchanged. \n\nAlisha flips the coin.\n\nThe coin is now tails up. \n\nRamon does not flip the coin.\n\nThe coin's state is unchanged. \n\nNorberto flips the coin.\n\nThe coin is now heads up again.",
+                0.3170194923877716
+            ]
+        ]
+    },
+    {
+        "sample_index": 182,
+        "prompt": "A coin is heads up. Carlos does not flip the coin. Jackie does not flip the coin. Callie flips the coin. Caitlin flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Alisha. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nThe coin is heads up.\n\nCarlos does not flip the coin. Jackie does not flip the coin. \n\nThe coin is still heads up.\n\nCallie flips the coin. \n\nThe coin is now tails up. \n\nCaitlin flips the coin. \n\nThe coin is now heads up again.",
+                0.3806777894496918
+            ],
+            [
+                3,
+                "\n\n1. Carlos does not flip the coin. This means that if the coin was heads up, it remains heads up.\n\n2. Jackie does not flip the coin. This means that if the coin was heads up, it remains heads up.\n\n3. Callie flips the coin. This means that if the coin was heads up, it is now tails up.\n\n4. Caitlin flips the coin. This means that if the coin was tails up, it is now heads up.\n\nSo, after all four people have had a turn, the coin is heads up again.",
+                0.23989014327526093
+            ]
+        ]
+    },
+    {
+        "sample_index": 186,
+        "prompt": "A coin is heads up. Bob flips the coin. Aman does not flip the coin. Richie flips the coin. Sana does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Callie and Caitlin. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \nThe coin is heads up. \nBob flips the coin. \nThe coin is now tails up. \nAman does not flip the coin. \nThe coin is still tails up. \nRichie flips the coin. \nThe coin is now heads up. \nSana does not flip the coin. \nThe coin is still heads up.",
+                0.30004993081092834
+            ]
+        ]
+    },
+    {
+        "sample_index": 189,
+        "prompt": "A coin is heads up. Guillermo does not flip the coin. Gerry does not flip the coin. Lizbeth flips the coin. Charly flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Bob. So the coin is now heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. \nGuillermo does not flip the coin. \nThe coin is still heads up.\nGerry does not flip the coin. \nThe coin is still heads up.\nLizbeth flips the coin. \nThe coin is now tails up.\nCharly flips the coin. \nThe coin is now heads up.",
+                0.3551149368286133
+            ]
+        ]
+    },
+    {
+        "sample_index": 191,
+        "prompt": "A coin is heads up. Bret does not flip the coin. Lois flips the coin. Ismael flips the coin. Mirna flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Lizbeth and Charly. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " Bret does not flip the coin, so the coin must still be heads up. Lois flips the coin, so the coin is now tails up. Ismael flips the coin, so the coin is now heads up again. Mirna flips the coin, so the coin is now tails up. So, the final answer is that the coin is tails up.",
+                0.22832460701465607
+            ]
+        ]
+    },
+    {
+        "sample_index": 194,
+        "prompt": "A coin is heads up. Yvonne does not flip the coin. Rafaela does not flip the coin. Jb does not flip the coin. Salomon does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Lois, Ismael and Mirna. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nA coin is heads up. \nYvonne does not flip the coin. \nRafaela does not flip the coin. \nJb does not flip the coin. \nSalomon does not flip the coin.\n\nSo, the coin is still heads up!",
+                0.4888288974761963
+            ]
+        ]
+    },
+    {
+        "sample_index": 196,
+        "prompt": "A coin is heads up. Martin does not flip the coin. Sage does not flip the coin. Tanisha does not flip the coin. Rick does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Yvonne, Rafaela, Jb and Salomon. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nMartin does not flip the coin. This means that the current state of the coin is not changed. \nSage does not flip the coin. This means that the current state of the coin is not changed. \nTanisha does not flip the coin. This means that the current state of the coin is not changed. \nRick does not flip the coin. This means that the current state of the coin is not changed. \n\nSince the coin's state is not changed at any point, the final state of the coin must be the same as the initial state. Therefore, the coin is still",
+                0.25486576557159424
+            ],
+            [
+                1,
+                " \n1. Martin does not flip the coin. \n2. Sage does not flip the coin. \n3. Tanisha does not flip the coin. \n4. Rick does not flip the coin. \n5. The coin is still heads up.",
+                0.24385295808315277
+            ]
+        ]
+    },
+    {
+        "sample_index": 198,
+        "prompt": "A coin is heads up. Mel does not flip the coin. Josh flips the coin. Alejandra flips the coin. Harley flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Martin. So the coin was flipped by Martin. So the coin was flipped by Martin. So the coin was flipped by Martin. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. Mel does not flip the coin. \n\nThe coin is still heads up. \n\nJosh flips the coin.\n\nThe coin is tails up. \n\nAlejandra flips the coin.\n\nThe coin is heads up again. \n\nHarley flips the coin. \n\nThe coin is tails up.",
+                0.309596985578537
+            ],
+            [
+                1,
+                " \n\nAt the beginning, the coin is heads up. \nWhen Mel doesn't flip the coin, the coin remains heads up. \nWhen Josh flips the coin, the coin becomes tails up. \nWhen Alejandra flips the coin, the coin becomes heads up again. \nWhen Harley flips the coin, the coin becomes tails up. \n\nSo the final answer is that the coin is tails up.",
+                0.22394037246704102
+            ]
+        ]
+    },
+    {
+        "sample_index": 205,
+        "prompt": "A coin is heads up. Andr\u00e9s does not flip the coin. Miles does not flip the coin. Ronaldo flips the coin. Melinda flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Josh, Alejandra and Harley. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nAndr\u00e9s does not flip the coin, so the coin remains heads up. \nMiles does not flip the coin, so the coin remains heads up. \nRonaldo flips the coin, so the coin is now tails up. \nMelinda flips the coin, so the coin is now heads up again.",
+                0.18806178867816925
+            ]
+        ]
+    },
+    {
+        "sample_index": 208,
+        "prompt": "A coin is heads up. Itzel flips the coin. Anderson does not flip the coin. Kenia does not flip the coin. Edy flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ronaldo and Melinda. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                "\n\nItzel flips the coin. The coin is now tails up.\n\nAnderson does not flip the coin. The coin is still tails up.\n\nKenia does not flip the coin. The coin is still tails up.\n\nEdy flips the coin. The coin is now heads up.",
+                0.23624558746814728
+            ]
+        ]
+    },
+    {
+        "sample_index": 212,
+        "prompt": "A coin is heads up. Lionel flips the coin. Fiona flips the coin. Bobby does not flip the coin. Janeth does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Itzel. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. Lionel flips the coin. \nThe coin is now tails up. Fiona flips the coin.\nThe coin is now heads up again.",
+                0.304014652967453
+            ],
+            [
+                6,
+                " \n\nLionel flips the coin. This means that if the coin was heads up, it is now tails up. \nFiona flips the coin. This means that if the coin was heads up, it is now tails up. \nBobby does not flip the coin. This means that the coin remains in the same state, heads up. \nJaneth does not flip the coin. This means that the coin remains in the same state, heads up.\n\nTherefore, the coin is still heads up.",
+                0.2347259521484375
+            ]
+        ]
+    },
+    {
+        "sample_index": 215,
+        "prompt": "A coin is heads up. Ubaldo does not flip the coin. Katrina flips the coin. Francis does not flip the coin. Lynn flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Lionel and Fiona. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nUbaldo does not flip the coin, so the coin is still heads up. \nKatrina flips the coin, so now the coin is tails up. \nFrancis does not flip the coin, so the coin is still tails up. \nLynn flips the coin, so now the coin is heads up again.",
+                0.2217913120985031
+            ]
+        ]
+    },
+    {
+        "sample_index": 224,
+        "prompt": "A coin is heads up. Kendall does not flip the coin. Matias flips the coin. Kaleb flips the coin. Randy does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Katrina. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \nKendall does not flip the coin. So the coin remains heads up. \nMatias flips the coin. The coin is now tails up. \nKaleb flips the coin. The coin is now heads up again. \nRandy does not flip the coin. So the coin remains heads up.",
+                0.2385832667350769
+            ]
+        ]
+    },
+    {
+        "sample_index": 225,
+        "prompt": "A coin is heads up. Armando flips the coin. Astrid does not flip the coin. Anibal flips the coin. Dakota does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Matias. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nA coin is heads up. Armando flips the coin. \n\nThe coin is now tails up. \n\nAstrid does not flip the coin.\n\nThe coin is still tails up. \n\nAnibal flips the coin. \n\nThe coin is now heads up. \n\nDakota does not flip the coin. \n\nThe coin is still heads up.",
+                0.31869328022003174
+            ]
+        ]
+    },
+    {
+        "sample_index": 226,
+        "prompt": "A coin is heads up. Lamont does not flip the coin. Frederick flips the coin. Lance flips the coin. Esperanza does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Armando. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nLamont does not flip the coin. \nThe coin is still heads up. \nFrederick flips the coin. \nThe coin is now tails up. \nLance flips the coin. \nThe coin is now heads up again. \nEsperanza does not flip the coin. \nThe coin is still heads up.",
+                0.30573004484176636
+            ]
+        ]
+    },
+    {
+        "sample_index": 228,
+        "prompt": "A coin is heads up. Deandre does not flip the coin. Moe does not flip the coin. Jack does not flip the coin. Vanessa does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Frederick, Lance and Esperanza. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nA coin is heads up. \nDeandre does not flip the coin. \nMoe does not flip the coin. \nJack does not flip the coin. \nVanessa does not flip the coin.\n\nThe coin is still heads up.",
+                0.5045740008354187
+            ]
+        ]
+    },
+    {
+        "sample_index": 230,
+        "prompt": "A coin is heads up. Kelly does not flip the coin. Cheryl does not flip the coin. Nancy does not flip the coin. Jojo does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Deandre, Moe, Jack and Vanessa. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nA coin is heads up.\nKelly does not flip the coin.\nCheryl does not flip the coin.\nNancy does not flip the coin.\nJojo does not flip the coin.\n\nSo the coin is still heads up.",
+                0.49718543887138367
+            ]
+        ]
+    },
+    {
+        "sample_index": 232,
+        "prompt": "A coin is heads up. Carissa flips the coin. Paige does not flip the coin. Consuelo does not flip the coin. Izzy flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Kelly. So the coin was flipped by Kelly. So the coin was flipped by Kelly. So the coin was flipped by Kelly. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " Carissa flips the coin, so now it is tails up. Paige does not flip the coin, so it remains tails up. Consuelo does not flip the coin, so it remains tails up. Izzy flips the coin, so now it is heads up again. Therefore, the final answer is yes, the coin is heads up.",
+                0.24843060970306396
+            ],
+            [
+                4,
+                "\n\nA coin is heads up.\n\nThis is the starting state. The coin is heads up.\n\nCarissa flips the coin.\n\nAfter Carissa flips the coin, it is now tails up.\n\nPaige does not flip the coin.\n\nPaige does not reverse the coin, so it remains tails up.\n\nConsuelo does not flip the coin.\n\nConsuelo does not reverse the coin, so it remains tails up.\n\nIzzy flips the coin.\n\nAfter Izzy flips the coin, it is now heads up again.\n\nSo, to answer",
+                0.24789924919605255
+            ]
+        ]
+    },
+    {
+        "sample_index": 233,
+        "prompt": "A coin is heads up. Wilson does not flip the coin. Abbey does not flip the coin. Harold flips the coin. Nelly flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Carissa. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up.\nWilson does not flip the coin.\nThe coin is still heads up.\nAbbey does not flip the coin.\nThe coin is still heads up.\nHarold flips the coin.\nThe coin is tails up.\nNelly flips the coin.\nThe coin is heads up.",
+                0.29419171810150146
+            ]
+        ]
+    },
+    {
+        "sample_index": 237,
+        "prompt": "A coin is heads up. Rachel does not flip the coin. Alisa does not flip the coin. Fanny does not flip the coin. Jeffery does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Nelly. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " If Rachel doesn't flip the coin, then the coin is still heads up. If Alisa doesn't flip the coin, then the coin is still heads up. If Fanny doesn't flip the coin, then the coin is still heads up. So, if Jeffery doesn't flip the coin, then the coin is still heads up.",
+                0.24244719743728638
+            ]
+        ]
+    },
+    {
+        "sample_index": 238,
+        "prompt": "A coin is heads up. Manuel flips the coin. Aurelio does not flip the coin. India flips the coin. Rosalba flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Rachel. So the coin was flipped by Rachel. So the coin was flipped by Rachel. So the coin was flipped by Rachel. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. Manuel flips the coin.\nThe coin is now tails up. Aurelio does not flip the coin.\nThe coin is still tails up. India flips the coin.\nThe coin is now heads up. Rosalba flips the coin.\nThe coin is now tails up.\n\nSo, the answer is no, the coin is not heads up anymore.",
+                0.3199857175350189
+            ],
+            [
+                1,
+                " Manuel flips the coin, so it is now tails up. Aurelio does not flip the coin, so it remains tails up. India flips the coin, so it is now heads up again. Rosalba flips the coin, so it is now tails up. So the answer is no, the coin is not heads up.",
+                0.2460373044013977
+            ]
+        ]
+    },
+    {
+        "sample_index": 240,
+        "prompt": "A coin is heads up. Ivy flips the coin. Romeo does not flip the coin. Jana flips the coin. Ej does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Manuel, Aurelio, India and Rosalba. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nIvy flips the coin. The coin is now tails up. \nRomeo does not flip the coin. The coin is still tails up. \nJana flips the coin. The coin is now heads up. \nEj does not flip the coin. The coin is still heads up.",
+                0.2566877007484436
+            ]
+        ]
+    },
+    {
+        "sample_index": 245,
+        "prompt": "A coin is heads up. Allyson flips the coin. Mara does not flip the coin. Jo flips the coin. Toni does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ivy. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                "\n\nA coin is heads up.\nAllyson flips the coin.\n\nThe coin is now tails up.\n\nMara does not flip the coin.\nJo flips the coin.\n\nThe coin is now heads up again.\n\nToni does not flip the coin.\n\nThe coin is still heads up.",
+                0.35855504870414734
+            ],
+            [
+                0,
+                "\n\nAllyson flips the coin. This means that the coin is now tails up.\nMara does not flip the coin. This means that the coin stays tails up.\nJo flips the coin. This means that the coin is now heads up again.\nToni does not flip the coin. This means that the coin stays heads up.\n\n\nTherefore, the answer is yes - the coin is still heads up.",
+                0.24094127118587494
+            ]
+        ]
+    },
+    {
+        "sample_index": 247,
+        "prompt": "A coin is heads up. Vicki does not flip the coin. Dwight flips the coin. Johnson flips the coin. Alexandra flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Allyson. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \nThe coin is heads up. Vicki does not flip the coin. The coin is still heads up.\nDwight flips the coin. The coin is now tails up.\nJohnson flips the coin. The coin is now heads up.\nAlexandra flips the coin. The coin is now tails up.",
+                0.2950446605682373
+            ],
+            [
+                7,
+                " \nVicki does not flip the coin, so the answer to that is no, the coin is not heads up. \nDwight flips the coin, so the answer to that is yes, the coin is heads up. \nJohnson flips the coin, so the answer to that is no, the coin is not heads up. \nAlexandra flips the coin, so the answer to that is yes, the coin is heads up. \n\nTherefore, we can see that the coin is not always heads up, so the answer to the question is no.",
+                0.21725164353847504
+            ]
+        ]
+    },
+    {
+        "sample_index": 252,
+        "prompt": "A coin is heads up. Sandeep flips the coin. Graciela does not flip the coin. Jai flips the coin. Xiomara does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Dwight, Johnson and Alexandra. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                7,
+                "\n\nThe coin is heads up.\n\nSandeep flips the coin. The coin is now tails up.\n\nGraciela does not flip the coin. The coin is still tails up.\n\nJai flips the coin. The coin is now heads up.\n\nXiomara does not flip the coin. The coin is still heads up.",
+                0.3248246908187866
+            ]
+        ]
+    },
+    {
+        "sample_index": 255,
+        "prompt": "A coin is heads up. Alonzo does not flip the coin. Dorothy does not flip the coin. Alfred flips the coin. Rodriguez flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Sandeep. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \nA coin is heads up. Alonzo does not flip the coin. \nThat means the coin is still heads up. \nDorothy does not flip the coin. \nThat means the coin is still heads up. \nAlfred flips the coin. \nThat means the coin is now tails up. \nRodriguez flips the coin. \nThat means the coin is now heads up again.",
+                0.3273504078388214
+            ]
+        ]
+    },
+    {
+        "sample_index": 259,
+        "prompt": "A coin is heads up. Shawn does not flip the coin. Tracie flips the coin. Lynne does not flip the coin. Leila flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Alfred and Rodriguez. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " Shawn does not flip the coin, so the coin remains heads up. Tracie flips the coin, so the coin is now tails up. Lynne does not flip the coin, so the coin remains tails up. Leila flips the coin, so the coin is now heads up again.\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.20742742717266083
+            ]
+        ]
+    },
+    {
+        "sample_index": 261,
+        "prompt": "A coin is heads up. Maricruz does not flip the coin. Alfredo does not flip the coin. Barry flips the coin. Deepak flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Tracie. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nMaricruz does not flip the coin. \nAlfredo does not flip the coin. \n\nSo far, the coin is still heads up. \n\nBarry flips the coin. \n\nThis means that the coin is now tails up. \n\nDeepak flips the coin. \n\nThis means that the coin is now heads up again.",
+                0.3682091534137726
+            ]
+        ]
+    },
+    {
+        "sample_index": 263,
+        "prompt": "A coin is heads up. Adalberto flips the coin. Jamal does not flip the coin. Carter flips the coin. Robyn does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Barry and Deepak. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " Adalberto flips the coin, so it is now tails up. Jamal does not flip the coin, so it remains tails up. Carter flips the coin, so it is now heads up again. Robyn does not flip the coin, so it remains heads up. The coin is heads up.",
+                0.24006104469299316
+            ]
+        ]
+    },
+    {
+        "sample_index": 268,
+        "prompt": "A coin is heads up. Pancho flips the coin. Claudio flips the coin. Elaine does not flip the coin. Vicky does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Adalberto. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nPancho flips the coin. This means that the coin is now tails up.\nClaudio flips the coin. This means that the coin is now heads up again.\nElaine does not flip the coin. The coin remains heads up.\nVicky does not flip the coin. The coin remains heads up.\n\n",
+                0.22670479118824005
+            ]
+        ]
+    },
+    {
+        "sample_index": 269,
+        "prompt": "A coin is heads up. Teri does not flip the coin. Lina does not flip the coin. Mery flips the coin. Melanie flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Pancho and Claudio. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nTeri does not flip the coin, so the coin remains heads up. \nLina does not flip the coin, so the coin remains heads up. \nMery flips the coin, so the coin is now tails up. \nMelanie flips the coin, so the coin is now heads up again. \n\nTherefore, the coin is heads up again.",
+                0.18860626220703125
+            ]
+        ]
+    },
+    {
+        "sample_index": 271,
+        "prompt": "A coin is heads up. Gus does not flip the coin. Brock flips the coin. Ava does not flip the coin. Jenna flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mery and Melanie. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nGus does not flip the coin. This means that the original state of the coin (heads up) is maintained. \nBrock flips the coin. This means that the state of the coin is now changed to tails up. \nAva does not flip the coin. This means that the state of the coin remains tails up. \nJenna flips the coin. This means that the state of the coin is now changed back to heads up. \n\nTherefore, after all these steps, the coin is heads up.",
+                0.2320292443037033
+            ]
+        ]
+    },
+    {
+        "sample_index": 272,
+        "prompt": "A coin is heads up. Karen does not flip the coin. Hector flips the coin. Mai flips the coin. Steven flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mai and Steven. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                1,
+                "\n\nKaren does not flip the coin. This means that the coin remains heads up.\nHector flips the coin. This means that the coin is now tails up.\nMai flips the coin. This means that the coin is now heads up again.\nSteven flips the coin. This means that the coin is now tails up.\n\nSo, to answer the question, no, the coin is not still heads up.",
+                0.2483363151550293
+            ]
+        ]
+    },
+    {
+        "sample_index": 275,
+        "prompt": "A coin is heads up. Evan does not flip the coin. Ray flips the coin. Sofia flips the coin. Alonso does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ray. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \nEvan does not flip the coin, so the coin remains heads up. \nRay flips the coin, so the coin is now tails up. \nSofia flips the coin, so the coin is now heads up again. \nAlonso does not flip the coin, so the coin remains heads up.",
+                0.19523942470550537
+            ]
+        ]
+    },
+    {
+        "sample_index": 280,
+        "prompt": "A coin is heads up. Marcia does not flip the coin. Belen does not flip the coin. Reyna flips the coin. Britney flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Reyna and Britney. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \nFirst, Marcia does not flip the coin, so the coin remains heads up. \nSecond, Belen does not flip the coin, so the coin remains heads up. \nThird, Reyna flips the coin, so the coin is now tails up. \nFourth, Britney flips the coin, so the coin is now heads up again. \nTherefore, the answer is yes, the coin is still heads up.",
+                0.22071333229541779
+            ]
+        ]
+    },
+    {
+        "sample_index": 282,
+        "prompt": "A coin is heads up. Katia does not flip the coin. Mina does not flip the coin. Cam does not flip the coin. Ronda does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Katia, Mina, Cam and Ronda. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \nA coin is heads up. \nKatia does not flip the coin. \nMina does not flip the coin. \nCam does not flip the coin. \nRonda does not flip the coin. \n\nThe coin is still heads up.",
+                0.49958717823028564
+            ]
+        ]
+    },
+    {
+        "sample_index": 286,
+        "prompt": "A coin is heads up. Roni flips the coin. Nikita does not flip the coin. Hannah flips the coin. Kiana does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Roni. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \nRoni flips the coin, so now it is tails up. \nNikita does not flip the coin, so it remains tails up. \nHannah flips the coin, so now it is heads up again. \nKiana does not flip the coin, so it remains heads up.\n\nTherefore, the answer is yes - the coin is still heads up.",
+                0.21547448635101318
+            ]
+        ]
+    },
+    {
+        "sample_index": 287,
+        "prompt": "A coin is heads up. Edwin flips the coin. Lovely does not flip the coin. Curt flips the coin. Damon flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Edwin, Curt and Damon. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is no.</s>",
+        "ranking": [
+            [
+                7,
+                "\n\nEdwin flips the coin. It is now tails up.\nLovely does not flip the coin. It is still tails up.\nCurt flips the coin. It is now heads up again.\nDamon flips the coin. It is now tails up.\n\n",
+                0.3101474940776825
+            ]
+        ]
+    },
+    {
+        "sample_index": 289,
+        "prompt": "A coin is heads up. Vijay flips the coin. Sherrie does not flip the coin. Doug does not flip the coin. Suzy flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Suzy. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \nFirst, Vijay flips the coin. This means that if the coin was heads up, it is now tails up. \nSecond, Sherrie does not flip the coin. This means that if the coin was tails up, it remains tails up. \nThird, Doug does not flip the coin. This means that if the coin was tails up, it remains tails up. \nFourth, Suzy flips the coin. This means that if the coin was tails up, it is now heads up. \nTherefore, the final state of the coin is heads up.",
+                0.24445168673992157
+            ],
+            [
+                5,
+                "\n\nVijay flips the coin. The coin is now heads down.\nSherrie does not flip the coin. The coin is still heads down.\nDoug does not flip the coin. The coin is still heads down.\nSuzy flips the coin. The coin is now heads up.",
+                0.21835540235042572
+            ]
+        ]
+    },
+    {
+        "sample_index": 295,
+        "prompt": "A coin is heads up. Miranda does not flip the coin. Jacques does not flip the coin. Clarence flips the coin. Chandra flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Clarence and Chandra. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin starts heads up.\nMiranda does not flip the coin, so the coin is still heads up.\nJacques does not flip the coin, so the coin is still heads up.\nClarence flips the coin, so the coin is now tails up.\nChandra flips the coin, so the coin is now heads up again.\n\n",
+                0.30197927355766296
+            ],
+            [
+                0,
+                " \nWhen Miranda does not flip the coin, the state of the coin does not change. It is still heads up. \nWhen Jacques does not flip the coin, the state of the coin does not change. It is still heads up.\nWhen Clarence flips the coin, the state of the coin changes. It is now tails up. \nWhen Chandra flips the coin, the state of the coin changes. It is now heads up. \n\nSo the final state of the coin is heads up.",
+                0.2581042945384979
+            ]
+        ]
+    },
+    {
+        "sample_index": 296,
+        "prompt": "A coin is heads up. June flips the coin. Robin does not flip the coin. Josie flips the coin. Bo does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by June. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nJune flips the coin. The coin is now tails up. \nRobin does not flip the coin. The coin is still tails up. \nJosie flips the coin. The coin is now heads up. \nBo does not flip the coin. The coin is still heads up.\n\n",
+                0.24328643083572388
+            ],
+            [
+                3,
+                " \n1) The coin is heads up. This is our starting point. \n2) June flips the coin. This means that the coin is now tails up. \n3) Robin does not flip the coin. The coin remains tails up. \n4) Josie flips the coin. This means that the coin is now heads up again. \n5) Bo does not flip the coin. The coin remains heads up. \nTherefore, the answer to the question is yes - the coin is still heads up.",
+                0.21519792079925537
+            ]
+        ]
+    },
+    {
+        "sample_index": 297,
+        "prompt": "A coin is heads up. Luisa does not flip the coin. Tatiana does not flip the coin. Drake does not flip the coin. Hillary does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Luisa, Tatiana, Drake and Hillary. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nA coin is heads up. \nLuisa does not flip the coin. \nTatiana does not flip the coin. \nDrake does not flip the coin. \nHillary does not flip the coin. \n\nSo the coin is still heads up.",
+                0.48195400834083557
+            ]
+        ]
+    },
+    {
+        "sample_index": 298,
+        "prompt": "A coin is heads up. Louise flips the coin. Mariano does not flip the coin. Laura does not flip the coin. Gerardo flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Gerardo. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up. \n Louise flips the coin. \nThe coin is now tails up. \n Mariano does not flip the coin. \nThe coin is still tails up. \n Laura does not flip the coin. \nThe coin is still tails up. \n Gerardo flips the coin. \nThe coin is now heads up.",
+                0.35914698243141174
+            ],
+            [
+                7,
+                " \n\nAt the beginning, we know that the coin is heads up. \n Louise flips the coin, so now the coin is tails up. \n Mariano does not flip the coin, so it remains tails up. \n Laura does not flip the coin, so it remains tails up. \n Gerardo flips the coin, so now it is heads up again. \n\nTherefore, the answer is yes - the coin is still heads up.",
+                0.26901617646217346
+            ]
+        ]
+    },
+    {
+        "sample_index": 300,
+        "prompt": "A coin is heads up. Clark does not flip the coin. Jenn flips the coin. Diane flips the coin. Blair does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jenn, Diane and Blair. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nClark does not flip the coin. This doesn't affect the state of the coin, so it is still heads up.\n Jenn flips the coin. This means that the coin is now tails up.\nDiane flips the coin. This means that the coin is now heads up again.\nBlair does not flip the coin. This doesn't affect the state of the coin, so it is still heads up.\n\n",
+                0.2177337259054184
+            ]
+        ]
+    },
+    {
+        "sample_index": 307,
+        "prompt": "A coin is heads up. Lore does not flip the coin. Erasmo flips the coin. Louis flips the coin. David does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Erasmo, Louis and David. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nLore does not flip the coin, so the starting position is heads up. \nErasmo flips the coin, so it is now tails up. \nLouis flips the coin, so it is now heads up again. \nDavid does not flip the coin, so the ending position is heads up.",
+                0.18725131452083588
+            ]
+        ]
+    },
+    {
+        "sample_index": 308,
+        "prompt": "A coin is heads up. Cristobal flips the coin. Dania does not flip the coin. Li does not flip the coin. Anna flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Cristobal. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \nCristobal flips the coin, so it is now tails up. \nDania does not flip the coin, so it remains tails up. \nLi does not flip the coin, so it remains tails up. \nAnna flips the coin, so it is now heads up again.",
+                0.22790217399597168
+            ]
+        ]
+    },
+    {
+        "sample_index": 309,
+        "prompt": "A coin is heads up. Wally flips the coin. Claire does not flip the coin. Helen flips the coin. Nacho does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Wally. So the coin was flipped by Wally. So the coin was flipped by Helen. So the coin was flipped by Helen. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nWally flips the coin. It is now heads down. \nClaire does not flip the coin. The coin is still heads down. \nHelen flips the coin. It is now heads up. \nNacho does not flip the coin. The coin is still heads up.",
+                0.292402058839798
+            ]
+        ]
+    },
+    {
+        "sample_index": 310,
+        "prompt": "A coin is heads up. Rosa flips the coin. Lana flips the coin. Curtis does not flip the coin. Rae does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Rosa and Lana. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                "\n\nRosa flips the coin. This means that the coin is now tails up.\nLana flips the coin. This means that the coin is now heads up again.\nCurtis does not flip the coin. This means that the coin remains heads up.\nRae does not flip the coin. This means that the coin remains heads up.\n\nSo, to answer the question, yes, the coin is still heads up.",
+                0.24924050271511078
+            ]
+        ]
+    },
+    {
+        "sample_index": 313,
+        "prompt": "A coin is heads up. Irvin does not flip the coin. Brittney flips the coin. Vince flips the coin. Lucas does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Brittney, Vince and Lucas. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nThe coin starts heads up.\nIrvin does not flip the coin, so it remains heads up.\nBrittney flips the coin, so it is now tails up.\nVince flips the coin, so it is now heads up again.\nLucas does not flip the coin, so it remains heads up.\n\n",
+                0.3169199228286743
+            ]
+        ]
+    },
+    {
+        "sample_index": 315,
+        "prompt": "A coin is heads up. Renata flips the coin. Mariela does not flip the coin. Mona does not flip the coin. Kristin flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Renata. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up. \n\nRenata flips the coin. \nThis means that the coin is now tails up. \n\nMariela does not flip the coin. \nThis means that the coin remains tails up. \n\nMona does not flip the coin. \nThis means that the coin remains tails up. \n\nKristin flips the coin. \nThis means that the coin is now heads up again.",
+                0.2994697391986847
+            ]
+        ]
+    },
+    {
+        "sample_index": 320,
+        "prompt": "A coin is heads up. Elle flips the coin. Alex does not flip the coin. Irma flips the coin. Stephan flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Irma and Stephan. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                4,
+                " The coin is heads up, so it starts out heads up. Elle flips it, so it's now tails up. Alex doesn't flip it, so it stays tails up. Irma flips it, so it's now heads up. Stephan flips it, so it's now tails up. So, the final answer is that the coin is tails up.",
+                0.26582634449005127
+            ],
+            [
+                5,
+                " \n\nElle flips the coin. This means that if the coin was heads up, it is now tails up. \nAlex does not flip the coin. This means that the coin stays the same. \nIrma flips the coin. This means that if the coin was heads up, it is now tails up. \nStephan flips the coin. This means that if the coin was heads up, it is now tails up. \n\nSo, the final answer is that the coin is tails up.",
+                0.25355368852615356
+            ]
+        ]
+    },
+    {
+        "sample_index": 322,
+        "prompt": "A coin is heads up. Gabino does not flip the coin. Kayla flips the coin. Laurie does not flip the coin. Familia flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Kayla. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \nGabino does not flip the coin, so the coin stays heads up.\nKayla flips the coin, so now it is tails up.\nLaurie does not flip the coin, so it stays tails up.\nFamilia flips the coin, so now it is heads up again.\n\nTherefore, the final answer is yes, the coin is still heads up.",
+                0.23393148183822632
+            ]
+        ]
+    },
+    {
+        "sample_index": 327,
+        "prompt": "A coin is heads up. Isaac does not flip the coin. Reyes does not flip the coin. Carly flips the coin. Tania flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Carly and Tania. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                "\n\nIsaac does not flip the coin, so the coin remains heads up.\nReyes does not flip the coin, so the coin remains heads up.\nCarly flips the coin, so the coin is now tails up.\nTania flips the coin, so the coin is now heads up again.",
+                0.19649796187877655
+            ]
+        ]
+    },
+    {
+        "sample_index": 329,
+        "prompt": "A coin is heads up. Sonya flips the coin. Eddy does not flip the coin. Carol does not flip the coin. Yung flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Sonya. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nSonya flips the coin, so it's now tails up. \nEddy does not flip the coin, so it remains tails up. \nCarol does not flip the coin, so it remains tails up. \nYung flips the coin, so it's now heads up again.",
+                0.22252081334590912
+            ]
+        ]
+    },
+    {
+        "sample_index": 330,
+        "prompt": "A coin is heads up. Leandro flips the coin. Maricela does not flip the coin. Genevieve flips the coin. Lesly does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Leandro. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nLeandro flips the coin. \nThe coin is now tails up. \nMaricela does not flip the coin. \nThe coin is still tails up. \nGenevieve flips the coin. \nThe coin is now heads up. \nLesly does not flip the coin. \nThe coin is still heads up.",
+                0.3353937566280365
+            ],
+            [
+                1,
+                " \n\nLeandro flips the coin, so now it is tails up. \nMaricela does not flip the coin, so it remains tails up. \nGenevieve flips the coin, so now it is heads up again. \nLesly does not flip the coin, so it remains heads up. \n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.24003714323043823
+            ]
+        ]
+    },
+    {
+        "sample_index": 331,
+        "prompt": "A coin is heads up. Andy does not flip the coin. Cecilia flips the coin. Gretchen flips the coin. Sandi flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Cecilia, Gretchen and Sandi. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                5,
+                " \nAndy does not flip the coin, so it remains heads up. \nCecilia flips the coin, so it is now tails up. \nGretchen flips the coin, so it is now heads up again. \nSandi flips the coin, so it is now tails up. \n\nSo, the final answer is that the coin is tails up.",
+                0.28816044330596924
+            ]
+        ]
+    },
+    {
+        "sample_index": 336,
+        "prompt": "A coin is heads up. Flora flips the coin. Warren flips the coin. Gwendolyn does not flip the coin. Alissa does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Flora and Warren. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nFlora flips the coin, so now it's tails up. \nWarren flips the coin, so now it's heads up again. \nGwendolyn doesn't flip the coin, so it stays heads up. \nAlissa also doesn't flip the coin, so it remains heads up. \n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.2767925560474396
+            ],
+            [
+                4,
+                " \nFlora flips the coin, so now it is tails up. \nWarren flips the coin, so now it is heads up again. \nGwendolyn does not flip the coin, so it remains heads up. \nAlissa does not flip the coin, so it remains heads up. \n\nTherefore, the answer is yes - the coin is still heads up.",
+                0.23530125617980957
+            ]
+        ]
+    },
+    {
+        "sample_index": 339,
+        "prompt": "A coin is heads up. Deanna does not flip the coin. Terri does not flip the coin. Gabriela flips the coin. Jonah flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Gabriela and Jonah. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nDeanna does not flip the coin, so it stays heads up. \nTerri does not flip the coin, so it stays heads up. \nGabriela flips the coin, so it is now tails up. \nJonah flips the coin, so it is now heads up again. \n\nThe final answer is that the coin is heads up.",
+                0.2934621274471283
+            ]
+        ]
+    },
+    {
+        "sample_index": 343,
+        "prompt": "A coin is heads up. Natalie flips the coin. Gilbert flips the coin. Brian does not flip the coin. Sanchez does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Natalie and Gilbert. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                "\n\nNatalie flips the coin. The coin is now tails up.\n\nGilbert flips the coin. The coin is now heads up.\n\nBrian does not flip the coin. This has no effect.\n\nSanchez does not flip the coin. This has no effect.\n\nThe coin is still heads up.",
+                0.21280167996883392
+            ]
+        ]
+    },
+    {
+        "sample_index": 345,
+        "prompt": "A coin is heads up. Carlitos flips the coin. Damaris flips the coin. Nikhil does not flip the coin. Jennie does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Carlitos and Damaris. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin starts heads up.\nCarlitos flips the coin, so it is now tails up.\nDamaris flips the coin, so it is now heads up again.\nNikhil does not flip the coin, so it remains heads up.\nJennie does not flip the coin, so it remains heads up.\n\nTherefore, the final answer is yes, the coin is still heads up.",
+                0.3106182813644409
+            ]
+        ]
+    },
+    {
+        "sample_index": 346,
+        "prompt": "A coin is heads up. Yessenia does not flip the coin. Geraldine flips the coin. Minerva flips the coin. Tanya flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Geraldine, Minerva and Tanya. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nYessenia does not flip the coin, so the coin is still heads up. \nGeraldine flips the coin, so the coin is now tails up. \nMinerva flips the coin, so the coin is now heads up again. \nTanya flips the coin, so the coin is now tails up. \n\nSo, the final answer is that the coin is tails up.",
+                0.22785593569278717
+            ]
+        ]
+    },
+    {
+        "sample_index": 350,
+        "prompt": "A coin is heads up. Paris does not flip the coin. Jimmie does not flip the coin. Andrew flips the coin. Ram\u00f3n flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Andrew and Ram\u00f3n. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nParis does not flip the coin. \nJimmie does not flip the coin. \n\nSo far, the coin is still heads up. \n\nAndrew flips the coin. \n\nNow, the coin is tails up. \n\nRam\u00f3n flips the coin. \n\nFinally, the coin is heads up again.",
+                0.36066746711730957
+            ]
+        ]
+    },
+    {
+        "sample_index": 351,
+        "prompt": "A coin is heads up. Angelica flips the coin. Tariq flips the coin. Ursula does not flip the coin. Nena does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Angelica and Tariq. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nAngelica flips the coin. Now it is tails up.\nTariq flips the coin. Now it is heads up again.\nUrsula does not flip the coin. The coin remains heads up.\nNena does not flip the coin. The coin remains heads up.\n\n",
+                0.2818443179130554
+            ]
+        ]
+    },
+    {
+        "sample_index": 353,
+        "prompt": "A coin is heads up. Roberta does not flip the coin. Mauro flips the coin. Clint flips the coin. Marcela flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mauro, Clint and Marcela. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                1,
+                " \n1. Roberta does not flip the coin. So the coin remains heads up. \n2. Mauro flips the coin. So the coin is now tails up. \n3. Clint flips the coin. So the coin is now heads up again. \n4. Marcela flips the coin. So the coin is now tails up. \n\nSo the final answer is that the coin is tails up.",
+                0.22256429493427277
+            ]
+        ]
+    },
+    {
+        "sample_index": 361,
+        "prompt": "A coin is heads up. Bri does not flip the coin. Roger flips the coin. Eve does not flip the coin. Diana flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Roger. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                "\n\nBri does not flip the coin, so the coin is still heads up.\n\nRoger flips the coin, so the coin is now tails up.\n\nEve does not flip the coin, so the coin is still tails up.\n\nDiana flips the coin, so the coin is now heads up.",
+                0.21301324665546417
+            ]
+        ]
+    },
+    {
+        "sample_index": 362,
+        "prompt": "A coin is heads up. Gisela flips the coin. Gerald does not flip the coin. Mackenzie flips the coin. Ashley flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Gisela, Mackenzie and Ashley. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nGisela flips the coin. Gerald does not flip the coin. \nThe coin is now tails up. \nMackenzie flips the coin. \nThe coin is now heads up. \nAshley flips the coin. \nThe coin is now tails up.",
+                0.36033257842063904
+            ],
+            [
+                6,
+                " \n\nGisela flips the coin. This means that if the coin was heads up, it is now tails up. \nGerald does not flip the coin. This means that the state of the coin (heads up or tails up) remains the same. \nMackenzie flips the coin. This means that if the coin was heads up, it is now tails up. If the coin was tails up, it is now heads up. \nAshley flips the coin. This means that if the coin was heads up, it is now tails up. If the coin was tails up, it is now heads",
+                0.20059464871883392
+            ]
+        ]
+    },
+    {
+        "sample_index": 363,
+        "prompt": "A coin is heads up. Vinny does not flip the coin. Landon flips the coin. Miguel flips the coin. Caitlyn does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Landon, Miguel and Caitlyn. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up. Vinny does not flip the coin. \n\nThe coin is still heads up. \n\nLandon flips the coin. \n\nThe coin is now tails up. \n\nMiguel flips the coin. \n\nThe coin is now heads up again. \n\nCaitlyn does not flip the coin. \n\nThe coin remains heads up.",
+                0.313067227602005
+            ]
+        ]
+    },
+    {
+        "sample_index": 366,
+        "prompt": "A coin is heads up. Mario flips the coin. Pierre does not flip the coin. Amit flips the coin. Nelson does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mario. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nA coin is heads up. \nMario flips the coin. \nThe coin is now tails up. \nPierre does not flip the coin. \nAmit flips the coin. \nThe coin is now heads up. \nNelson does not flip the coin. \n\nSo, the coin is heads up.",
+                0.4012871980667114
+            ],
+            [
+                5,
+                "\n\nMario flips the coin. It is now tails up.\nPierre does not flip the coin. It is still tails up.\nAmit flips the coin. It is now heads up.\nNelson does not flip the coin. It is still heads up.",
+                0.28834888339042664
+            ]
+        ]
+    },
+    {
+        "sample_index": 367,
+        "prompt": "A coin is heads up. Mercedes does not flip the coin. Adela flips the coin. Susana flips the coin. Rose does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Adela, Susana and Rose. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \nA coin is heads up. \nThat's our starting point. \nMercedes does not flip the coin. \nThe coin is still heads up. \nAdela flips the coin. \nThe coin is now tails up. \nSusana flips the coin. \nThe coin is now heads up again. \nRose does not flip the coin. \nThe coin is still heads up.",
+                0.31488046050071716
+            ]
+        ]
+    },
+    {
+        "sample_index": 372,
+        "prompt": "A coin is heads up. Marcus flips the coin. Ramirez does not flip the coin. Junior flips the coin. Arely does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Marcus. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                "\n\nThe coin starts heads up.\nMarcus flips the coin, so it's now tails up.\nRamirez doesn't flip the coin, so it stays tails up.\nJunior flips the coin, so it's now heads up again.\nArely doesn't flip the coin, so it stays heads up.\n\n",
+                0.2725522518157959
+            ],
+            [
+                0,
+                " \n\nMarcus flips the coin, so it is now tails up. \nRamirez does not flip the coin, so it remains tails up. \nJunior flips the coin, so it is now heads up again. \nArely does not flip the coin, so it remains heads up.",
+                0.22014617919921875
+            ]
+        ]
+    },
+    {
+        "sample_index": 375,
+        "prompt": "A coin is heads up. Colton flips the coin. Dexter does not flip the coin. Katy flips the coin. Brayden does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Colton. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin is heads up. \nColton flips the coin. The coin is now tails up. \nDexter does not flip the coin. The coin is still tails up. \nKaty flips the coin. The coin is now heads up. \nBrayden does not flip the coin. The coin is still heads up.",
+                0.31999051570892334
+            ]
+        ]
+    },
+    {
+        "sample_index": 378,
+        "prompt": "A coin is heads up. Anil does not flip the coin. Enrique flips the coin. Jimmy flips the coin. Jhonny does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jimmy. So the coin is now tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nAnil does not flip the coin, so the coin remains heads up. \nEnrique flips the coin, so now the coin is tails up. \nJimmy flips the coin again, so now it is heads up once more. \nJhonny does not flip the coin, so it remains heads up. \n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.25959932804107666
+            ]
+        ]
+    },
+    {
+        "sample_index": 379,
+        "prompt": "A coin is heads up. \u00c1ngel flips the coin. Carlton does not flip the coin. Sameer does not flip the coin. Martinez flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by <unk>ngel. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                "\n\n\u00c1ngel flips the coin. The coin is now tails up.\nCarlton does not flip the coin. The coin is still tails up.\nSameer does not flip the coin. The coin is still tails up.\nMartinez flips the coin. The coin is now heads up.\n\n",
+                0.2200942188501358
+            ]
+        ]
+    },
+    {
+        "sample_index": 385,
+        "prompt": "A coin is heads up. Jenni flips the coin. Leonel flips the coin. Micheal does not flip the coin. Kat does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jenni and Leonel. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nJenni flips the coin. The coin is now tails up. \nLeonel flips the coin. The coin is now heads up. \nMicheal does not flip the coin. The coin is still heads up. \nKat does not flip the coin. The coin is still heads up.",
+                0.22652983665466309
+            ]
+        ]
+    },
+    {
+        "sample_index": 386,
+        "prompt": "A coin is heads up. Yazmin flips the coin. Lea does not flip the coin. Rodrigo does not flip the coin. Sammy flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Yazmin. So the coin was flipped by Yazmin. So the coin was flipped by Yazmin. So the coin was flipped by Yazmin. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up. \nYazmin flips the coin. \nThe coin is now tails up. \nLea does not flip the coin. \nThe coin is still tails up. \nRodrigo does not flip the coin. \nThe coin is still tails up. \nSammy flips the coin. \nThe coin is now heads up.",
+                0.3767019808292389
+            ]
+        ]
+    },
+    {
+        "sample_index": 387,
+        "prompt": "A coin is heads up. Emely flips the coin. Chelsea does not flip the coin. Vladimir flips the coin. Tyrone does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Emely. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \nEmely flips the coin, so it is now tails up. \nChelsea does not flip the coin, so it remains tails up. \nVladimir flips the coin, so it is now heads up again. \nTyrone does not flip the coin, so it remains heads up. \nTherefore, the coin is heads up.",
+                0.2420123964548111
+            ]
+        ]
+    },
+    {
+        "sample_index": 390,
+        "prompt": "A coin is heads up. Lara does not flip the coin. Greg does not flip the coin. Ethan flips the coin. Terrence flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ethan and Terrence. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nLara does not flip the coin. This doesn't change the fact that it's heads up. \nGreg does not flip the coin. This also doesn't change the fact that it's heads up. \nEthan flips the coin. Now it's tails up. \nTerrence flips the coin. Now it's heads up again.\n\n",
+                0.2160084843635559
+            ]
+        ]
+    },
+    {
+        "sample_index": 391,
+        "prompt": "A coin is heads up. Otto does not flip the coin. Marjorie flips the coin. Leonor flips the coin. Esther flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Marjorie, Leonor and Esther. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                1,
+                "\n\nOtto doesn't flip the coin, so the coin remains heads up.\nMarjorie flips the coin, so the coin is now tails up.\nLeonor flips the coin, so the coin is now heads up again.\nEsther flips the coin, so the coin is now tails up.\n\nSo, to answer the question, no, the coin is not heads up anymore.",
+                0.21267497539520264
+            ]
+        ]
+    },
+    {
+        "sample_index": 392,
+        "prompt": "A coin is heads up. Malcolm flips the coin. Hussein does not flip the coin. Franco flips the coin. Hugo does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Malcolm. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin is heads up.\nMalcolm flips the coin.\nThe coin is tails up.\nHussein does not flip the coin.\nThe coin is tails up.\nFranco flips the coin.\nThe coin is heads up.\nHugo does not flip the coin.\nThe coin is heads up.",
+                0.3168891370296478
+            ],
+            [
+                2,
+                "\n\nMalcolm flips the coin. It is now tails up.\nHussein does not flip the coin. It is still tails up.\nFranco flips the coin. It is now heads up.\nHugo does not flip the coin. It is still heads up.",
+                0.30735090374946594
+            ]
+        ]
+    },
+    {
+        "sample_index": 393,
+        "prompt": "A coin is heads up. Joyce flips the coin. Leroy flips the coin. Alyssa does not flip the coin. Maggie does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Joyce and Leroy. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " When Joyce flips the coin, it will become tails up. When Leroy flips it, it will become heads up again. So Alyssa not flipping it won't matter, and it will still be heads up when Maggie doesn't flip it.",
+                0.17846225202083588
+            ]
+        ]
+    },
+    {
+        "sample_index": 394,
+        "prompt": "A coin is heads up. Maryam does not flip the coin. Susy does not flip the coin. Trinity flips the coin. Pearl flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Trinity and Pearl. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n1) Maryam does not flip the coin. The coin is still heads up. \n2) Susy does not flip the coin. The coin is still heads up. \n3) Trinity flips the coin. The coin is now tails up. \n4) Pearl flips the coin. The coin is now heads up again.",
+                0.19981539249420166
+            ]
+        ]
+    },
+    {
+        "sample_index": 395,
+        "prompt": "A coin is heads up. Dustin flips the coin. Luiz does not flip the coin. Rolando flips the coin. Connor does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Dustin. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nDustin flips the coin. The coin is now tails up. \nLuiz does not flip the coin. The coin is still tails up. \nRolando flips the coin. The coin is now heads up. \nConnor does not flip the coin. The coin is still heads up.",
+                0.25467321276664734
+            ]
+        ]
+    },
+    {
+        "sample_index": 402,
+        "prompt": "A coin is heads up. Latoya flips the coin. Eliseo does not flip the coin. Trina flips the coin. Melisa does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Latoya. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                "\n\nThe coin starts heads up.\nLatoya flips the coin, so it is now tails up.\nEliseo does not flip the coin, so it remains tails up.\nTrina flips the coin, so it is now heads up again.\nMelisa does not flip the coin, so it remains heads up.\n\n",
+                0.3050408661365509
+            ]
+        ]
+    },
+    {
+        "sample_index": 409,
+        "prompt": "A coin is heads up. Kristen flips the coin. Herbert flips the coin. Benny does not flip the coin. El does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Kristen and Herbert. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \nKristen flips the coin. The coin is now tails up. \nHerbert flips the coin. The coin is now heads up. \nBenny does not flip the coin. The coin is still heads up. \nEl does not flip the coin. The coin is still heads up. \n\nSo the coin is heads up at the end.",
+                0.23136182129383087
+            ]
+        ]
+    },
+    {
+        "sample_index": 414,
+        "prompt": "A coin is heads up. Delia flips the coin. Kathleen does not flip the coin. Mateo flips the coin. Marvin does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Delia. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up. Delia flips the coin. \n\nThe coin is now tails up. \n\nKathleen does not flip the coin. Mateo flips the coin. \n\nThe coin is now heads up. \n\nMarvin does not flip the coin. \n\nThe coin is still heads up.",
+                0.35725879669189453
+            ]
+        ]
+    },
+    {
+        "sample_index": 415,
+        "prompt": "A coin is heads up. Bj flips the coin. Rigo does not flip the coin. Nigel flips the coin. Christian flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Bj, Nigel and Christian. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                2,
+                " \nA coin is heads up. Bj flips the coin.\nThe coin is now tails up.\nRigo does not flip the coin.\nNigel flips the coin.\nThe coin is now heads up again.\nChristian flips the coin.\nThe coin is now tails up.",
+                0.31741493940353394
+            ],
+            [
+                4,
+                "\n\nBj flips the coin. It is now tails up.\nRigo does not flip the coin. It is still tails up.\nNigel flips the coin. It is now heads up.\nChristian flips the coin. It is now tails up.\n\n",
+                0.31166529655456543
+            ]
+        ]
+    },
+    {
+        "sample_index": 417,
+        "prompt": "A coin is heads up. Cruz does not flip the coin. Wilber flips the coin. Marilu flips the coin. Malik flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Marilu and Malik. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                3,
+                "\n\nThe coin is heads up.\n\nCruz does not flip the coin. The coin is still heads up.\n\nWilber flips the coin. The coin is now tails up.\n\nMarilu flips the coin. The coin is now heads up again.\n\nMalik flips the coin. The coin is now tails up.",
+                0.3272355794906616
+            ],
+            [
+                5,
+                " \n\nCruz does not flip the coin. So if it was heads up before, it's still heads up. \nWilber flips the coin. So if it was heads up before, it's now tails up. \nMarilu flips the coin. So if it was tails up before, it's now heads up. \nMalik flips the coin. So if it was heads up before, it's now tails up. \n\nSo the final answer is that the coin is tails up.",
+                0.22577853500843048
+            ]
+        ]
+    },
+    {
+        "sample_index": 424,
+        "prompt": "A coin is heads up. Rohan flips the coin. Antoinette does not flip the coin. Nikki flips the coin. Aida does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Rohan. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nRohan flips the coin, so now it is tails up. \nAntoinette does not flip the coin, so it remains tails up. \nNikki flips the coin, so now it is heads up again. \nAida does not flip the coin, so it remains heads up.",
+                0.21908915042877197
+            ]
+        ]
+    },
+    {
+        "sample_index": 425,
+        "prompt": "A coin is heads up. Braulio flips the coin. Staci does not flip the coin. Jocelyn does not flip the coin. Brittany flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Brittany. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                "\n\nThe coin starts heads up.\nBraulio flips the coin, so it's now tails up.\nStaci does not flip the coin, so it remains tails up.\nJocelyn does not flip the coin, so it remains tails up.\nBrittany flips the coin, so it's now heads up again.\n\nTherefore, the final answer is yes, the coin is heads up.",
+                0.28698110580444336
+            ],
+            [
+                3,
+                " \n\nBraulio flips the coin, so now it is tails up. \nStaci does not flip the coin, so it remains tails up. \nJocelyn does not flip the coin, so it remains tails up. \nBrittany flips the coin, so now it is heads up again.",
+                0.24544937908649445
+            ]
+        ]
+    },
+    {
+        "sample_index": 428,
+        "prompt": "A coin is heads up. Cristina flips the coin. Saad does not flip the coin. Bridget does not flip the coin. Katie flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Cristina. So the coin was flipped 1 time, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nCristina flips the coin. It is now tails up.\nSaad does not flip the coin. It is still tails up.\nBridget does not flip the coin. It is still tails up.\nKatie flips the coin. It is now heads up.",
+                0.31607547402381897
+            ],
+            [
+                0,
+                " The coin starts heads up. Then, Cristina flips it, so the coin is now tails up. Saad does not flip it, so it remains tails up. Bridget does not flip it, so it remains tails up. Katie flips it, so the coin is now heads up again. Therefore, the answer is yes, the coin is heads up.",
+                0.23648995161056519
+            ]
+        ]
+    },
+    {
+        "sample_index": 429,
+        "prompt": "A coin is heads up. Stella does not flip the coin. Janis flips the coin. Darren flips the coin. Lena does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Janis, Darren and Lena. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up. \nStella does not flip the coin. \nThe coin is still heads up. \nJanis flips the coin. \nThe coin is tails up. \nDarren flips the coin. \nThe coin is heads up. \nLena does not flip the coin. \nThe coin is still heads up.",
+                0.30969151854515076
+            ],
+            [
+                3,
+                " \n1. Stella does not flip the coin.\n2. Janis flips the coin.\n3. Darren flips the coin.\n4. Lena does not flip the coin.\nAt step 2, since Janis flips the coin, the state of the coin is changed from heads up to tails up. At step 3, since Darren flips the coin, the state of the coin is changed from tails up to heads up. Since Lena does not flip the coin at step 4, the state of the coin remains heads up.",
+                0.2715659439563751
+            ]
+        ]
+    },
+    {
+        "sample_index": 430,
+        "prompt": "A coin is heads up. Charles does not flip the coin. Emilio does not flip the coin. Vivek flips the coin. Steve flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Vivek and Steve. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nCharles does not flip the coin. So the coin's orientation doesn't change. \nEmilio does not flip the coin. So the coin's orientation doesn't change.\nVivek flips the coin. So the coin is now tails up. \nSteve flips the coin. So the coin is now heads up again. \n\nTherefore, the final answer is yes, the coin is heads up.",
+                0.22530607879161835
+            ]
+        ]
+    },
+    {
+        "sample_index": 432,
+        "prompt": "A coin is heads up. Mia does not flip the coin. Art does not flip the coin. Samantha flips the coin. Lety flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Lety and Samantha. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " Mia did not flip the coin, so the starting position (heads up) is maintained. Art also did not flip the coin, so again, the starting position is maintained. Now Samantha comes along and flips the coin, which would now be tails up. However, Lety comes along and flips the coin again, so it would now be heads up once more.",
+                0.22900249063968658
+            ]
+        ]
+    },
+    {
+        "sample_index": 433,
+        "prompt": "A coin is heads up. Miguel Angel flips the coin. Saul does not flip the coin. Brady does not flip the coin. Darryl flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Miguel Angel. So the coin was flipped 1 time, which is heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                "\n\nMiguel flips the coin, so it's now tails up.\n\nSaul doesn't flip the coin, so it remains tails up.\n\nBrady also doesn't flip the coin, so it remains tails up.\n\nFinally, Darryl flips the coin, so it's now heads up again.",
+                0.2289901226758957
+            ]
+        ]
+    },
+    {
+        "sample_index": 435,
+        "prompt": "A coin is heads up. Antoine does not flip the coin. Javier flips the coin. Brett flips the coin. Stewart does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Javier, Brett and Stewart. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe coin starts heads up. \nAntoine does not flip the coin, so it remains heads up. \nJavier flips the coin, so it is now tails up. \nBrett flips the coin, so it is now heads up again. \nStewart does not flip the coin, so it remains heads up. \n\nSo, the coin is heads up again at the end.",
+                0.32239899039268494
+            ],
+            [
+                1,
+                " \n\nInitially, the coin is heads up.\nAntoine does not flip the coin, so the coin remains heads up.\nJavier flips the coin, so the coin is now tails up.\nBrett flips the coin, so the coin is now heads up again.\nStewart does not flip the coin, so the coin remains heads up.\n\nTherefore, the answer is yes, the coin is still heads up.",
+                0.23567114770412445
+            ]
+        ]
+    },
+    {
+        "sample_index": 436,
+        "prompt": "A coin is heads up. Amanda flips the coin. Geoff does not flip the coin. Belinda flips the coin. Gaurav does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Amanda. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                "\n\nThe coin is heads up.\nAmanda flips the coin.\nGeoff does not flip the coin.\nBelinda flips the coin.\nGaurav does not flip the coin.\n\nAfter Amanda flips the coin, it is now tails up. Then, Belinda flips the coin, so it is now heads up again. Gaurav does not flip the coin, so it remains heads up.",
+                0.4850947856903076
+            ],
+            [
+                2,
+                " \n\nFirst, Amanda flips the coin. This means that if the coin was heads up, it is now tails up. \nThen, Geoff does not flip the coin. This means that the coin stays the same. \nThen, Belinda flips the coin. This means that if the coin was tails up, it is now heads up. \nLastly, Gaurav does not flip the coin. This means that the coin stays the same. \n\nTherefore, the final answer is that the coin is heads up.",
+                0.2248016595840454
+            ]
+        ]
+    },
+    {
+        "sample_index": 439,
+        "prompt": "A coin is heads up. Neil flips the coin. Dani does not flip the coin. Eddie flips the coin. Marcelino does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Neil. So the coin was flipped 1 time. The coin started heads up, so after 1 flip, it will be tails up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. Neil flips the coin. The coin is now tails up. Dani does not flip the coin. The coin is still tails up. Eddie flips the coin. The coin is now heads up. Marcelino does not flip the coin. The coin is still heads up.",
+                0.3350816071033478
+            ]
+        ]
+    },
+    {
+        "sample_index": 443,
+        "prompt": "A coin is heads up. Antonio does not flip the coin. Ronald does not flip the coin. Ken does not flip the coin. Rachael does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ken. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nA coin is heads up. \n Antonio does not flip the coin. \n Ronald does not flip the coin. \n Ken does not flip the coin. \n Rachael does not flip the coin.\n\nSo the coin is still heads up.",
+                0.5141356587409973
+            ],
+            [
+                0,
+                " \n\nA coin is heads up. \n\nThis is our starting point, and it's true. \n\nAntonio does not flip the coin. \n\nSince Antonio doesn't flip the coin, the coin remains heads up. \n\nRonald does not flip the coin. \n\nSince Ronald doesn't flip the coin, the coin remains heads up. \n\nKen does not flip the coin. \n\nSince Ken doesn't flip the coin, the coin remains heads up. \n\nRachael does not flip the coin. \n\nSince Rachael doesn't",
+                0.2701057493686676
+            ]
+        ]
+    },
+    {
+        "sample_index": 450,
+        "prompt": "A coin is heads up. Courtney does not flip the coin. Ann flips the coin. John flips the coin. Fer flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Ann, John and Fer. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin starts heads up. \nCourtney does not flip the coin, so the coin remains heads up. \nAnn flips the coin, so the coin is now tails up. \nJohn flips the coin, so the coin is now heads up again. \nFer flips the coin, so the coin is now tails up. \n\nSo, the answer is no - the coin is not heads up anymore.",
+                0.2824353873729706
+            ],
+            [
+                7,
+                " \n\nCourtney does not flip the coin. So, the coin is still heads up. \nAnn flips the coin. The coin is now tails up. \nJohn flips the coin. The coin is now heads up again. \nFer flips the coin. The coin is now tails up. \n\nSo, after Fer flips the coin, it is tails up.",
+                0.22505289316177368
+            ]
+        ]
+    },
+    {
+        "sample_index": 451,
+        "prompt": "A coin is heads up. Debby does not flip the coin. Geoffrey does not flip the coin. Alana does not flip the coin. Silvestre does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Geoffrey. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up.\n Debby does not flip the coin.\n Geoffrey does not flip the coin.\n Alana does not flip the coin.\n Silvestre does not flip the coin.\n\nSo the coin is still heads up.",
+                0.5073303580284119
+            ],
+            [
+                5,
+                " Debby doesn't flip the coin, so the coin must still be heads up. Geoffrey doesn't flip the coin, so the coin must still be heads up. Alana doesn't flip the coin, so the coin must still be heads up. Silvestre doesn't flip the coin, so the coin must still be heads up. Therefore, the coin is still heads up.",
+                0.1867198497056961
+            ]
+        ]
+    },
+    {
+        "sample_index": 452,
+        "prompt": "A coin is heads up. Stevie does not flip the coin. Julie flips the coin. Leonard does not flip the coin. Karina flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Julie. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nThe coin starts heads up. \nStevie does not flip the coin, so it remains heads up. \nJulie flips the coin, so it is now tails up. \nLeonard does not flip the coin, so it remains tails up. \nKarina flips the coin, so it is now heads up again. \n\nTherefore, the answer is yes, the coin is heads up.",
+                0.29358938336372375
+            ]
+        ]
+    },
+    {
+        "sample_index": 453,
+        "prompt": "A coin is heads up. Juana does not flip the coin. Chip does not flip the coin. Lila does not flip the coin. Jayme does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> Juana does not flip the coin. Chip does not flip the coin. Lila does not flip the coin. Jayme does not flip the coin. So the coin is still heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                " If Juana does not flip the coin, then the coin remains heads up. If Chip does not flip the coin, then the coin remains heads up. If Lila does not flip the coin, then the coin remains heads up. If Jayme does not flip the coin, then the coin remains heads up. Therefore, the answer is yes, the coin is still heads up.",
+                0.21798568964004517
+            ]
+        ]
+    },
+    {
+        "sample_index": 455,
+        "prompt": "A coin is heads up. Beatrice flips the coin. Taylor flips the coin. Juan Carlos does not flip the coin. Kaitlin does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Beatrice and Taylor. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nA coin is heads up. \nBeatrice flips the coin. \nNow, the coin is tails up. \nTaylor flips the coin. \nNow, the coin is heads up again. \nJuan Carlos does not flip the coin. \nKaitlin does not flip the coin. \n\nSo, at the end, the coin is heads up.",
+                0.32025793194770813
+            ],
+            [
+                2,
+                " \n\nBeatrice flips the coin. This means that if the coin was heads up, it is now tails up. \nTaylor flips the coin. This means that if the coin was tails up, it is now heads up. \n\nSo, after both Beatrice and Taylor have flipped the coin, it is heads up again.",
+                0.23352812230587006
+            ]
+        ]
+    },
+    {
+        "sample_index": 459,
+        "prompt": "A coin is heads up. Oswaldo does not flip the coin. Jos\u00e9 Luis flips the coin. Sheldon does not flip the coin. Tara flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jos\u00e9 Luis. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \nOswaldo does not flip the coin, so the coin stays heads up. \nJos\u00e9 Luis flips the coin, so the coin is now tails up. \nSheldon does not flip the coin, so the coin stays tails up. \nTara flips the coin, so the coin is now heads up again.",
+                0.20330888032913208
+            ]
+        ]
+    },
+    {
+        "sample_index": 461,
+        "prompt": "A coin is heads up. Jermaine flips the coin. Pat does not flip the coin. Tammie flips the coin. Olivia flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jermaine, Pat, Tammie and Olivia. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                5,
+                " \nJermaine flips the coin. The coin is now tails up.\nPat does not flip the coin. The coin is still tails up.\nTammie flips the coin. The coin is now heads up.\nOlivia flips the coin. The coin is now tails up.",
+                0.2153303176164627
+            ]
+        ]
+    },
+    {
+        "sample_index": 469,
+        "prompt": "A coin is heads up. Cassie flips the coin. Clifton flips the coin. Erik does not flip the coin. Everardo does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Cassie and Clifton. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                "\n\nCassie flips the coin. The coin is now tails up.\nClifton flips the coin. The coin is now heads up again.\nErik does not flip the coin. The coin remains tails up.\nEverardo does not flip the coin. The coin remains heads up.\n\n",
+                0.23703889548778534
+            ]
+        ]
+    },
+    {
+        "sample_index": 471,
+        "prompt": "A coin is heads up. Brooklyn flips the coin. Dawn does not flip the coin. Tay flips the coin. Gene flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Brooklyn, Tay and Gene. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                4,
+                " \nThe coin starts heads up. \nBrooklyn flips the coin. Now it is tails up. \nDawn does not flip the coin. It remains tails up. \nTay flips the coin. Now it is heads up again. \nGene flips the coin. Now it is tails up. \nSo, to answer your question, no, the coin is not heads up after Gene flips it.",
+                0.3074730336666107
+            ]
+        ]
+    },
+    {
+        "sample_index": 474,
+        "prompt": "A coin is heads up. Janette does not flip the coin. Stacey flips the coin. Ronny flips the coin. Kim does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Stacey, Ronny and Kim. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe coin is heads up. \nJanette does not flip the coin, so it remains heads up. \nStacey flips the coin, so it is now tails up. \nRonny flips the coin, so it is now heads up again. \nKim does not flip the coin, so it remains heads up. \n\nTherefore, the final answer is that the coin is heads up.",
+                0.31716543436050415
+            ],
+            [
+                2,
+                " \n\nA coin is heads up. \n\nThis is the starting point, and the coin is heads up, so the answer to the question is currently yes. \n\nJanette does not flip the coin. \n\nSince Janette does not flip the coin, the answer to the question is still yes. \n\nStacey flips the coin. \n\nStacey flips the coin, which means that the coin is now tails up. Since the coin is tails up, the answer to the question is now no. \n\nRonny flips the coin. \n\nRonny flips the coin",
+                0.25773632526397705
+            ]
+        ]
+    },
+    {
+        "sample_index": 476,
+        "prompt": "A coin is heads up. Donovan does not flip the coin. Lonnie does not flip the coin. Jairo flips the coin. Mariah flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Jairo and Mariah. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nDonovan does not flip the coin. The coin is still heads up. \nLonnie does not flip the coin. The coin is still heads up.\nJairo flips the coin. The coin is now tails up. \nMariah flips the coin. The coin is now heads up again.",
+                0.22015458345413208
+            ]
+        ]
+    },
+    {
+        "sample_index": 477,
+        "prompt": "A coin is heads up. Nidia does not flip the coin. Rachelle does not flip the coin. Lauren does not flip the coin. Shelia does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Nidia, Rachelle, Lauren and Shelia. So the coin was flipped 0 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                1,
+                "\n\nNidia does not flip the coin.\n\nThe coin is still heads up.\n\nRachelle does not flip the coin.\n\nThe coin is still heads up.\n\nLauren does not flip the coin.\n\nThe coin is still heads up.\n\nShelia does not flip the coin.\n\nThe coin is still heads up.",
+                0.27070870995521545
+            ]
+        ]
+    },
+    {
+        "sample_index": 478,
+        "prompt": "A coin is heads up. Angela flips the coin. Krista does not flip the coin. Cora flips the coin. Denisse flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Angela, Cora and Denisse. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin is heads up. \n\nAngela flips the coin. \n\nThe coin is now tails up. \n\nKrista does not flip the coin. \n\nThe coin is still tails up. \n\nCora flips the coin. \n\nThe coin is now heads up. \n\nDenisse flips the coin. \n\nThe coin is now tails up.",
+                0.30045920610427856
+            ],
+            [
+                7,
+                " \n\nAngela flips the coin, so it is now tails up. \nKrista does not flip the coin, so it remains tails up. \nCora flips the coin, so it is now heads up again. \nDenisse flips the coin, so it is now tails up. \n\nTherefore, the final answer is that the coin is tails up.",
+                0.24844050407409668
+            ]
+        ]
+    },
+    {
+        "sample_index": 485,
+        "prompt": "A coin is heads up. Wilmer flips the coin. Valerie does not flip the coin. Melissa flips the coin. Eloisa flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Wilmer, Melissa and Eloisa. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will still be heads up. The answer is no.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe coin is heads up. \nWilmer flips the coin. The coin is now tails up. \nValerie does not flip the coin. The coin is still tails up. \nMelissa flips the coin. The coin is now heads up. \nEloisa flips the coin. The coin is now tails up.",
+                0.325264573097229
+            ],
+            [
+                6,
+                " \n\nWilmer flips the coin. It is now tails up. \nValerie does not flip the coin. It is still tails up. \nMelissa flips the coin. It is now heads up. \nEloisa flips the coin. It is now tails up.",
+                0.2624044716358185
+            ]
+        ]
+    },
+    {
+        "sample_index": 488,
+        "prompt": "A coin is heads up. Hailey flips the coin. Avi flips the coin. Bree does not flip the coin. Samira flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Hailey, Avi and Samira. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe coin is heads up. Hailey flips the coin.\n\nThe coin is now tails up.\n\nAvi flips the coin.\n\nThe coin is now heads up.\n\nBree does not flip the coin.\n\nThe coin is still heads up.\n\nSamira flips the coin.\n\nThe coin is now tails up.",
+                0.3344700336456299
+            ]
+        ]
+    },
+    {
+        "sample_index": 489,
+        "prompt": "A coin is heads up. Jason does not flip the coin. Betty flips the coin. Elisa flips the coin. Jay does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Betty, Elisa and Jay. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nJason does not flip the coin, so the current state of the coin is still heads up. \nBetty flips the coin, so the current state of the coin is now tails up. \nElisa flips the coin, so the current state of the coin is now heads up again. \nJay does not flip the coin, so the current state of the coin is still heads up.",
+                0.24387454986572266
+            ],
+            [
+                6,
+                " \nAt first, the coin is heads up. \nThen, Jason does not flip the coin, so the state of the coin does not change. \nBetty flips the coin, so the state of the coin changes from heads up to tails up. \nElisa flips the coin, so the state of the coin changes from tails up to heads up again. \nAt the end, Jay does not flip the coin, so the state of the coin remains heads up. \nTherefore, the answer is yes, the coin is still heads up.",
+                0.2362746149301529
+            ]
+        ]
+    },
+    {
+        "sample_index": 493,
+        "prompt": "A coin is heads up. Jody does not flip the coin. Juan does not flip the coin. Rebekah flips the coin. Kaylee flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Kaylee and Rebekah. So the coin was flipped 3 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                3,
+                " \nThe coin is heads up. Jody does not flip the coin. The coin is still heads up.\nThe coin is heads up. Juan does not flip the coin. The coin is still heads up.\nThe coin is heads up. Rebekah flips the coin. The coin is now tails up.\nThe coin is tails up. Kaylee flips the coin. The coin is now heads up.",
+                0.29951202869415283
+            ]
+        ]
+    },
+    {
+        "sample_index": 494,
+        "prompt": "A coin is heads up. Liliana does not flip the coin. Quincy flips the coin. Bart does not flip the coin. Makayla flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Quincy. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe coin is heads up.\nLiliana does not flip the coin.\nThe coin is still heads up.\nQuincy flips the coin.\nThe coin is now tails up.\nBart does not flip the coin.\nThe coin is still tails up.\nMakayla flips the coin.\nThe coin is now heads up.\n\n",
+                0.3432842791080475
+            ]
+        ]
+    },
+    {
+        "sample_index": 495,
+        "prompt": "A coin is heads up. Mya flips the coin. Fernando flips the coin. Bubba does not flip the coin. Tommy does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Mya and Fernando. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. The answer is yes.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe coin is heads up. \nMya flips the coin. It is now tails up. \nFernando flips the coin. It is now heads up again. \nBubba does not flip the coin. It remains heads up. \nTommy does not flip the coin. It remains heads up. \n\nThe coin is still heads up.",
+                0.30233392119407654
+            ]
+        ]
+    },
+    {
+        "sample_index": 497,
+        "prompt": "A coin is heads up. Len does not flip the coin. Marquis flips the coin. Kylie flips the coin. Sandra flips the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Marquis, Kylie and Sandra. So the coin was flipped 3 times, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. The answer is no.</s>",
+        "ranking": [
+            [
+                5,
+                " \nLen does not flip the coin. This doesn't change the state of the coin, so it is still heads up. \nMarquis flips the coin. This reverses the state of the coin, so it is now tails up. \nKylie flips the coin. This reverses the state of the coin again, so it is now heads up. \nSandra flips the coin. This reverses the state of the coin again, so it is now tails up.",
+                0.26385733485221863
+            ],
+            [
+                3,
+                " \nMarquis flips the coin: now it's tails up. \nKylie flips the coin: now it's heads up again. \nSandra flips the coin: now it's tails up again. \n\nSo the final answer is that the coin is tails up.",
+                0.22813695669174194
+            ]
+        ]
+    },
+    {
+        "sample_index": 499,
+        "prompt": "A coin is heads up. Marlen does not flip the coin. Sonja does not flip the coin. Anita does not flip the coin. Dale does not flip the coin. Is the coin still heads up? Note that \"flip\" here means \"reverse\".<pad> The coin was flipped by Marlen. So the coin was flipped by Marlen. So the coin was flipped by Marlen. So the coin was flipped by Marlen. The answer is yes.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nA coin is heads up. \nMarlen does not flip the coin. \nSonja does not flip the coin. \nAnita does not flip the coin. \nDale does not flip the coin.\n\nThe coin is not flipped, so the answer is still heads up.",
+                0.5158675312995911
+            ],
+            [
+                1,
+                " \nMarlen does not flip the coin. So if the coin were initially heads up, it would still be heads up. \nSonja does not flip the coin. So if the coin were initially heads up, it would still be heads up. \nAnita does not flip the coin. So if the coin were initially heads up, it would still be heads up. \nDale does not flip the coin. So if the coin were initially heads up, it would still be heads up. \n\nTherefore, we can conclude that if the coin were initially heads up, it would still be heads up",
+                0.21846610307693481
+            ]
+        ]
+    }
+]

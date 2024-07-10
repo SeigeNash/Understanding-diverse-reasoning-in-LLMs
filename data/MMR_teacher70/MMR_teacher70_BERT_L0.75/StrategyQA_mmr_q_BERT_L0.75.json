@@ -1,0 +1,680 @@
+[
+    {
+        "sample_index": 1,
+        "question": "Hydrogen's atomic number squared exceeds number of Spice Girls?",
+        "ranking": [
+            [
+                0,
+                " \n\nHydrogen's atomic number is 1. \n1 squared is 1. \nThe number of Spice Girls is 5. \n\n1 is less than 5, so the answer is no.",
+                0.301587849855423
+            ],
+            [
+                5,
+                " \n\nThe atomic number of hydrogen is 1. \n1 squared is 1. \n\nThe number of Spice Girls is 5. \n1 is not greater than 5, so the answer to this riddle is \"no.\"",
+                0.20916365087032318
+            ]
+        ]
+    },
+    {
+        "sample_index": 57,
+        "question": "Can the original name of the zucchini be typed on the top row of a QWERTY keyboard?",
+        "ranking": [
+            [
+                1,
+                " \n\nThe original name of the zucchini is \"courgette.\"\n\nThe letters in \"courgette\" are: C, O, U, R, G, E, T, T, E.\n\nOn a QWERTY keyboard, these letters are found on the following keys:\n\nC: The \"C\" key is on the second row of the keyboard, in the third column.\nO: The \"O\" key is on the second row of the keyboard, in the fourth column.\nU: The \"U\" key is on the second row of the keyboard, in",
+                0.15564103424549103
+            ]
+        ]
+    },
+    {
+        "sample_index": 85,
+        "question": "Are lengths measured in metres in the UK?",
+        "ranking": [
+            [
+                5,
+                " In the UK, people use the metric system, which means that they use measures such as metres, kilometres, and litres. So yes, lengths are measured in metres in the UK.",
+                0.22207586467266083
+            ]
+        ]
+    },
+    {
+        "sample_index": 88,
+        "question": "Was Christina Aguilera born in the forgotten borough?",
+        "ranking": [
+            [
+                0,
+                " Aguilera was born in 1980, so the \"forgotten borough\" must be referring to Staten Island, which wasn't officially part of New York City until 1898. Aguilera was born in Staten Island, so the answer is yes.",
+                0.12328647822141647
+            ]
+        ]
+    },
+    {
+        "sample_index": 175,
+        "question": "Would Dante have hypothetically placed Nostradamus in 3rd Circle of Hell?",
+        "ranking": [
+            [
+                6,
+                " \n\nDante would have placed Nostradamus in the Third Circle of Hell if he had committed the sin of gluttony. This is because the Third Circle is reserved for those who have committed the sin of gluttony. \n\nNostradamus was not a glutton, so Dante would not have placed him in the Third Circle.",
+                0.2027485966682434
+            ],
+            [
+                7,
+                " \n\nThe first step is to identify which of Dante's nine Circles of Hell Nostradamus would hypothetically belong in. This is difficult to do, because we don't know a lot about Nostradamus's life. However, we do know that he was a doctor, and that he made predictions about the future. \n\nIf we assume that Nostradamus was a good doctor, then he would likely belong in the first Circle of Hell, which is reserved for virtuous pagans. However, if we assume that Nostradamus was a bad doctor, then he would likely belong in the fifth Circle of Hell,",
+                0.15323244035243988
+            ],
+            [
+                2,
+                " Dante's Inferno is structured in 9 Circles, with the first being the least sinful and the last being the most sinful. The 8th Circle is where fraudsters are punished. So, if Nostradamus was a fraudster, then he would be in the 8th Circle.",
+                0.14964309334754944
+            ],
+            [
+                4,
+                " Dante created the Inferno, which is divided into nine circles. The first circle is limbo, the second is lust, the third is gluttony, the fourth is greed, the fifth is anger, the sixth is heresy, the seventh is violence, the eighth is fraud, and the ninth is treachery. \n\nNostradamus was a sixteenth-century French apothecary and physician. He is best known for his book Les Propheties, a collection of 942 poetic quatrains allegedly predicting future events.\n\nDante would likely have placed Nostradamus in the third circle of Hell, which",
+                0.11402527242898941
+            ],
+            [
+                3,
+                " Dante's Inferno has 9 Circles of Hell, right?\n\nThe first circle is for those who did not sin.\nThe second circle is for those who sinned through lust.\nThe third circle is for those who sinned through gluttony.\nThe fourth circle is for those who sinned through greed.\nThe fifth circle is for those who sinned through anger.\nThe sixth circle is for those who sinned through heresy.\nThe seventh circle is for those who sinned through violence.\nThe eighth circle is for those who sinned through fraud.\nThe ninth circle is for those who sinned",
+                0.12233000248670578
+            ],
+            [
+                0,
+                " \n\nThe first circle of Hell is where Dante places the virtuous pagans, those who were not evil, but simply ignorant of Christ. Given that Nostradamus was a Christian, he would not be placed here. \n\nThe second circle is for the lustful, those who allowed themselves to be ruled by their desires. Nostradamus would not be placed here, as he was not lustful.\n\nThe third circle is for the gluttonous, those who allowed themselves to be controlled by their appetites. This does not seem to apply to Nostradamus either.\n\nThe fourth circle is for the",
+                0.11997949331998825
+            ]
+        ]
+    },
+    {
+        "sample_index": 196,
+        "question": "Does Adam Sandler skip celebrating Easter?",
+        "ranking": [
+            [
+                6,
+                "\n\nFirst, does Adam Sandler celebrate Easter? We don't know for sure, but let's assume he does.\n\nNext, does Adam Sandler skip celebrating Easter? Again, we don't know for sure, but let's assume he does.\n\nSo the answer to our question is: Yes, Adam Sandler skips celebrating Easter.",
+                0.1296662539243698
+            ]
+        ]
+    },
+    {
+        "sample_index": 204,
+        "question": "Is the rise of agriculture attributed to rivers?",
+        "ranking": [
+            [
+                7,
+                " Agriculture is the domestication of plants and animals, and the cultivation of crops. There are many reasons why this might have arisen, but one possibility is that rivers made it possible. Rivers provided a reliable source of water for crops, and they also deposited fertile soil on the banks, making it easier to grow plants. In addition, rivers served as highways, making it easier for people to trade goods and ideas. So while we can't say for sure that rivers were the cause of agriculture, they certainly played a role in its development.",
+                0.12050429731607437
+            ]
+        ]
+    },
+    {
+        "sample_index": 223,
+        "question": "Is Hanuman associated with a Norse god?",
+        "ranking": [
+            [
+                5,
+                " \n\nFirst, let's look at Hanuman's story and find some clues. \n\nHanuman is a central character in the Hindu epic Ramayana. He is a monkey god who helps the hero Rama defeat the demon king Ravana. \n\nThere are no known Norse gods who are monkey gods. This is a clue that Hanuman is not associated with a Norse god. \n\nNext, let's look at Hanuman's features and find some more clues. \n\nHanuman is often depicted with a monkey face and body. He is also often shown with a mace, a weapon",
+                0.11189877241849899
+            ],
+            [
+                4,
+                " First, let's think about which Norse god might be associated with Hanuman. Second, let's think about why that god might be associated with Hanuman.\n\nThere are a few potential gods that could be associated with Hanuman. One possibility is Thor, the god of thunder. Thor is often associated with strength, power, and courage, which are all qualities that Hanuman possesses. Additionally, both Thor and Hanuman are known for their ability to fly, which could be another reason for their association.\n\nA second possibility is Loki, the god of mischief. Loki is often associated with trickery and deception, which are",
+                0.1107054129242897
+            ]
+        ]
+    },
+    {
+        "sample_index": 258,
+        "question": "Does the central processing unit usually have a dedicated fan?",
+        "ranking": [
+            [
+                1,
+                " \n\nThe central processing unit (CPU) is a chip that sits on a computer's motherboard. \nThe motherboard is the main circuit board of a computer. It is where the CPU, memory, and other components are connected.\nMost motherboards have a CPU fan connector, which is used to connect a CPU fan. This fan helps to keep the CPU cool.\n\nSo, to answer your question, the CPU usually has a dedicated fan.",
+                0.13864006102085114
+            ]
+        ]
+    },
+    {
+        "sample_index": 261,
+        "question": "Did brother of Goofy creator's employer commit an excommunicable offense?",
+        "ranking": [
+            [
+                5,
+                "\n\nFirst, let's look at the definition of \"excommunicable offense.\" An excommunicable offense is an offense that can result in a person being excommunicated from the Catholic Church.\n\nNow, let's look at the question. Did brother of Goofy creator's employer commit an excommunicable offense?\n\nThere are a few possible interpretations of this question, so let's consider each one.\n\n1. Did the brother of the person who created Goofy commit an excommunicable offense?\n\nIt's possible that the brother of the person who created Goofy could have committed an",
+                0.1752883940935135
+            ]
+        ]
+    },
+    {
+        "sample_index": 402,
+        "question": "Is Norman Oklahoma named after a viking?",
+        "ranking": [
+            [
+                0,
+                " \n\nThere is no evidence that the city of Norman, Oklahoma is named after a viking. \n\nThere are a few possible explanations for how the city got its name:\n\n1. It could be named after a person named Norman. \n2. It could be named after a place called Norman, such as Norman, England. \n3. It could be named for its Norman-style architecture. \n\nIt's most likely that the city is named after a person or a place, rather than a viking.",
+                0.12569881975650787
+            ],
+            [
+                5,
+                " \n\nNorman is a city in Oklahoma. \n\nThere is no definitive answer, but one possible explanation is that the city may have been named after Dr. Abram Norman, a landowner who donated part of his land to the city.",
+                0.12053539603948593
+            ],
+            [
+                6,
+                " \n\nFirst, we need to find out if there was a viking named Norman. To do this, we can look up \"Norman the Viking\" in a search engine. However, this search turns up no results, which suggests that there was no viking named Norman.\n\nNext, we need to find out if Oklahoma was named after a viking. To do this, we can look up the etymology of the word \"Oklahoma.\" According to the Online Etymology Dictionary, the word \"Oklahoma\" is derived from the Choctaw words \"okla\" and \"humma,\" which mean \"",
+                0.10149595141410828
+            ],
+            [
+                4,
+                " \n\nThere are a few possible explanations for how Norman, Oklahoma got its name. One possibility is that the city was named after Norman County, Minnesota. Another possibility is that it was named after Abner Norman, who served in the Confederate Army during the American Civil War. A third possibility is that it was named after a viking. \n\nIt's impossible to know for sure which of these explanations is correct, but we can narrow it down by looking at the evidence. Norman County, Minnesota was established in 1858, while Abner Norman served in the Confederate Army from 1861 to 1865. This means that it's more",
+                0.08564785867929459
+            ]
+        ]
+    },
+    {
+        "sample_index": 445,
+        "question": "Is the letter D influenced by the shape of ancient doors?",
+        "ranking": [
+            [
+                3,
+                " The letter D could be influenced by the shape of ancient doors. The letter D is a rectangular shape, and ancient doors were often rectangular. So, it's possible that the letter D was influenced by the shape of ancient doors.",
+                0.21994799375534058
+            ]
+        ]
+    },
+    {
+        "sample_index": 472,
+        "question": "Could Christopher Nolan borrow pants from Danny Devito?",
+        "ranking": [
+            [
+                6,
+                " \n\nFirst, could Christopher Nolan borrow pants from Danny Devito? Yes, Nolan could borrow pants from Devito if he needed to.\n\nSecond, would the pants fit Nolan? It's possible, although Nolan is significantly taller than Devito, so the pants might be a bit short on him.\n\nThird, would Nolan want to borrow pants from Devito? That's a more difficult question to answer, as it depends on Nolan's personal preference. Some people might not want to borrow clothes from someone else, even if they are the same size, while others might not mind.",
+                0.10743521898984909
+            ],
+            [
+                3,
+                " \n\nFirst, we need to consider the possibility that Christopher Nolan and Danny Devito are the same size. If they are the same size, then Christopher Nolan could easily borrow a pair of pants from Danny Devito. \n\nHowever, if they are not the same size, then Christopher Nolan would not be able to borrow a pair of pants from Danny Devito. This is because Christopher Nolan would either be too big or too small for Danny Devito's pants.",
+                0.10532977432012558
+            ],
+            [
+                7,
+                " \n\nFirst, let's consider whether Christopher Nolan and Danny Devito are similar enough in size that they could share pants. To do this, we would need to know their inseam measurements. If we assume that they are of a similar height, then it's likely that their inseam measurements would be similar as well.\n\nNext, we need to consider whether Christopher Nolan and Danny Devito have the same style of pants. If they don't, then it's unlikely that Nolan would want to borrow pants from Devito.\n\nFinally, we need to consider whether Christopher Nolan and Danny Devito are friends.",
+                0.10635724663734436
+            ]
+        ]
+    },
+    {
+        "sample_index": 473,
+        "question": "Are Big Ben's bells currently rung on their normal schedule at the Palace of Westminster?",
+        "ranking": [
+            [
+                2,
+                "\n\nFirst, what is the \"normal schedule\" for the bells of Big Ben? According to the website of the Palace of Westminster, the bells are normally rung every hour, on the hour.\n\nNext, is the Palace of Westminster currently open? Unfortunately, the Palace of Westminster is currently closed to the public due to the ongoing renovations.\n\nFinally, does this mean that the bells of Big Ben are not currently being rung on their normal schedule? Yes, that is correct. The bells are not currently being rung on their normal schedule.",
+                0.1421823352575302
+            ]
+        ]
+    },
+    {
+        "sample_index": 479,
+        "question": "Does Northern fur seal make good pet for six year old?",
+        "ranking": [
+            [
+                0,
+                " \n\nFirst, is a Northern fur seal a mammal? Yes. \nSecond, do mammals make good pets? It depends. \nThird, do six year olds have the ability to take care of a pet? It depends. \n\nSo, the answer to your question is \"It depends.\"",
+                0.16402268409729004
+            ],
+            [
+                3,
+                " \n\n1. First, does your 6-year-old want a pet? If not, then the answer is no, a Northern fur seal would not make a good pet for your child. \n\n2. If your child does want a pet, is he or she ready to care for one? This includes feeding, walking, cleaning up after, and providing general care and attention. If the answer is no, then again, a Northern fur seal would not make a good pet for your child. \n\n3. Even if your child is ready to care for a pet, a Northern fur seal is not a",
+                0.16078148782253265
+            ],
+            [
+                4,
+                " \n\n1. Would a Northern fur seal be a good pet for ANYONE? \nNo, fur seals are not good pets. They are wild animals that should be living in the ocean, not in someone's house.\n\n2. Would a Northern fur seal be a good pet for a six year old? \nNo, a fur seal would not be a good pet for a six year old. They are wild animals that should be living in the ocean, not in someone's house.",
+                0.14987044036388397
+            ]
+        ]
+    },
+    {
+        "sample_index": 551,
+        "question": "Does a Disney princess on Broadway have red hair?",
+        "ranking": [
+            [
+                2,
+                " \n\nThere are many princesses in the Disney canon, but only a few of them are redheads: Ariel, Merida, and Mulan. Of these, only Ariel has ever been adapted to the stage, in the Broadway musical The Little Mermaid. So the answer to your question is yes, a Disney princess on Broadway does have red hair... but only one.",
+                0.1647273749113083
+            ]
+        ]
+    },
+    {
+        "sample_index": 572,
+        "question": "WIll Noah's Ark hypothetically sail through flooded Lincoln Tunnel?",
+        "ranking": [
+            [
+                6,
+                " \n\nFirst, the Lincoln Tunnel is underwater. \n\nSecond, the Lincoln Tunnel is a tunnel, so it is not designed to float.\n\nThird, even if the Lincoln Tunnel could float, it is not large enough to hold Noah's Ark. \n\nSo, the answer is no, Noah's Ark would not be able to sail through the flooded Lincoln Tunnel.",
+                0.15743732452392578
+            ],
+            [
+                0,
+                " \n\nThe first step is to figure out the draft of Noah's Ark. The second step is to figure out the depth of the water in the Lincoln Tunnel. The third step is to compare the draft of Noah's Ark to the depth of the water in the Lincoln Tunnel.\n\nThe draft of Noah's Ark is 20 feet. The depth of the water in the Lincoln Tunnel is 13 feet. The draft of Noah's Ark is greater than the depth of the water in the Lincoln Tunnel, so Noah's Ark would hypothetically sail through the flooded Lincoln Tunnel.",
+                0.12247995287179947
+            ],
+            [
+                3,
+                " \n\nFirst, what would happen if the Lincoln Tunnel were to flood? The Lincoln Tunnel is a man-made tunnel that runs under the Hudson River. It is approximately 1.5 miles long and consists of three tubes. If the tunnel were to flood, the water would most likely enter through the ventilation shafts located at each end of the tunnel. The water would then fill up the tunnel until it reached the same level as the river. \n\nSecond, could Noah's Ark float through the flooded Lincoln Tunnel? The Ark is a large wooden vessel that was built by Noah to save himself, his family, and two of",
+                0.11417300254106522
+            ],
+            [
+                1,
+                " \n\nFirst, let's see if the ark is big enough. The Lincoln Tunnel is 1.5 miles long, 150 feet wide, and 115 feet high. The ark is 500 feet long, 75 feet wide, and 45 feet high. So yes, the ark is big enough to fit through the Lincoln Tunnel.\n\nNext, let's see if the ark can float. The ark is made of wood, and wood floats. So yes, the ark can float.\n\nFinally, let's see if the water is deep enough. The Lincoln Tunnel is underwater, so the water must be",
+                0.10947615653276443
+            ],
+            [
+                2,
+                " The water would have to be high enough to enter the Lincoln Tunnel, which is 1.5 miles long and 150 feet below the Hudson River's surface. The distance below the surface is not as important as the length of the tunnel. The ark is 500 feet long, so it would be able to fit, but only just barely. The water would also have to be deep enough to allow the ark to float, which it would need to be at least 500 feet deep. So, in order for the ark to sail through the Lincoln Tunnel, the water level would have to be at least 650 feet above sea level.",
+                0.109302818775177
+            ],
+            [
+                4,
+                " \n\nFirst, the Ark would have to be big enough to fit through the Lincoln Tunnel. The Lincoln Tunnel is 1.5 miles long, 40 feet wide, and 43.5 feet high. The Ark would have to be at least 40 feet wide and 43.5 feet high in order to fit. \n\nSecond, the Ark would need to be seaworthy. The Lincoln Tunnel is underwater, so the Ark would need to be able to float. \n\nFinally, the Ark would need to be able to navigate through the tunnel. The Ark would need a captain and a crew to steer it through the tunnel.",
+                0.09886771440505981
+            ]
+        ]
+    },
+    {
+        "sample_index": 597,
+        "question": "Do the James Bond and Doctor Who series have a similarity in format?",
+        "ranking": [
+            [
+                1,
+                " Both series have a main character who is a time traveler. They both have a lot of adventures, but Doctor Who often has more of a focus on science fiction and fantasy, while James Bond is more about action and suspense. They both have a lot of supporting characters, but Doctor Who has a lot more companions than James Bond. Both series have been running for a long time, but Doctor Who has been running for much longer. So, in conclusion, they do have some similarities in format, but there are also some significant differences.",
+                0.13991452753543854
+            ]
+        ]
+    },
+    {
+        "sample_index": 657,
+        "question": "Is Canon Inc. a Kabushiki gaisha?",
+        "ranking": [
+            [
+                4,
+                "\n\nStep 1:\n\nYes, Canon Inc. is a Kabushiki gaisha.",
+                0.1843690276145935
+            ]
+        ]
+    },
+    {
+        "sample_index": 717,
+        "question": "Does 2015 have more unlucky Friday's than usual?",
+        "ranking": [
+            [
+                7,
+                " \nThere are 52 weeks in a year, so there are 52 Fridays. \n2015 is not a leap year, so there are 365 days in 2015. \n365 is not evenly divisible by 7, so there can be a maximum of 52-1=51 Fridays the 13th in a non-leap year. \nIn 2015, there are 3 Friday the 13ths. \nTherefore, 2015 has more unlucky Friday's than usual.",
+                0.13995753228664398
+            ]
+        ]
+    },
+    {
+        "sample_index": 743,
+        "question": "Can first letter row of QWERTY keyboard spell a palindrome?",
+        "ranking": [
+            [
+                5,
+                " We have the letters Q, W, E, R, T, Y.\n\nQ can be followed by W, E, or R.\nW can only be followed by E.\nE can be followed by R or T.\nR can only be followed by T.\nT can only be followed by Y.\nY has no letters that can follow it.\n\nSo, the longest palindrome we can spell using the first letter row of the QWERTY keyboard is \"QWERTYTREWQ\".",
+                0.15722693502902985
+            ]
+        ]
+    },
+    {
+        "sample_index": 764,
+        "question": "Does ancient Olympics crown fail to hide tonsure?",
+        "ranking": [
+            [
+                4,
+                " \n\nFirst, does the ancient Olympics crown fail to hide tonsure?\n\nYes, the ancient Olympics crown does fail to hide tonsure. \n\nSecond, why does the ancient Olympics crown fail to hide tonsure?\n\nThe ancient Olympics crown fails to hide tonsure because the crown is too small.",
+                0.15890803933143616
+            ]
+        ]
+    },
+    {
+        "sample_index": 818,
+        "question": "If you're running focal fossa, are you using linux?",
+        "ranking": [
+            [
+                5,
+                " Focal Fossa is a Ubuntu release. So, if you want to use Focal Fossa, you need to use Ubuntu. And Ubuntu is a Linux distribution. So, the answer is yes.",
+                0.16447164118289948
+            ]
+        ]
+    },
+    {
+        "sample_index": 841,
+        "question": "Would Dante Alighieri hypothetically place Rupert Murdoch in 8th Circle of Hell?",
+        "ranking": [
+            [
+                1,
+                "\n\nFirst, we need to determine which circle of hell Rupert Murdoch would hypothetically be placed in.\n\nSecond, we need to determine which sin Dante Alighieri would consider Rupert Murdoch guilty of.\n\nThird, we need to determine how Dante Alighieri would view Rupert Murdoch's actions in light of that sin.\n\nBased on these three factors, it is reasonable to conclude that Dante Alighieri would hypothetically place Rupert Murdoch in the 8th Circle of Hell.",
+                0.13760069012641907
+            ]
+        ]
+    },
+    {
+        "sample_index": 896,
+        "question": "Is most store bought rice pudding made with brown rice?",
+        "ranking": [
+            [
+                5,
+                " Most people buy rice pudding from the grocery store. The grocery store stocks many brands of rice pudding. So, the answer to your question is probably \"No, most store-bought rice pudding is not made with brown rice.\"",
+                0.19066660106182098
+            ]
+        ]
+    },
+    {
+        "sample_index": 1050,
+        "question": "Would Michael Phelps be good at pearl hunting?",
+        "ranking": [
+            [
+                1,
+                " \n\nFirst, would Michael Phelps be good at diving? Yes, Phelps is an excellent swimmer and diver.\n\nSecond, would Michael Phelps be good at finding pearls? It's hard to say. Phelps is certainly good at finding and catching things in the water, but whether or not he would be good at finding pearls specifically is difficult to say. It would likely depend on the specific pearl-hunting method used and on Phelps' own skill and luck.\n\nIn general, though, it seems likely that Michael Phelps would be at least decent at pearl hunting, due to his excellent swimming and diving abilities.",
+                0.1244610846042633
+            ]
+        ]
+    },
+    {
+        "sample_index": 1099,
+        "question": "Did J. Edgar Hoover take his calls in Langley, Virginia?",
+        "ranking": [
+            [
+                7,
+                " \n\nFirst, we need to identify what \"his calls\" refers to. In this instance, \"his calls\" likely refers to the calls that Hoover took while he was working as the Director of the Federal Bureau of Investigation (FBI). \n\nNext, we need to research whether or not Hoover took his calls in Langley, Virginia. A quick search reveals that there is no record of Hoover ever taking his calls in Langley, Virginia. \n\nTherefore, we can conclude that the answer to the question is most likely \"No.\"",
+                0.12875239551067352
+            ]
+        ]
+    },
+    {
+        "sample_index": 1125,
+        "question": "Does Osama bin Laden put a wafer on his tongue every Sunday?",
+        "ranking": [
+            [
+                5,
+                "  First, does Osama bin Laden attend church?  If not, he's not likely to be taking communion.  If he does attend church, does he take communion?  If not, he's not likely to be putting a wafer on his tongue.  So the answer to your question is probably \"no.\"",
+                0.17508910596370697
+            ]
+        ]
+    },
+    {
+        "sample_index": 1145,
+        "question": "Would keelhauling be a fair punishment under the Eighth Amendment?",
+        "ranking": [
+            [
+                0,
+                " \n\nFirst, the Eighth Amendment protects against \"cruel and unusual\" punishment. So, we have to decide if keelhauling is cruel and unusual. \n\nSecond, if we decide that keelhauling is cruel and unusual, then we have to decide if it is a fair punishment under the Eighth Amendment. \n\nSo, let's start with the first question. Is keelhauling cruel and unusual? \n\nKeelhauling is a punishment that was used in the past, but is no longer used today. It involves dragging a person through the water behind a ship. This can",
+                0.12878595292568207
+            ]
+        ]
+    },
+    {
+        "sample_index": 1230,
+        "question": "If you were at an Apple store, would most of the computers be running Ubuntu?",
+        "ranking": [
+            [
+                4,
+                " \n\nFirst, Apple Stores sell Apple products. \nSecond, Ubuntu is not an Apple product. \n\nSo, the answer to your question is \"No, most of the computers at an Apple Store would not be running Ubuntu.\"",
+                0.2187097668647766
+            ]
+        ]
+    },
+    {
+        "sample_index": 1309,
+        "question": "Does the actress who played Elizabeth II speak fluent Arabic?",
+        "ranking": [
+            [
+                5,
+                " \n\nThe actress who played Elizabeth II in the film \"The King's Speech\" is Helena Bonham Carter.\n\nWe cannot say for certain whether Helena Bonham Carter speaks fluent Arabic, but we can infer that she is not fluent based on the fact that she played Elizabeth II in the film \"The King's Speech.\" In the film, Elizabeth II's husband, King George VI, stutters when he speaks. Helena Bonham Carter likely would not have been cast in the role if she could not convincingly portray someone who is not fluent in Arabic.",
+                0.13006103038787842
+            ]
+        ]
+    },
+    {
+        "sample_index": 1357,
+        "question": "Do Windows or Android smartphones run newer versions of Linux?",
+        "ranking": [
+            [
+                6,
+                " \nThere are 3 major branches of Linux: Debian, Red Hat, and SuSE. \nThere are also many, many, many variants and derivatives of each of these, but for the sake of argument, we'll just focus on the 3 majors. \n\nAs of this writing, the latest stable release of Debian is 9.0 Stretch. \nThe latest stable release of Red Hat is 7.4. \nThe latest stable release of SuSE is 42.3.\n\nNow, let's look at Android. \n\nThe latest stable release of Android is 8.0 Oreo. ",
+                0.138242706656456
+            ]
+        ]
+    },
+    {
+        "sample_index": 1363,
+        "question": "Was the British car, the Mini, the first car manufactured?",
+        "ranking": [
+            [
+                5,
+                " \n\nThe first car was most likely not manufactured in Britain. \nThe first car was most likely not the Mini. \n\nThere is no definitive answer to this question, as there is no clear consensus on what counts as the \"first car.\"",
+                0.14547958970069885
+            ]
+        ]
+    },
+    {
+        "sample_index": 1489,
+        "question": "Will electric car struggle to finish Daytona 500?",
+        "ranking": [
+            [
+                4,
+                " \n\nFirst, Daytona 500 is a 500-mile (800 km) race, so an electric car would need a battery with enough capacity to last that long. Second, electric cars typically have slower acceleration than gas cars, so the car might not be able to keep up with the competition. Third, electric cars generate a lot of heat, so the car might overheat during the race.\n\nOverall, it is possible that an electric car could finish the Daytona 500, but it would be a challenge.",
+                0.1165950670838356
+            ]
+        ]
+    },
+    {
+        "sample_index": 1494,
+        "question": "Have Jamie Lee Curtis been the subject of fake news?",
+        "ranking": [
+            [
+                6,
+                " \n\nFirst, let's consider what \"fake news\" is. Fake news is generally considered to be false or misleading information that is spread deliberately in order to cause harm or damage. \n\nNow, let's think about whether Jamie Lee Curtis has been the subject of any false or misleading information that has been deliberately spread in order to cause harm or damage. \n\nOne example that comes to mind is the false rumor that Jamie Lee Curtis is a hermaphrodite. This rumor was spread deliberately in order to harm or damage Jamie Lee Curtis's reputation. However, it is not clear how much harm or damage this",
+                0.1262536495923996
+            ]
+        ]
+    },
+    {
+        "sample_index": 1535,
+        "question": "Could Christopher Nolan's movies finance Cyprus's entire GDP?",
+        "ranking": [
+            [
+                2,
+                " The GDP of Cyprus in 2013 was about $23.7 billion. The total worldwide gross of all of Nolan's movies (as of July 2017) is about $4.2 billion. So Nolan's movies could finance about 18% of Cyprus's GDP.",
+                0.1422838568687439
+            ],
+            [
+                1,
+                " \n\nAccording to the World Bank, in 2012 Cyprus's GDP was about $23.8 billion. \nIn 2012, Christopher Nolan's movie \"The Dark Knight Rises\" grossed about $1 billion. \n\nSo if we took all of the money that \"The Dark Knight Rises\" made and put it into the Cypriot economy, it would only make up for about 4.2% of the country's GDP. In order to finance the entire GDP of Cyprus, Nolan would need to produce 23 more movies that made at least $1 billion each.",
+                0.13406813144683838
+            ],
+            [
+                7,
+                " \n\nNolan's movies have certainly made a lot of money. In fact, his movies have made a total of $4.2 billion at the box office. \n\nHowever, we need to remember that a movie's box office revenues are not the same as profit. A movie's production budget, marketing costs, and distribution fees all need to be taken into account before we can calculate profit. \n\nAssuming that Nolan's movies have had an average production budget of $100 million and an average marketing budget of $50 million, we can estimate that his movies have made a total profit of $2.5 billion",
+                0.11671309918165207
+            ],
+            [
+                5,
+                " The GDP of Cyprus is about $23 billion. The movies of Christopher Nolan have grossed about $4.2 billion. So, Nolan's movies would have to finance about 23/4.2 = 5.5 times the Cyprus GDP, or about $128 billion.",
+                0.1355261355638504
+            ]
+        ]
+    },
+    {
+        "sample_index": 1572,
+        "question": "Would Lee Sedol understand the complexities of the Sicilian Defence?",
+        "ranking": [
+            [
+                4,
+                "\n\n1. The first thing to do is to check what is the most popular move in the Sicilian Defence.\n\n2. Then we need to find out what are the main ideas and principles behind the Sicilian Defence.\n\n3. After that, we can try to see if Lee Sedol knows any specific lines or plans in the Sicilian Defence.\n\n4. Finally, we can check if Lee Sedol has any deep understanding of the Sicilian Defence.",
+                0.1308794468641281
+            ]
+        ]
+    },
+    {
+        "sample_index": 1711,
+        "question": "Does a Generation Y member satisfy NYPD police officer age requirement?",
+        "ranking": [
+            [
+                5,
+                " \n\nA \"Generation Y member\" is someone born between 1981 and 1996. \nThe NYPD police officer age requirement is 21 years old. \n\nSo, a Generation Y member satisfies the NYPD police officer age requirement if they are 21 years old or older.",
+                0.2276708483695984
+            ],
+            [
+                6,
+                " \n\nA \"Generation Y member\" is someone born between 1981 and 1996. \nThe \"age requirement\" for NYPD police officers is 21 years old. \n\nTherefore, a Generation Y member would satisfy the age requirement for NYPD police officers.",
+                0.22545373439788818
+            ],
+            [
+                3,
+                " \n\nFirst, what is the age requirement to become an NYPD police officer? \nThe minimum age to join the NYPD is 21. \n\nNext, when was Generation Y born? \nThe dates for Generation Y (aka Millennials) are typically given as 1980-2000. \n\nFinally, does 21 fall within 1980-2000? \nYes, 21 is greater than 1980 and less than 2000. \n\nTherefore, a Generation Y member does satisfy NYPD police officer age requirement.",
+                0.1367928832769394
+            ],
+            [
+                0,
+                " \n\nA \"Generation Y member\" is someone born between 1981 and 1996. \nThe NYPD requires that applicants be at least 21 years of age. \n\nTherefore, a Generation Y member would satisfy the NYPD police officer age requirement.",
+                0.22589004039764404
+            ]
+        ]
+    },
+    {
+        "sample_index": 1788,
+        "question": "Was Alaska part of the Northern Army during the Civil War?",
+        "ranking": [
+            [
+                4,
+                " \n\nWas Alaska part of the United States in 1861 when the Civil War began? No, it was not. \nWas Alaska part of the Union during the Civil War? No, it was not. \nWas Alaska part of the Northern Army during the Civil War? No, it was not. \n\n",
+                0.249123215675354
+            ],
+            [
+                2,
+                "  The Civil War was fought by the Union Army (Northern) and the Confederate Army (Southern).  Alaska was not a state during the Civil War, so it was not represented in either army.  It was part of the Russian Empire at the time.",
+                0.16460363566875458
+            ],
+            [
+                7,
+                " \n\nFirst, let's see if Alaska was a state during the Civil War. Alaska wasn't admitted as a state until January 3, 1959, so the answer is no. \n\nSecond, let's see if Alaska was a territory during the Civil War. The United States purchased Alaska from Russia on October 18, 1867, so the answer is no. \n\nLastly, let's see if Alaska was part of any other country during the Civil War. Alaska was part of Russia from 1741 until the United States purchased it in 1867, so the answer is no.",
+                0.13545668125152588
+            ],
+            [
+                5,
+                " \n\nThe first step is to understand the question. In this case, the question is asking if Alaska was part of the Northern Army during the Civil War. \n\nThe next step is to gather information. In this case, you would need to research whether or not Alaska was part of the Northern Army during the Civil War. \n\nFrom what I can find, it appears that Alaska was not part of the Northern Army during the Civil War.",
+                0.12648248672485352
+            ],
+            [
+                0,
+                " \n\nFirst, let's check if Alaska was even a state during the Civil War. According to this website, Alaska became a state on January 3, 1959. The Civil War ended on April 9, 1865. So, no, Alaska was not a state during the Civil War. \n\nNow, let's think about whether or not Alaska was part of the United States during the Civil War. Alaska was purchased by the United States from Russia on March 30, 1867. The Civil War ended on April 9, 1865. So, no, Alaska was not part of the United States during the Civil War. \n\n",
+                0.12115443497896194
+            ]
+        ]
+    },
+    {
+        "sample_index": 1819,
+        "question": "Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere?",
+        "ranking": [
+            [
+                6,
+                " \n\nThe winter solstice is the day with the least amount of sunlight in the year. \nThe Earth's tilt is what causes the seasons. \nThe Earth's tilt is 23.5 degrees. \n\nNow, let's think about what this means for the winter solstice in the Northern and Southern Hemispheres. \n\nThe winter solstice in the Northern Hemisphere is in December. This is because the Earth's tilt is pointing away from the sun. The winter solstice in the Southern Hemisphere is in June. This is because the Earth's tilt is pointing towards the sun. \n\nSo",
+                0.18786285817623138
+            ]
+        ]
+    },
+    {
+        "sample_index": 1827,
+        "question": "Can an adult male stand on top Donatello's bronze David and touch the Sistine Chapel ceiling?",
+        "ranking": [
+            [
+                2,
+                " \nThe first thing to note is that the Sistine Chapel is much taller than Donatello's David. The Sistine Chapel is about 14 meters high, while Donatello's David is only about 5 meters high. So the answer to your question is \"No, an adult male cannot stand on top of Donatello's David and touch the Sistine Chapel ceiling.\"",
+                0.21409673988819122
+            ]
+        ]
+    },
+    {
+        "sample_index": 1888,
+        "question": "Could an NBA game be completed within the span of the Six-Day War?",
+        "ranking": [
+            [
+                0,
+                " The Six-Day War began on June 5, 1967. An NBA game is 48 minutes long, divided into four 12-minute quarters. So, in order to answer this question, we need to know how long each quarter of an NBA game lasts. \n\nWe looked it up, and according to this source, each quarter of an NBA game lasts 12 minutes. So, in answer to your question, yes, an NBA game could be completed within the span of the Six-Day War.",
+                0.13833072781562805
+            ]
+        ]
+    },
+    {
+        "sample_index": 1900,
+        "question": "Would WWF be angrier if you killed koala instead of black swan?",
+        "ranking": [
+            [
+                6,
+                " If you killed a koala, the World Wildlife Foundation (WWF) would likely be very angry. If you killed a black swan, they would probably also be quite angry. So, in terms of which act would make the WWF angrier, it is probably safe to say that killing a koala would do so.",
+                0.16252832114696503
+            ]
+        ]
+    },
+    {
+        "sample_index": 1980,
+        "question": "Will Chuck Norris be a nonagenarian by time next leap year after 2020 happens?",
+        "ranking": [
+            [
+                0,
+                "\n\nFirst, we need to know how old Chuck Norris is right now. He was born on March 10th, 1940, so as of today (March 10th, 2020), he is 80 years old.\n\nNext, we need to know when the next leap year after 2020 will be. The next leap year will be 2024.\n\nFinally, we need to know whether Chuck Norris will be a nonagenarian by 2024. He will turn 84 in 2024, so he will not be a nonagenarian by that time.",
+                0.1196931004524231
+            ]
+        ]
+    },
+    {
+        "sample_index": 2062,
+        "question": "Is Christianity better for global warming than Satanism?",
+        "ranking": [
+            [
+                6,
+                "\n\n1. If global warming is caused by human activity, then anything that encourages humans to be more altruistic, environmentally conscious, and less consumerist would help mitigate global warming.\n2. Christianity, with its emphasis on altruism, helping the poor and needy, and stewardship of the Earth, would seem to fit this bill.\n3. Satanism, with its focus on the individual and the material world, would seem to be less likely to help mitigate global warming.\n\nSo, it seems that Christianity would be better for global warming than Satanism.",
+                0.16005803644657135
+            ]
+        ]
+    },
+    {
+        "sample_index": 2142,
+        "question": "Were plants crucial for The King of Rock'n Roll's snack with bananas?",
+        "ranking": [
+            [
+                2,
+                "\nFirst, we need to ask: what was The King of Rock'n Roll's snack?\nThe answer is: a banana.\nNow, we need to ask: what is a banana?\nA banana is a fruit that grows on a plant. So, in order to have a banana, you need a plant.\nTherefore, we can conclude that plants were crucial for The King of Rock'n Roll's snack with bananas.",
+                0.11919466406106949
+            ]
+        ]
+    },
+    {
+        "sample_index": 2221,
+        "question": "Is the Gujarati script the same category of script as Kanji?",
+        "ranking": [
+            [
+                0,
+                " \n\nThe Gujarati script is used to write the Gujarati language. \nThe Kanji script is used to write the Japanese language. \n\nSo the first answer is \"No\".\nThe Gujarati script is not the same category of script as Kanji.",
+                0.20265041291713715
+            ]
+        ]
+    },
+    {
+        "sample_index": 2240,
+        "question": "Are Leopard cats in less dire straits than Bornean Orangutan?",
+        "ranking": [
+            [
+                4,
+                " \n\nThe IUCN Red List of Threatened Species lists the Bornean Orangutan as Critically Endangered, meaning it faces an extremely high risk of extinction in the wild. The Leopard cat is listed as Vulnerable, meaning it is likely to become endangered unless the circumstances threatening its survival and reproduction improve. \n\nSo, the Bornean Orangutan is in more dire straits than the Leopard cat.",
+                0.1560373157262802
+            ],
+            [
+                0,
+                " \n\nThe Bornean Orangutan is a species of orangutan native to the island of Borneo. \nThe Leopard cat is a small wild cat native to much of Asia. \n\nThe IUCN Red List of Threatened Species lists the Bornean Orangutan as \"Critically Endangered\" and the Leopard cat as \"Least Concern\". \n\nSo we can say that the Bornean Orangutan is in more dire straits than the Leopard cat.",
+                0.1506534069776535
+            ]
+        ]
+    }
+]

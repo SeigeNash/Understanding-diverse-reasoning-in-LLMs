@@ -1,0 +1,1866 @@
+[
+    {
+        "sample_index": 2,
+        "prompt": "Mary is baking a cake . The recipe wants 8 cups of flour . She already put in 2 cups . How many cups does she need to add ?<pad> Mary needs to add 8 - 2 = 6 cups of flour. The answer is 6.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nMary is baking a cake. \nThe recipe wants 8 cups of flour. \nShe already put in 2 cups. \n\nSo, she needs to add 6 cups of flour.",
+                0.7536231884057971
+            ],
+            [
+                1,
+                " \n\nMary is baking a cake. \nThe recipe wants 8 cups of flour. \nShe already put in 2 cups. \n\nThat means she needs to add 6 more cups of flour to the recipe.",
+                0.7297297297297298
+            ],
+            [
+                6,
+                " \n\nMary is baking a cake.\nThe recipe wants 8 cups of flour.\nShe already put in 2 cups.\n\nThat means she needs to add 6 cups more of flour.",
+                0.732394366197183
+            ],
+            [
+                0,
+                " \n\nThe recipe wants 8 cups of flour.\nShe already put in 2 cups.\n\nThat means she needs to add 8 - 2 = 6 more cups of flour.",
+                0.6764705882352942
+            ],
+            [
+                5,
+                " Mary is baking a cake and the recipe calls for 8 cups of flour. She has already put in 2 cups of flour. So she needs to add 6 more cups of flour.",
+                0.6666666666666667
+            ],
+            [
+                4,
+                " \nThe recipe wants 8 cups of flour. She already put in 2 cups. \nThat means she needs to add 8-2=6 more cups of flour.",
+                0.6764705882352942
+            ]
+        ]
+    },
+    {
+        "sample_index": 7,
+        "prompt": "Joan went to 4 football games this year . She went to 9 games last year . How many football games did Joan go to in all ?<pad> Joan went to 4 + 9 = 13 football games in all. The answer is 13.</s>",
+        "ranking": [
+            [
+                0,
+                " Joan went to 4 football games this year and 9 games last year. In all Joan went to...4+9=13 football games.",
+                0.6875000000000001
+            ],
+            [
+                5,
+                " Joan went to 4 games this year. She went to 9 games last year. In order to find out how many games Joan went to in total, we need to find the sum of 4 games and 9 games. The sum of 4 games and 9 games is 13 games. Therefore, Joan went to 13 football games in all.",
+                0.56
+            ],
+            [
+                3,
+                " Joan went to 4 football games this year and 9 games last year. In all, Joan went to 4 + 9 = 13 football games.",
+                0.6875000000000001
+            ],
+            [
+                6,
+                " Joan went to 4 games this year, which means she went to 4 + 9 = 13 games in all.",
+                0.5423728813559323
+            ],
+            [
+                4,
+                " Joan went to 4 football games this year and 9 games last year. So she went to a total of 4 + 9 = 13 football games.",
+                0.5757575757575758
+            ],
+            [
+                2,
+                " Joan went to 4 games this year, and 9 games last year. So she went to a total of 4 + 9 = 13 games.",
+                0.53125
+            ]
+        ]
+    },
+    {
+        "sample_index": 8,
+        "prompt": "Tom has 9 yellow balloons Sara has 8 yellow balloons . How many yellow balloons do they have in total ?<pad> Tom has 9 yellow balloons and Sara has 8 yellow balloons so they have 9 + 8 = 17 yellow balloons. The answer is 17.</s>",
+        "ranking": [
+            [
+                2,
+                " Tom has 9 yellow balloons. Sara has 8 yellow balloons. How many yellow balloons does that make in total? That's 9 plus 8. So, they have 9 + 8 = 17 yellow balloons in total.",
+                0.6666666666666667
+            ],
+            [
+                3,
+                " Tom has 9 yellow balloons, and Sara has 8 yellow balloons. How many yellow balloons in total?\n\nThere are 9 + 8 = 17 yellow balloons in total.",
+                0.6000000000000001
+            ],
+            [
+                0,
+                " Tom has 9 yellow balloons and Sara has 8 yellow balloons. So we can say that they have a \"total\" of 9 + 8 = 17 yellow balloons.",
+                0.5428571428571428
+            ],
+            [
+                1,
+                " \nTom has 9 yellow balloons and Sara has 8 yellow balloons. So we can start by saying that they have 9 + 8 = 17 yellow balloons in total.",
+                0.5352112676056339
+            ],
+            [
+                5,
+                " \nTom has 9 yellow balloons and Sara has 8 yellow balloons. \nThat means they have a total of \n9 + 8 = \n17 yellow balloons.",
+                0.537313432835821
+            ],
+            [
+                4,
+                " Tom has 9 yellow balloons. If we add 8 to 9, we get 17. So, they have 17 yellow balloons in total.",
+                0.393939393939394
+            ]
+        ]
+    },
+    {
+        "sample_index": 10,
+        "prompt": "Sam had 9 dimes in his bank . His dad gave him 7 dimes . How many dimes does Sam have now ?<pad> Sam has 9 + 7 = 16 dimes. The answer is 16.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nSam had 9 dimes. \nHis dad gave him 7 dimes. \n\nHow many dimes does Sam have now? \n\nSam has 16 dimes.",
+                0.7924528301886793
+            ],
+            [
+                3,
+                " \n\nSam has 9 dimes in his bank. \nHis dad gave him 7 dimes. \n\nSo now, Sam has 9 + 7 = 16 dimes.",
+                0.7169811320754718
+            ],
+            [
+                4,
+                " \n\nSam had 9 dimes in his bank. \nHis dad gave him 7 dimes. \n\nThis means that Sam now has 9 + 7 = 16 dimes in total.",
+                0.7017543859649122
+            ],
+            [
+                0,
+                "\n\nFirst, Sam had 9 dimes in his bank.\n\nSecond, his dad gave him 7 dimes.\n\nThat means Sam now has 9 + 7 = 16 dimes in total.",
+                0.6896551724137931
+            ],
+            [
+                5,
+                " \n\nFirst, Sam had 9 dimes in his bank. \nSecond, his dad gave him 7 more dimes. \n\nThat means Sam now has a total of 16 dimes.",
+                0.6206896551724138
+            ],
+            [
+                6,
+                " \n\nSam had 9 dimes in his bank. \nThis means that, at the start, Sam had 9 dimes. \n\nThen, his dad gave him 7 dimes. \nThis means that Sam's dad gave him 7 dimes, on top of the 9 dimes Sam already had. \n\nSo now, Sam has 9 + 7 = 16 dimes in total.",
+                0.5176470588235295
+            ]
+        ]
+    },
+    {
+        "sample_index": 12,
+        "prompt": "A restaurant served 9 pizzas during lunch and 6 during dinner today . How many pizzas were served today ?<pad> The restaurant served 9 + 6 = 15 pizzas today. The answer is 15.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nA restaurant served 9 pizzas during lunch and 6 during dinner today.\nHow many pizzas were served today?\n\nThe answer is 15 pizzas.",
+                0.8
+            ],
+            [
+                7,
+                " \n\nA restaurant served 9 pizzas during lunch and 6 during dinner today .\n\nThis means that, in total, the restaurant served \n\n9 + 6 = 15 pizzas today.",
+                0.7017543859649122
+            ],
+            [
+                5,
+                " \n\nA restaurant served 9 pizzas during lunch and 6 during dinner today . \n\nHow many pizzas were served today ?\n\nA: 15 pizzas.",
+                0.7547169811320755
+            ],
+            [
+                4,
+                " \n\nStep 1: 9 pizzas were served during lunch.\nStep 2: 6 pizzas were served during dinner.\nStep 3: 9 + 6 = 15 pizzas were served today.",
+                0.45614035087719296
+            ],
+            [
+                3,
+                " \n\nThere were 9 pizzas served during lunch, and 6 during dinner. \n\nThat means that there were a total of 9 + 6 = 15 pizzas served today.",
+                0.4912280701754386
+            ],
+            [
+                0,
+                " \n\n9 pizzas were served during lunch, and 6 were served during dinner. \n\nThis means that, in total, 9 + 6 = 15 pizzas were served today.",
+                0.46428571428571425
+            ]
+        ]
+    },
+    {
+        "sample_index": 13,
+        "prompt": "There are 2 pencils in the drawer . Tim placed 3 pencils in the drawer . How many pencils are now there in total ?<pad> There are 2 + 3 = 5 pencils in total. The answer is 5.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThere are 2 pencils in the drawer.\nTim placed 3 pencils in the drawer.\n\nHow many pencils are now there in total?\n\nThere are now 5 pencils in total.",
+                0.8615384615384615
+            ],
+            [
+                3,
+                " \n\nThere are 2 pencils in the drawer.\nTim placed 3 pencils in the drawer.\n\nNow, there are 2 + 3 = 5 pencils in the drawer.",
+                0.7666666666666666
+            ],
+            [
+                5,
+                " \n\nThere are 2 pencils in the drawer.\nTim places 3 pencils in the drawer.\n\nNow, if we want to find out how many pencils are in the drawer in total, we need to add 2 and 3. So, the answer is 5.",
+                0.6666666666666666
+            ],
+            [
+                7,
+                " \n\nThere are 2 pencils in the drawer.\nTim placed 3 pencils in the drawer.\n\nNow, there are 2 + 3 = 5 pencils in the drawer.",
+                0.7666666666666666
+            ],
+            [
+                1,
+                " \n\nThere are 2 pencils in the drawer.\nTim placed 3 pencils in the drawer.\n\nNow, there are 2 + 3 = 5 pencils in the drawer in total.",
+                0.7419354838709676
+            ],
+            [
+                4,
+                " \n\nThere are 2 pencils in the drawer.\nTim placed 3 pencils in the drawer.\n\nNow, there are 5 pencils in the drawer in total.",
+                0.7000000000000001
+            ]
+        ]
+    },
+    {
+        "sample_index": 15,
+        "prompt": "Sandy grew 6 carrots . Sam grew 3 carrots . How many carrots did they grow in total ?<pad> Sandy grew 6 carrots. Sam grew 3 carrots. Sandy and Sam grew 6 + 3 = 9 carrots in total. The answer is 9.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nSandy grew 6 carrots. Sam grew 3 carrots. \n\nHow many carrots did they grow in total?\n\n6 + 3 = 9",
+                0.6440677966101694
+            ],
+            [
+                3,
+                " \n\nSandy grew 6 carrots. \nSam grew 3 carrots. \n\nHow many carrots did they grow in total? \n\nThe answer is 6 + 3 = 9 carrots.",
+                0.634920634920635
+            ],
+            [
+                1,
+                " \n\nFirst, we need to find out how many carrots Sandy grew. We know that Sandy grew 6 carrots, so Sandy grew 6 carrots in total. \n\nNext, we need to find out how many carrots Sam grew. We know that Sam grew 3 carrots, so Sam grew 3 carrots in total. \n\nLastly, we need to add up how many carrots they grew in total. We know that Sandy grew 6 carrots and Sam grew 3 carrots, so they grew 9 carrots in total.",
+                0.4426229508196721
+            ],
+            [
+                7,
+                " \n\nSandy grew 6 carrots. She grew 3 carrots. \n\nSo they grew 9 carrots in total.",
+                0.4727272727272728
+            ],
+            [
+                0,
+                " \n\nSandy grew 6 carrots. This is just a number, so we'll write it down like this: \n\n6\n\nSam grew 3 carrots. This is just a number, so we'll write it down like this: \n\n3\n\nTo find out how many carrots they grew in total, we need to add these numbers together. \n\n6 + 3 = 9\n\nThis means that they grew 9 carrots in total.",
+                0.4
+            ],
+            [
+                5,
+                " \n\nSandy grew 6 carrots. This is 6.\nSam grew 3 carrots. This is 3. \n\nNow we need to add 6 and 3 to find the total.\n\nThe total is 9 carrots.",
+                0.4225352112676056
+            ]
+        ]
+    },
+    {
+        "sample_index": 24,
+        "prompt": "Sara grew 4 onions , Sally grew 5 onions , and Fred grew 9 onions . How many onions did they grow in all ?<pad> Sara grew 4 onions, Sally grew 5 onions and Fred grew 9 onions for a total of 4 + 5 + 9 = 18 onions. The answer is 18.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nSara grew 4 onions. Sally grew 5 onions. Fred grew 9 onions. \n\nHow many onions did they grow in all? \n\n4 + 5 + 9 = 18 onions.",
+                0.6756756756756758
+            ],
+            [
+                7,
+                " \n\nFirst, we need to find out how many onions each person grew. We can do this by adding up the number of onions that each person grew: \n\nSara grew 4 onions \nSally grew 5 onions \nFred grew 9 onions \n\nThis gives us a total of 18 onions.",
+                0.4375
+            ],
+            [
+                1,
+                " First, how many onions did Sara grow? Next, how many onions did Sally grow? Finally, how many onions did Fred grow? When we add these three amounts together, we'll have the answer to the question. \n\nSara grew 4 onions. Sally grew 5 onions. Fred grew 9 onions. They grew 18 onions in all.",
+                0.42718446601941745
+            ],
+            [
+                5,
+                " \nSara grew 4 onions. Sally grew 5 onions. Fred grew 9 onions. They grew 4+5+9=18 onions in all.",
+                0.5428571428571428
+            ],
+            [
+                3,
+                " \n\nSara grew 4 onions. \nSally grew 5 onions. \nThat means, in total, they grew 9 onions. \nFred grew 9 onions. \nThat means, in total, they grew 18 onions. \n\nIn total, they grew 18 onions.",
+                0.4578313253012048
+            ],
+            [
+                0,
+                " \n\nHow many onions did Sara grow? 4 onions\n\nHow many onions did Sally grow? 5 onions\n\nHow many onions did Fred grow? 9 onions\n\nTo find the total number of onions that they grew in all, we need to add the number of onions that each person grew. \n\n4 + 5 + 9 = 18 onions",
+                0.3921568627450981
+            ]
+        ]
+    },
+    {
+        "sample_index": 27,
+        "prompt": "Jason grew 23 watermelons and 18 turnips . Nancy grew 28 watermelons . How many watermelons did they grow in total ?<pad> Jason grew 23 + 28 = 51 watermelons. The answer is 51.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nJason grew 23 watermelons. Nancy grew 28 watermelons. How many watermelons did they grow in total?\n\nThe answer is 51 watermelons.",
+                0.7692307692307692
+            ],
+            [
+                2,
+                " \n\nJason grew 23 watermelons. Nancy grew 28 watermelons. How many watermelons did they grow in total?\n\nThere are 23 watermelons that Jason grew, and 28 watermelons that Nancy grew. In total, they grew 23 + 28 = 51 watermelons.",
+                0.6470588235294118
+            ],
+            [
+                3,
+                " Jason grew 23 watermelons. Nancy grew 28 watermelons. How many watermelons did they grow in total? Well, 23 plus 28 equals 51. So, in total, they grew 51 watermelons.",
+                0.6666666666666667
+            ],
+            [
+                5,
+                " Jason grew 23 watermelons, and Nancy grew 28 watermelons. In total, they grew _____ watermelons.",
+                0.5777777777777778
+            ],
+            [
+                6,
+                " \n\nStep 1: How many watermelons did Jason grow?\n\nJason grew 23 watermelons.\n\nStep 2: How many watermelons did Nancy grow?\n\nNancy grew 28 watermelons.\n\nStep 3: How many watermelons did they grow in total?\n\nJason and Nancy grew 51 watermelons in total.",
+                0.547945205479452
+            ],
+            [
+                0,
+                " \n\nJason grew 23 watermelons and 18 turnips. \nNancy grew 28 watermelons. \n\nTo find the total number of watermelons that they grew, we need to add 23 and 28. \n\n23 + 28 = 51\n\nSo, in total, they grew 51 watermelons.",
+                0.5217391304347826
+            ]
+        ]
+    },
+    {
+        "sample_index": 59,
+        "prompt": "Sally had 13 peaches at her roadside fruit dish . She went to the orchard and picked peaches to stock up . There are now 55 peaches . how many did she pick ?<pad> She picked 55 - 13 = 42 peaches. The answer is 42.</s>",
+        "ranking": [
+            [
+                3,
+                " Sally had 13 peaches at her roadside fruit dish. She went to the orchard and picked peaches to stock up. There are now 55 peaches. she picked 42 peaches.",
+                0.8169014084507042
+            ],
+            [
+                6,
+                " Sally has 13 peaches. She goes to the orchard and picks peaches to stock up. She now has 55 peaches. So she picked 42 peaches at the orchard.",
+                0.6
+            ],
+            [
+                4,
+                " \nThere were 13 peaches at the roadside fruit dish. \nShe went to the orchard and picked peaches.\nShe picked up 42 peaches. \n(55-13=42)",
+                0.5671641791044777
+            ],
+            [
+                1,
+                " \n\nSally had 13 peaches at her roadside fruit dish. \nThat means she started with 13. \nShe went to the orchard and picked peaches to stock up. \nThat means she picked some more, so she added to her original number. \nThere are now 55 peaches. \nThat means the final number of peaches is 55. \n\nSo, we want to know how many she picked from the orchard. This is what we would call the \"increase\" or the \"change.\" The easiest way to figure out the change is to subtract the original number from",
+                0.46616541353383456
+            ],
+            [
+                2,
+                " \nWe know that Sally started with 13 peaches. \nThen, she went to the orchard and picked some more peaches. \nNow, she has a total of 55 peaches. \nTo find out how many peaches Sally picked from the orchard, we need to find the difference between the total number of peaches she has now and the number of peaches she started with. \n55 - 13 = \n42",
+                0.39622641509433965
+            ],
+            [
+                0,
+                " \n\nSally starts with 13 peaches.\nShe picks some more peaches and now has 55.\n\nThat means she picked 42 peaches.",
+                0.3870967741935483
+            ]
+        ]
+    },
+    {
+        "sample_index": 61,
+        "prompt": "There were 3 roses in the vase . Alyssa cut some roses from her flower garden . There are now 14 roses in the vase . How many roses did she cut ?<pad> Alyssa cut 14 - 3 = 11 roses. The answer is 11.</s>",
+        "ranking": [
+            [
+                0,
+                " \nThere were 3 roses in the vase. \nAlyssa cut some roses from her flower garden. \nThere are now 14 roses in the vase. \n\nAlyssa cut 11 roses from her flower garden.",
+                0.75
+            ],
+            [
+                4,
+                " \nThere were 3 roses in the vase. \nAlyssa cut some roses from her flower garden. \nThere are now 14 roses in the vase.\n\nAlyssa cut 11 roses from her flower garden.",
+                0.75
+            ],
+            [
+                5,
+                " \n\nThere are 3 roses in the vase.\nAlyssa cuts some roses.\nNow, there are 14 roses in the vase.\n\nAlyssa cut 11 roses.",
+                0.6562499999999999
+            ],
+            [
+                1,
+                " \n\nThere were 3 roses in the vase. \nAlyssa cut some roses from her flower garden. \nNow, there are 14 roses in the vase. \n\nSo Alyssa cut 11 roses from her flower garden.",
+                0.7123287671232876
+            ],
+            [
+                7,
+                " \n\nThere were 3 roses in the vase to start. \nAlyssa cuts some roses from her flower garden. \nNow, there are 14 roses in the vase. \n\nAlyssa must have cut 11 roses from her flower garden.",
+                0.6842105263157895
+            ],
+            [
+                2,
+                " \nThere were 3 roses in the vase. \nAlyssa cut some roses from her flower garden. \nThat means she took away some roses. \nThere are now 14 roses in the vase. \nThat means she added some roses. \nIf she took away some roses and added some roses, that means the total number of roses must have increased. \nThe total number of roses must have increased by 11.",
+                0.5233644859813085
+            ]
+        ]
+    },
+    {
+        "sample_index": 65,
+        "prompt": "There are 9 crayons in the drawer . Benny placed 3 crayons in the drawer . How many crayons are now there in total ?<pad> Benny added 3 crayons to the drawer so there are 9 + 3 = 12 crayons in total. The answer is 12.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThere are 9 crayons in the drawer. \nBenny placed 3 crayons in the drawer. \n\nHow many crayons are now in the drawer? \n\nThere are 9 + 3 = 12 crayons in the drawer.",
+                0.8
+            ],
+            [
+                4,
+                " \n\nThere are 9 crayons in the drawer.\nBenny places 3 crayons in the drawer.\nHow many crayons are now there in total?\n\nThere are 9 crayons in the drawer.\nBenny places 3 crayons in the drawer.\nThere are 12 crayons in the drawer.",
+                0.7586206896551724
+            ],
+            [
+                6,
+                " \n\nThere are 9 crayons in the drawer. \nBenny placed 3 crayons in the drawer. \n\nHow many crayons are now there in total? \n\nThere are now 12 crayons in total.",
+                0.7671232876712328
+            ],
+            [
+                7,
+                " \n\nThere are 9 crayons in the drawer. \nBenny placed 3 crayons in the drawer. \nHow many crayons are now there in total? \n\n9 + 3 = 12",
+                0.7246376811594203
+            ],
+            [
+                2,
+                " \n\nThere are 9 crayons in the drawer.\nBenny placed 3 crayons in the drawer.\n\nHow many crayons are now there in total?\n\nThere are now 12 crayons in the drawer.",
+                0.7567567567567568
+            ],
+            [
+                0,
+                " \n\nThere are 9 crayons in the drawer. \nBenny placed 3 crayons in the drawer. \n\nHow many crayons are now there in total? \n\nThere are 12 crayons in the drawer in total.",
+                0.7466666666666666
+            ]
+        ]
+    },
+    {
+        "sample_index": 67,
+        "prompt": "Tom found 7 seashells but 4 were broken . How many unbroken seashells did Tom find ?<pad> Tom found 7 - 4 = 3 unbroken seashells. The answer is 3.</s>",
+        "ranking": [
+            [
+                5,
+                " Tom found 7 seashells and 4 were broken. How many unbroken seashells did Tom find? \n\nTom found 3 unbroken seashells.",
+                0.7916666666666667
+            ],
+            [
+                6,
+                " \nTom found 7 seashells. \nSome of those were broken, so that means that not all of them were intact. \nSo, Tom found more than 4 unbroken seashells. \nThe answer is 3.",
+                0.5084745762711865
+            ],
+            [
+                1,
+                " Tom found 7 seashells. But 4 were broken. So that means he found 3 unbroken seashells.",
+                0.5454545454545454
+            ],
+            [
+                0,
+                " \nTom found 7 seashells. \n4 of those 7 were broken. \nTom found 3 unbroken seashells.",
+                0.5581395348837209
+            ],
+            [
+                2,
+                " \nTom found 7 seashells. \nSome of them were broken. \nHow many of them were unbroken? \n\n3",
+                0.45454545454545453
+            ],
+            [
+                7,
+                " \nTom found 7 seashells, and 4 of them were broken. \nThat means that Tom found 3 unbroken seashells.",
+                0.5217391304347826
+            ]
+        ]
+    },
+    {
+        "sample_index": 68,
+        "prompt": "Sally picked 7 lemons and Mary picked 9 lemons from the lemon tree . How many lemons were picked in total ?<pad> Sally picked 7 + 9 = 16 lemons. The answer is 16.</s>",
+        "ranking": [
+            [
+                0,
+                " Sally picked 7 lemons and Mary picked 9 lemons. So, how many lemons were picked in total? We can just add 7 and 9 and the answer would be 16.",
+                0.6774193548387096
+            ],
+            [
+                6,
+                " Sally picked 7 lemons. Now, Mary picked 9 lemons. So, 7 + 9 = 16 lemons were picked in total.",
+                0.52
+            ],
+            [
+                2,
+                " Sally picked 7 lemons and Mary picked 9 lemons. So we need to add 7 and 9.\n\n7 + 9 = 16 lemons",
+                0.49056603773584906
+            ],
+            [
+                7,
+                " Sally picked 7 lemons, and then Mary picked 9 more lemons. So we have 7 + 9 = 16 lemons in total.",
+                0.5000000000000001
+            ],
+            [
+                3,
+                " \n\nSally picked 7 lemons. So there are 7 lemons that have been picked. \nMary picked 9 lemons. So now there are 16 lemons that have been picked. \n\nTherefore, 16 lemons were picked in total.",
+                0.42424242424242425
+            ],
+            [
+                1,
+                " \n\nSally picked 7 lemons. So we have 7 lemons.\n Mary picked 9 lemons. So we have 7 + 9 = 16 lemons.\n\n\n\nSo 16 lemons were picked in total.",
+                0.47457627118644063
+            ]
+        ]
+    },
+    {
+        "sample_index": 71,
+        "prompt": "Fred had 7 dimes in his bank . His sister borrowed 3 of his dimes . How many dimes does Fred have now ?<pad> Fred has 7 - 3 = 4 dimes left. The answer is 4.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nFred had 7 dimes. \n\nHis sister borrowed 3 of his dimes. \n\nThat means that now Fred has 7-3=4 dimes left.",
+                0.6785714285714287
+            ],
+            [
+                2,
+                " \n\nFred had 7 dimes in his bank. \nHis sister borrowed 3 of his dimes. \nThat means she took 3 away from 7, so Fred has 4 dimes left.",
+                0.6129032258064516
+            ],
+            [
+                3,
+                " \n\nFred has 7 dimes in his bank. \nHis sister borrowed 3 of his dimes. \nThat means she has 3 and he has 4.",
+                0.5614035087719297
+            ],
+            [
+                1,
+                " \n\nFred has 7 dimes. \nHis sister borrows 3 of his dimes. \nThat leaves Fred with 4 dimes.",
+                0.5098039215686274
+            ],
+            [
+                4,
+                " \n\nFred had 7 dimes. \nHis sister borrowed 3 of his dimes. \nThat means she took 3 away from the 7 that he had. \nSo now he has 7 - 3 = 4 dimes.",
+                0.5230769230769231
+            ],
+            [
+                6,
+                " \n\nFirst, Fred has 7 dimes in his bank. \nSecond, his sister borrows 3 of his dimes. \nThat means that she has 3 dimes, and he has 4 dimes.",
+                0.5483870967741935
+            ]
+        ]
+    },
+    {
+        "sample_index": 80,
+        "prompt": "Dan has 64 violet marbles , he gave Mary 14 of the marbles . How many violet marbles does he now have ?<pad> Dan has 64 - 14 = 50 violet marbles. The answer is 50.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nDan has 64 violet marbles. \nHe gave Mary 14 of the marbles. \n\nSo, how many violet marbles does he now have? \n\nHe now has 50 violet marbles.",
+                0.7999999999999999
+            ],
+            [
+                1,
+                " \nDan has 64 violet marbles. \nHe gave Mary 14 of the marbles. \nThat means he now has 50 violet marbles.",
+                0.679245283018868
+            ],
+            [
+                3,
+                " \n\nDan has 64 violet marbles. \nHe gave Mary 14 violet marbles. \nHe now has 50 violet marbles.",
+                0.6799999999999999
+            ],
+            [
+                7,
+                " \n\nDan has 64 violet marbles.\nHe gave Mary 14 violet marbles.\nHe now has 50 violet marbles.",
+                0.6799999999999999
+            ],
+            [
+                4,
+                " \n\nDan has 64 violet marbles. \nHe gave 14 away. \nThat means he now has \n64 - 14 = 50 violet marbles.",
+                0.6153846153846154
+            ],
+            [
+                6,
+                " \n\nDan has 64 violet marbles. \nHe gave Mary 14 of the marbles. \n\nWe need to find the difference between 64 and 14. \n\n64-14=50 \n\nSo, Dan has 50 violet marbles.",
+                0.53125
+            ]
+        ]
+    },
+    {
+        "sample_index": 96,
+        "prompt": "Joan had 5 dimes in her bank . She spent 2 of her dimes . How many dimes does she have now ?<pad> Joan has 5 - 2 = 3 dimes left. The answer is 3.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nJoan had 5 dimes in her bank. \nShe spent 2 of her dimes. \n\nTherefore, Joan has 3 dimes left in her bank.",
+                0.6545454545454545
+            ],
+            [
+                5,
+                " \n\nJoan had 5 dimes in her bank. We'll write that as:\n\nJoan: 5\n\nShe spends 2 of her dimes. That means she now has 2 less dimes, so:\n\nJoan: 3",
+                0.5625
+            ],
+            [
+                3,
+                " Joan has 5 dimes in her bank. She spends 2 of her dimes. So far, she has spent 2 dimes and she has 3 dimes left.",
+                0.576271186440678
+            ],
+            [
+                2,
+                " \n\nJoan had 5 dimes in her bank.\nShe spent 2 of her dimes.\n\nThat means that she now has 3 dimes in her bank.",
+                0.631578947368421
+            ],
+            [
+                6,
+                " Joan had 5 dimes in her bank. This is our starting point or \"given\". Then she spent 2 of her dimes. So we need to take away 2 from 5, which means she would have 3 dimes left.",
+                0.5070422535211268
+            ],
+            [
+                7,
+                " Joan had 5 dimes. She spent 2 dimes. So now she has 3 dimes.",
+                0.5106382978723404
+            ]
+        ]
+    },
+    {
+        "sample_index": 97,
+        "prompt": "There are 2 orchid bushes currently in the park . Park workers will plant 4 orchid bushes today . How many orchid bushes will the park have when the workers are finished ?<pad> The park will have 2 + 4 = 6 orchid bushes when the workers are finished. The answer is 6.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThere are 2 orchid bushes currently in the park. \n\nPark workers will plant 4 orchid bushes today. \n\nThis means that when the workers are finished, the park will have a total of 6 orchid bushes.",
+                0.6823529411764706
+            ],
+            [
+                6,
+                " \nThere are 2 orchid bushes currently in the park. \nThis is what we know so far. \nPark workers will plant 4 orchid bushes today. \nThis is what we know so far. \nNow, we can solve the problem. \n2 + 4 = 6 \nThe park will have 6 orchid bushes when the workers are finished.",
+                0.5882352941176471
+            ],
+            [
+                3,
+                " \n\nThere are 2 orchid bushes currently in the park. \nPark workers will plant 4 orchid bushes today. \n\nThis means that when the workers are finished, there will be 6 orchid bushes in the park.",
+                0.6428571428571429
+            ],
+            [
+                1,
+                " \n\nFirst, there are 2 orchid bushes in the park. \nSecond, the park workers will plant 4 orchid bushes today. \nThis means that when the workers are finished, the park will have a total of 6 orchid bushes.",
+                0.6436781609195402
+            ],
+            [
+                4,
+                " \n\nThere are 2 orchid bushes currently in the park.\n\nPark workers will plant 4 orchid bushes today.\n\nThat means when the workers are finished, there will be a total of 6 orchid bushes in the park.",
+                0.627906976744186
+            ],
+            [
+                0,
+                " \nThere are 2 orchid bushes currently in the park. \nPark workers will plant 4 orchid bushes today. \nThis means that when they are finished, there will be a total of 6 orchid bushes in the park.",
+                0.5813953488372093
+            ]
+        ]
+    },
+    {
+        "sample_index": 101,
+        "prompt": "Mary had 7 nickels in her bank . Her dad gave her 5 nickels . How many nickels does Mary have now ?<pad> Mary has 7 + 5 = 12 nickels. The answer is 12.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nStep 1: Mary has 7 nickels in her bank. \nStep 2: Her dad gave her 5 nickels. \nStep 3: How many nickels does Mary have now? \n\nMary has 7 + 5 = 12 nickels in her bank now.",
+                0.7352941176470588
+            ],
+            [
+                6,
+                " \n\nMary had 7 nickels in her bank. \nHer dad gave her 5 nickels. \n\nSo now, Mary has 7 + 5 = 12 nickels in her bank.",
+                0.7142857142857143
+            ],
+            [
+                7,
+                " \n\nMary had 7 nickels in her bank. \nHer dad gave her 5 nickels. \nHow many nickels does Mary have now?\n\nSo Mary has 7 nickels in her bank and her dad gave her 5 more nickels. That means Mary has a total of 12 nickels now.",
+                0.6666666666666667
+            ],
+            [
+                3,
+                " \n\nMary had 7 nickels. \nHer dad gave her 5 nickels. \n\nThat means that Mary now has 7 + 5 = 12 nickels.",
+                0.6538461538461537
+            ],
+            [
+                2,
+                " \n\n1) Mary has 7 nickels in her bank. \n2) Her dad gave her 5 nickels. \n3) So now she has 7 + 5 = 12 nickels.",
+                0.6428571428571429
+            ],
+            [
+                4,
+                " \n\nFirst, Mary had 7 nickels in her bank. \nSecond, her dad gave her 5 more nickels. \nThat means that now she has a total of 7 + 5 = 12 nickels.",
+                0.6229508196721311
+            ]
+        ]
+    },
+    {
+        "sample_index": 102,
+        "prompt": "Keith grew 6 turnips . Alyssa grew 9 turnips . How many turnips did they grow in all ?<pad> Keith grew 6 + 9 = 15 turnips. The answer is 15.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nKeith grew 6 turnips. Alyssa grew 9 turnips. How many turnips did they grow in all?\n\nKeith and Alyssa grew a total of 15 turnips.",
+                0.7547169811320756
+            ],
+            [
+                7,
+                "  Keith grew 6 turnips. Alyssa grew 9 turnips. How many turnips did they grow in all?\n\nAdding 6 and 9 turnips together, we get 15 turnips in total.",
+                0.7142857142857143
+            ],
+            [
+                1,
+                " \n\nKeith grew 6 turnips. Alyssa grew 9 turnips. How many turnips did they grow in all?\n\nKeith grew 6 turnips and Alyssa grew 9 turnips, so they grew 6 + 9 = 15 turnips in all.",
+                0.7096774193548386
+            ],
+            [
+                3,
+                " \n\nKeith grew 6 turnips. Alyssa grew 9 turnips. How many turnips did they grow in all?\n\nKeith grew 6 turnips and Alyssa grew 9 turnips, so they grew a total of 15 turnips.",
+                0.721311475409836
+            ],
+            [
+                2,
+                " \n\nKeith grew 6 turnips. Alyssa grew 9 turnips. \nHow many turnips did they grow in all?\n\nThere are a total of 15 turnips.",
+                0.7058823529411765
+            ],
+            [
+                4,
+                " \n\nKeith grew 6 turnips. Alyssa grew 9 turnips. How many turnips did they grow in all?\n\nWe can see that Keith grew 6 turnips and Alyssa grew 9 turnips, so in total, they grew 15 turnips.",
+                0.6875000000000001
+            ]
+        ]
+    },
+    {
+        "sample_index": 103,
+        "prompt": "Mary has 9 yellow marbles Joan has 3 yellow marbles . How many yellow marbles do they have in all ?<pad> Mary has 9 yellow marbles and Joan has 3 so they have 9 + 3 = 12 yellow marbles. The answer is 12.</s>",
+        "ranking": [
+            [
+                7,
+                " \nStep 1: How many yellow marbles does Mary have?\nStep 2: How many yellow marbles does Joan have?\nStep 3: How many yellow marbles do they have in all?\n\nMary has 9 yellow marbles and Joan has 3 yellow marbles. In total, they have 12 yellow marbles.",
+                0.6292134831460674
+            ],
+            [
+                4,
+                " \n\nMary has 9 yellow marbles.\nJoan has 3 yellow marbles.\n\n9 + 3 = 12\n\nSo they have 12 yellow marbles in all.",
+                0.5714285714285714
+            ],
+            [
+                6,
+                " \nFirst, let's think about how to represent this information. We could represent this information in a table or a graph. \n\nTable: \n\nMary has 9 yellow marbles Joan has 3 yellow marbles . How many yellow marbles do they have in all ?\n\n9 + 3 = 12",
+                0.5116279069767442
+            ],
+            [
+                2,
+                "\n\nFirst, let's see how many yellow marbles each person has. Mary has 9 yellow marbles and Joan has 3 yellow marbles.\n\nNext, let's see how many yellow marbles there are in total. There are 9 + 3 = 12 yellow marbles in total.",
+                0.4705882352941176
+            ],
+            [
+                0,
+                " \n\nMary has 9 yellow marbles. \nJoan has 3 yellow marbles. \n\nTo find the total number of yellow marbles, we can add 9 and 3 to get 12.",
+                0.463768115942029
+            ],
+            [
+                1,
+                " \n\nHow many yellow marbles does Mary have? We know the answer is 9. \nHow many yellow marbles does Joan have? We know the answer is 3. \nTo find out how many yellow marbles they have in total, we need to add 9 + 3. The answer is 12.",
+                0.4269662921348315
+            ]
+        ]
+    },
+    {
+        "sample_index": 104,
+        "prompt": "Sally grew 6 carrots . Fred grew 4 carrots . How many carrots did they grow in all ?<pad> Sally grew 6 carrots. Fred grew 4 carrots. So, they grew 6 + 4 = 10 carrots in all. The answer is 10.</s>",
+        "ranking": [
+            [
+                5,
+                " If Sally grew 6 carrots and Fred grew 4 carrots, then how many carrots did they grow in all? Well, Sally grew 6 carrots and Fred grew 4 carrots, so they grew a total of 10 carrots.",
+                0.7631578947368421
+            ],
+            [
+                0,
+                " If Sally grew 6 carrots and Fred grew 4 carrots, how many carrots did they grow in all? They grew 10 carrots in all.",
+                0.6984126984126983
+            ],
+            [
+                6,
+                " Sally grew 6 carrots. Fred grew 4 carrots. If we want to find out how many carrots they grew in all, we need to add 6 and 4. The answer is 10.",
+                0.5633802816901409
+            ],
+            [
+                1,
+                " \n\nSally grew 6 carrots. \nThat means Sally has 6 carrots. \nFred grew 4 carrots. \nNow we just need to add how many carrots Sally has to how many carrots Fred has. \n6 + 4 = 10 \n\n So, Sally and Fred grew 10 carrots in all.",
+                0.5121951219512196
+            ],
+            [
+                7,
+                " Sally grew 6 carrots, Fred grew 4 carrots. So we have 6 + 4 carrots in total. That's 10 carrots!",
+                0.4745762711864407
+            ],
+            [
+                3,
+                " \n\nSally grew 6 carrots. \n\nWe can write this in numerical form like this: \n\n6 \n\nFred grew 4 carrots. \n\nWe can write this in numerical form like this: \n\n4 \n\nNow we want to know how many carrots they grew in all. This is just the total number of carrots that they grew, so we can find this by adding 6 and 4. \n\n6 + 4 = 10 \n\nSo they grew 10 carrots in all.",
+                0.43636363636363634
+            ]
+        ]
+    },
+    {
+        "sample_index": 106,
+        "prompt": "Fred has 5 baseball cards . Melanie bought 3 of Fred 's baseball cards . How many baseball cards does Fred have now ?<pad> Fred has 5 - 3 = 2 baseball cards. The answer is 2.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nFred has 5 baseball cards. \nMelanie bought 3 of Fred's baseball cards. \n\nThis means that Melanie took 3 baseball cards away from Fred. So now Fred has 2 baseball cards left.",
+                0.6666666666666667
+            ],
+            [
+                4,
+                " \n\nFred has 5 baseball cards. \nMelanie buys 3 of Fred's baseball cards. \nThat means Melanie has 3 baseball cards, and Fred has 2 baseball cards.",
+                0.6333333333333334
+            ],
+            [
+                3,
+                " \n\nFred has 5 baseball cards. \nMelanie buys 3 of Fred's baseball cards. \nThat means Melanie takes 3 baseball cards away from Fred. \n\nSo, Fred has 5 baseball cards. Melanie buys 3 of those, which leaves Fred with 2 baseball cards.",
+                0.5866666666666668
+            ],
+            [
+                5,
+                " \n\nFred has 5 baseball cards. \nMelanie buys 3 of Fred's baseball cards. \nThat means she takes them away from Fred, so he now has 2 baseball cards.",
+                0.5806451612903226
+            ],
+            [
+                0,
+                " \n\nFred has 5 baseball cards. \nMelanie buys 3 of Fred's baseball cards. \nThis means that Melanie has 3 baseball cards, and Fred has 2 baseball cards.",
+                0.6229508196721312
+            ],
+            [
+                1,
+                " \n\nFred started with 5 baseball cards.\nMelanie bought 3 of Fred's baseball cards. \nThat means that Melanie took 3 cards away from Fred. \n\n3 away from 5 leaves 2. \n\nThat means that Fred has 2 baseball cards now.",
+                0.5205479452054794
+            ]
+        ]
+    },
+    {
+        "sample_index": 107,
+        "prompt": "Mary had 8 potatoes in the garden . The rabbits ate 3 of the potatoes . How many potatoes does Mary now have ?<pad> Mary has 8 - 3 = 5 potatoes left. The answer is 5.</s>",
+        "ranking": [
+            [
+                6,
+                "\n\nMary starts with 8 potatoes.\n\nThe rabbits eat 3 of the potatoes.\n\nMary now has 8 - 3 = 5 potatoes.",
+                0.6037735849056604
+            ],
+            [
+                4,
+                " \n\nMary had 8 potatoes in the garden.\nThe rabbits ate 3 of the potatoes.\n\nThat means that before the rabbits ate any potatoes, Mary had 8. And after the rabbits ate 3 potatoes, Mary is left with 8-3, or 5, potatoes.",
+                0.5526315789473685
+            ],
+            [
+                1,
+                " \n\nThere are 8 potatoes in the garden. \nThe rabbits ate 3. \nThat leaves 8-3, or 5 potatoes.",
+                0.4999999999999999
+            ],
+            [
+                2,
+                " \nMary started with 8 potatoes.\nThe rabbits ate 3 of the potatoes. \nThis means that Mary now has 8-3, or 5 potatoes.",
+                0.5964912280701754
+            ],
+            [
+                0,
+                " \n\nFirst, we need to find out how many potatoes Mary had in the garden. We are told that Mary had 8 potatoes in the garden. \n\nNext, we need to find out how many potatoes the rabbits ate. We are told that the rabbits ate 3 of the potatoes. \n\nLastly, we need to find out how many potatoes Mary now has. We can do this by subtracting the number of potatoes that the rabbits ate from the total number of potatoes that Mary had in the garden. \n\nSo, Mary now has 8 - 3 = 5 potatoes.",
+                0.390625
+            ],
+            [
+                3,
+                " \n\nMary had 8 potatoes in the garden.\nThe rabbits ate 3 of the potatoes.\n\nThat means that, before the rabbits ate anything, Mary had 8 potatoes. And after the rabbits ate 3 of the potatoes, she was left with 5 potatoes.",
+                0.5333333333333332
+            ]
+        ]
+    },
+    {
+        "sample_index": 108,
+        "prompt": "There are 9 oak trees currently in the park . Park workers had to cut down 2 oak trees that were damaged . How many oak trees will the park have when the workers are finished ?<pad> The park workers cut down 2 oak trees so there will be 9 - 2 = 7 oak trees. The answer is 7.</s>",
+        "ranking": [
+            [
+                3,
+                " \nThere are 9 oak trees currently in the park. \nThis is our starting number, or our \"9.\"\n\nPark workers had to cut down 2 oak trees that were damaged. \nThis is our \"minus 2.\"\n\nHow many oak trees will the park have when the workers are finished?\nThis is our question. \n\nWe need to take 2 away from 9. So, the answer is 7.",
+                0.6611570247933884
+            ],
+            [
+                0,
+                " \n\nThere are 9 oak trees currently in the park.\n\nPark workers had to cut down 2 oak trees that were damaged.\n\nThat means that there are now 7 oak trees in the park.",
+                0.5777777777777777
+            ],
+            [
+                1,
+                " \n\nThere are 9 oak trees currently in the park. This is the starting number. \n\nPark workers had to cut down 2 oak trees that were damaged. This number is being taken away from the starting number. \n\nSo, the park will have 9 - 2 = 7 oak trees when the workers are finished.",
+                0.5740740740740741
+            ],
+            [
+                4,
+                " \nThere are 9 oak trees currently in the park. \nThis is our starting point or baseline. \nPark workers had to cut down 2 oak trees that were damaged. \nThis is our second piece of information. We are told that 2 oak trees were cut down. \nHow many oak trees will the park have when the workers are finished ?\nThis is what we are trying to find out. \n\n9 - 2 = 7\n\nThe park will have 7 oak trees when the workers are finished.",
+                0.5899280575539568
+            ],
+            [
+                2,
+                " \n\nThere are 9 oak trees currently in the park. \nThis means that we start with 9.\n\nPark workers had to cut down 2 oak trees that were damaged. \nThis means that we have to subtract 2.\n\n9 - 2 = \n\n7",
+                0.5416666666666666
+            ],
+            [
+                5,
+                " \nThere are 9 oak trees currently in the park. \nIf two trees are cut down, that means: \n9-2=\n\n7",
+                0.41558441558441556
+            ]
+        ]
+    },
+    {
+        "sample_index": 109,
+        "prompt": "Jessica had 8 quarters in her bank . Her sister borrowed 3 of her quarters . How many quarters does Jessica have now ?<pad> Jessica has 8 - 3 = 5 quarters left. The answer is 5.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nStep 1: Jessica had 8 quarters in her bank. \nStep 2: Her sister borrowed 3 of her quarters. \nStep 3: How many quarters does Jessica have now? \n\n Jessica would now have 5 quarters left.",
+                0.735294117647059
+            ],
+            [
+                2,
+                " \n\nStep 1: Jessica had 8 quarters in her bank. \nStep 2: Her sister borrowed 3 of her quarters. \nStep 3: So now Jessica has 8 - 3 = 5 quarters left.",
+                0.6984126984126984
+            ],
+            [
+                1,
+                "\n\n1. Jessica had 8 quarters in her bank.\n2. Her sister borrowed 3 of her quarters.\n3. How many quarters does Jessica have now?\n\nSo, if we take 3 away from 8, we get 5. So, Jessica has 5 quarters now.",
+                0.6666666666666666
+            ],
+            [
+                7,
+                " \n\nJessica originally had 8 quarters. \nHer sister borrowed 3 quarters from her. \nThat means that Jessica now has 8 - 3 = 5 quarters.",
+                0.5714285714285714
+            ],
+            [
+                6,
+                " \n\nRight now, Jessica has 8 quarters in her bank. \nHer sister borrows 3 of her quarters. \nThat leaves Jessica with 5 quarters.",
+                0.5714285714285714
+            ],
+            [
+                0,
+                " \n\nJessica has 8 quarters. \nHer sister borrows 3 quarters. \nThat leaves Jessica with 8 - 3 = 5 quarters.",
+                0.5098039215686274
+            ]
+        ]
+    },
+    {
+        "sample_index": 110,
+        "prompt": "A restaurant made 9 hamburgers to serve during lunch . Only 3 were actually served . How many hamburgers were over from lunch ?<pad> There were 9 - 3 = 6 hamburgers left over from lunch. The answer is 6.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThere were 9 hamburgers to serve during lunch. \n3 hamburgers were served. \n\n9 - 3 = 6 \n\n6 hamburgers were over from lunch.",
+                0.5517241379310345
+            ],
+            [
+                3,
+                " \nThere were 9 hamburgers made to serve during lunch. \nOut of those 9, only 3 were served. \nThat means that 6 were not served. \nTherefore, there were 6 hamburgers over from lunch.",
+                0.5217391304347827
+            ],
+            [
+                0,
+                " \nThere were 9 hamburgers made to serve during lunch. \nIf 3 were served, then that means that 6 hamburgers were not served. \nTherefore, the answer is 6 hamburgers were over from lunch.",
+                0.463768115942029
+            ],
+            [
+                1,
+                "\n\nThere were 9 hamburgers made.\n\n3 were served.\n\nThis means that 9 - 3 = 6 hamburgers were over from lunch.",
+                0.42857142857142855
+            ],
+            [
+                2,
+                " \nThere were 9 hamburgers made to serve during lunch. \n3 hamburgers were served. \nThat means that 9-3=6 hamburgers were not served.",
+                0.43333333333333335
+            ],
+            [
+                4,
+                " \nThere were 9 hamburgers made for lunch. \n3 were served, \nso that means that 6 were not served. \nTherefore, 6 hamburgers were leftover from lunch.",
+                0.3548387096774193
+            ]
+        ]
+    },
+    {
+        "sample_index": 111,
+        "prompt": "There are 7 crayons in the drawer . Mary took 3 crayons out of the drawer . How many crayons are there now ?<pad> Mary took 3 crayons out of the drawer so there are 7 - 3 = 4 crayons left. The answer is 4.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nThere are 7 crayons in the drawer. \nMary takes 3 crayons out of the drawer. \nHow many crayons are there now?\n\nThere are now 4 crayons in the drawer.",
+                0.6944444444444445
+            ],
+            [
+                7,
+                " \n\nThere are 7 crayons in the drawer.\nMary took 3 crayons out of the drawer.\nThat means that she took 3 away from 7, so the answer is 4.",
+                0.6111111111111112
+            ],
+            [
+                0,
+                "\n\nThere are 7 crayons in the drawer.\n\nMary took 3 crayons out of the drawer.\n\n\n\nThis means that there are now 4 crayons left in the drawer.",
+                0.6000000000000001
+            ],
+            [
+                4,
+                " \n\nThere are 7 crayons in the drawer\nMary took 3 crayons out of the drawer\n\nThat means there are now 4 crayons in the drawer.",
+                0.5882352941176471
+            ],
+            [
+                5,
+                " \n\nThere are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. \nThat means that she removed 3 from the 7, leaving 4.",
+                0.5507246376811594
+            ],
+            [
+                3,
+                " \n\nThere are 7 crayons in the drawer.\nMary took 3 crayons out of the drawer.\n\nThat means that there are now 4 crayons in the drawer.",
+                0.5797101449275363
+            ]
+        ]
+    },
+    {
+        "sample_index": 112,
+        "prompt": "Dan picked 9 limes and gave Sara 4 of the limes . How many limes does Dan have now ?<pad> Dan has 9 - 4 = 5 limes. The answer is 5.</s>",
+        "ranking": [
+            [
+                1,
+                " Dan has 9 limes. He gave Sara 4 limes. How many limes does he have now? He has 9-4=5 limes.",
+                0.6923076923076923
+            ],
+            [
+                3,
+                " Dan picked 9 limes. He gave Sara 4 limes. So Dan has 9-4=5 limes.",
+                0.608695652173913
+            ],
+            [
+                2,
+                " \n\nDan had 9 limes and gave 4 of them to Sara. \nThis means that, now, he has 9 - 4 = 5 limes.",
+                0.5098039215686274
+            ],
+            [
+                6,
+                " \n\nDan picked 9 limes. So he had 9 to start with. \nThen he gave Sara 4 of the limes. So he now has 9-4, or 5 limes left.",
+                0.5423728813559322
+            ],
+            [
+                7,
+                " \n\nFirst, Dan has 9 limes. \nThen, he gives Sara 4 of his limes. \nThat means he has 4 less limes than he did at first. \nSo now, Dan has 9-4, or 5, limes.",
+                0.46875
+            ],
+            [
+                0,
+                " \n\nDan picked 9 limes.\nHe gave Sara 4 limes. \nThat means he has 5 limes left.",
+                0.47826086956521735
+            ]
+        ]
+    },
+    {
+        "sample_index": 113,
+        "prompt": "Joan has 9 blue balloons but lost 2 of them . How many blue balloons does Joan have now ?<pad> Joan has 9 - 2 = 7 blue balloons. The answer is 7.</s>",
+        "ranking": [
+            [
+                5,
+                " Joan had 9 blue balloons. She lost 2 of them, so she has 9 - 2 = 7 blue balloons.",
+                0.5714285714285714
+            ],
+            [
+                4,
+                " \n\nJoan has 9 blue balloons. \nJoan loses 2 blue balloons. \nJoan has 7 blue balloons.",
+                0.5652173913043478
+            ],
+            [
+                7,
+                " Joan has 9 blue balloons. If she lost 2 of them, she would have 7 blue balloons remaining.",
+                0.5306122448979592
+            ],
+            [
+                2,
+                " \n\nJoan has 9 blue balloons. \nJoan loses 2 of them. \nJoan has 7 blue balloons now.",
+                0.5531914893617021
+            ],
+            [
+                1,
+                " \n\nJoan had 9 blue balloons.\nJoan lost 2 blue balloons.\n\nThat means Joan has 7 blue balloons now.",
+                0.5306122448979592
+            ],
+            [
+                0,
+                " Joan has 9 blue balloons. She loses 2 of them. So she has 7 blue balloons.",
+                0.5106382978723403
+            ]
+        ]
+    },
+    {
+        "sample_index": 179,
+        "prompt": "Darnel sprinted 0.875 lap and then took a break by jogging 0.75 lap . How much farther did Darnel sprint than jog ?<pad> Darnel sprinted 0.875 laps - 0.75 laps = 0.125 laps farther than jog. The answer is 0.125.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nDarnel sprinted 0.875 lap and then took a break by jogging 0.75 lap.\n0.875 - 0.75 = 0.125\nDarnel sprinted 0.125 lap more than he jogged.",
+                0.6486486486486486
+            ],
+            [
+                6,
+                " Darnel ran a total of 1.625 laps. Of those laps, 0.875 were sprints. So that means that 0.75 laps were jogs. We can find out how much farther Darnel sprinted than he jogged by subtracting the number of jogging laps from the number of sprinting laps. Therefore, Darnel sprinted 0.875 - 0.75 = 0.125 lap more than he jogged.",
+                0.4485981308411215
+            ],
+            [
+                0,
+                " \nDarnel sprinted 0.875 lap. This means that he sprinted for a certain amount of time, and then he took a break by jogging 0.75 lap. \nWe need to find out how much time Darnel spent sprinting, and then we need to compare this to the amount of time he spent jogging. \n",
+                0.41237113402061865
+            ],
+            [
+                7,
+                " Darnel ran a total of 1.625 laps. Of that total, 0.875 was sprinting and 0.75 was jogging. So we can say that Darnel sprinted 0.875 - 0.75 = 0.125 more laps than he jogged.",
+                0.43902439024390244
+            ],
+            [
+                3,
+                " \nDarnel ran a total of 1.625 laps. \nHowever, we don't know how many laps Darnel ran in total. \n",
+                0.15625
+            ]
+        ]
+    },
+    {
+        "sample_index": 188,
+        "prompt": "1 evening , a restaurant served a total of 0.2 loaf of wheat bread and 0.4 loaf of white bread . How many loaves were served in all ?<pad> The total number of loaves served is 0.2 + 0.4 = 0.6. The answer is 0.6.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThere were a total of 0.2 loaf of wheat bread and 0.4 loaf of white bread. \nWe need to find out how many loaves were served in all. \n0.2 + 0.4 = 0.6 \nThere were a total of 0.6 loaves served in all.",
+                0.6526315789473683
+            ],
+            [
+                7,
+                " \n\nFirst, we'll want to add the two types of bread together. This will give us the total number of loaves served. \n\n0.2 + 0.4 = 0.6\n\nTherefore, the restaurant served a total of 0.6 loaf of bread.",
+                0.38636363636363635
+            ],
+            [
+                4,
+                " \n\nThere were a total of 0.2 loaf of wheat bread and 0.4 loaf of white bread. \nWe need to find out how many loaves in total were served. \nThat is the same as finding out how many loaves of bread were served in all. \n\nThere were a total of 0.6 loaf of bread served in all.",
+                0.5046728971962616
+            ],
+            [
+                5,
+                " \n\nThere were a total of 0.2 + 0.4 loaves served. \n\nThis is the same as saying there were 0.6 loaves served.",
+                0.3661971830985915
+            ],
+            [
+                1,
+                " \n\nFirst, we need to realize that a loaf of bread is made up of smaller units, typically slices. \n\n0.2 loaf of wheat bread means that the restaurant served 2/10, or 1/5, of a loaf of wheat bread. In other words, they served 1/5 of the total number of slices in a loaf of wheat bread. \n\nSimilarly, 0.4 loaf of white bread means that the restaurant served 4/10, or 2/5, of a loaf of white bread. In other words, they served 2/5 of the total number of slices in a loaf",
+                0.3013698630136986
+            ],
+            [
+                6,
+                " \n\nFirst, we need to realize that a fraction like $\\frac{1}{5}$ can be thought of as $1$ out of $5$ parts, or $0.2$ out of $1$ part. \n\nThis is helpful, because it means we can add two fractions by adding the parts separately. For example, $\\frac{1}{5} + \\frac{2}{5} = \\frac{1}{5} + \\frac{1}{5} + \\frac{1}{5} = \\frac{3}{5}$. \n\nSimilarly, we can",
+                0.1206896551724138
+            ]
+        ]
+    },
+    {
+        "sample_index": 191,
+        "prompt": "Each day , the polar bear at Richmond 's zoo eats 0.2 bucket of trout and 0.4 bucket of salmon . How many buckets of fish does the polar bear eat daily ?<pad> The polar bear eats 0.4 + 0.2 = 0.6 buckets of fish daily. The answer is 0.6.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nThe polar bear at Richmond's zoo eats 0.2 buckets of trout and 0.4 buckets of salmon. \nThe polar bear at Richmond's zoo eats 0.2 + 0.4 = 0.6 buckets of fish each day.",
+                0.6593406593406593
+            ],
+            [
+                1,
+                " \n\nThe polar bear at Richmond's zoo eats 0.2 bucket of trout every day. \nThe polar bear also eats 0.4 bucket of salmon every day. \nSo, every day, the polar bear eats a total of 0.2 + 0.4 = 0.6 buckets of fish.",
+                0.5858585858585859
+            ],
+            [
+                3,
+                "\n\nThe polar bear at Richmond's zoo eats 0.2 buckets of trout and 0.4 buckets of salmon every day.\n\n0.2 buckets + 0.4 buckets = ?\n\n0.2 buckets + 0.4 buckets = 0.6 buckets\n\nTherefore, the polar bear at Richmond's zoo eats 0.6 buckets of fish every day.",
+                0.5714285714285713
+            ],
+            [
+                6,
+                " \n\nHow many buckets of fish does the polar bear eat daily?\nHow many buckets of trout does the polar bear eat daily?\nHow many buckets of salmon does the polar bear eat daily?\n\nWe can see that the polar bear eats 0.2 buckets of trout and 0.4 buckets of salmon every day. Therefore, we can conclude that the polar bear eats 0.6 buckets of fish every day.",
+                0.47154471544715454
+            ],
+            [
+                7,
+                " \n\nFirst, we need to know how many trout and salmon the polar bear eats in a day. \n\nThe polar bear eats 0.2 buckets of trout and 0.4 buckets of salmon. \n\nThis means that the polar bear eats 0.6 buckets of fish in a day.",
+                0.4999999999999999
+            ],
+            [
+                4,
+                " \n\nThe polar bear eats 0.2 buckets of trout. \nThe polar bear eats 0.4 buckets of salmon. \n\nThe polar bear eats a total of 0.6 buckets of fish.",
+                0.5542168674698795
+            ]
+        ]
+    },
+    {
+        "sample_index": 196,
+        "prompt": "Vince 's bus ride to school is 0.625 mile and Zachary 's bus ride is 0.5 mile . How much longer is Vince 's bus ride than Zachary 's ?<pad> Vince's bus ride is 0.625 miles long and Zachary's is 0.5 miles long so Vince's bus ride is 0.625 - 0.5 = 0.125 miles longer than Zachary's bus ride. The answer is 0.125.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nVince's bus ride is 0.625 miles. \nZachary's bus ride is 0.5 miles. \n\nTo find out how much longer Vince's bus ride is than Zachary's, we need to subtract Zachary's bus ride from Vince's bus ride. \n\n0.625 - 0.5 = \n\n0.125 \n\nVince's bus ride is 0.125 miles longer than Zachary's bus ride.",
+                0.7058823529411765
+            ],
+            [
+                2,
+                " \n\nVince's bus ride is 0.625 mile. \nZachary's bus ride is 0.5 mile. \n\nTo find out how much longer Vince's bus ride is than Zachary's, we need to find the difference between the two values. \n\n0.625 - 0.5 = 0.125 \n\nVince's bus ride is 0.125 mile longer than Zachary's bus ride.",
+                0.6616541353383458
+            ],
+            [
+                4,
+                " \n\nVince's bus ride to school is 0.625 mile.\nZachary's bus ride to school is 0.5 mile.\n\nTo figure out how much longer Vince's bus ride is than Zachary's, we need to figure out the difference in distance between the two bus rides. We can do this by subtracting Zachary's bus ride from Vince's bus ride. \n\n0.625 - 0.5 = \n\n0.125 \n\nSince there are 0.125 miles in the difference, Vince's bus ride is 0.125 miles longer than Zachary's.",
+                0.6134969325153374
+            ],
+            [
+                7,
+                " Since we want to find out how much longer Vince's bus ride is, we want to compare the two rides and find out the difference. \n\nVince's bus ride is 0.625 miles and Zachary's bus ride is 0.5 miles. \n0.625 - 0.5 = 0.125 \n\nSo, Vince's bus ride is 0.125 miles longer than Zachary's bus ride.",
+                0.5547445255474454
+            ],
+            [
+                0,
+                " \n\nWe are trying to find out how much longer Vince's bus ride is than Zachary's bus ride. \n\nWe can find this out by subtracting Zachary's bus ride from Vince's bus ride. \n\nThis will give us the answer in miles. \n\n0.625 - 0.5 = 0.125 \n\nSo Vince's bus ride is 0.125 miles longer than Zachary's bus ride.",
+                0.5109489051094891
+            ],
+            [
+                5,
+                " \n\nVince's bus ride to school is 0.625 mile. This is the same as 625/1000 miles, which can be simplified to 125/200 miles. \nZachary's bus ride is 0.5 mile. This is the same as 500/1000 miles, which can be simplified to 100/200 miles. \n\nNow that we have the distances in the same units, we can compare them. \n\n125/200 > 100/200 \n\nThis means that Vince's bus ride is longer than Zachary's bus ride.",
+                0.4129032258064516
+            ]
+        ]
+    },
+    {
+        "sample_index": 204,
+        "prompt": "Greg and Sharon own neighboring cornfields . Greg harvested 0.4 acre of corn on Monday and Sharon harvested 0.1 acre . How many more acres did Greg harvest than Sharon ?<pad> Greg harvested 0.4 - 0.1 = 0.3 acre more than Sharon. The answer is 0.3.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nGreg harvested 0.4 acre of corn on Monday.\nSharon harvested 0.1 acre.\n\n0.4 - 0.1 = 0.3\n\nGreg harvested 0.3 more acres of corn than Sharon.",
+                0.5822784810126582
+            ],
+            [
+                6,
+                " \n\nGreg harvested 0.4 acre of corn on Monday.\n\nSharon harvested 0.1 acre of corn on Monday.\n\nGreg harvested _____ more acres than Sharon.",
+                0.5205479452054794
+            ],
+            [
+                2,
+                " \n\nGreg harvested 0.4 acre of corn on Monday. \nThat means Sharon harvested 0.1 acre of corn on Monday. \n0.4 - 0.1 = 0.3\nThat means Greg harvested 0.3 more acres of corn than Sharon on Monday.",
+                0.5168539325842697
+            ],
+            [
+                4,
+                " We know that Greg harvested more corn than Sharon. \n0.4 - 0.1 = 0.3 \nSo Greg harvested 0.3 more acres than Sharon.",
+                0.3835616438356164
+            ]
+        ]
+    },
+    {
+        "sample_index": 281,
+        "prompt": "There are 41 crayons and 26 pencils in the drawer . Sam placed 12 crayons in the drawer . How many crayons are now there in total ?<pad> There are 41 + 12 = 53 crayons in total. The answer is 53.</s>",
+        "ranking": [
+            [
+                0,
+                " \nThere are 41 crayons in the drawer. \nSam placed 12 crayons in the drawer. \nHow many crayons are now there in total?\n\nThere are now 41 + 12 = 53 crayons in the drawer.",
+                0.8450704225352113
+            ],
+            [
+                7,
+                " \nThere are 41 crayons in the drawer. \nSam placed 12 crayons in the drawer. \nHow many crayons are now there in total?\n\nThere are now 41 + 12 = 53 crayons in the drawer.",
+                0.8450704225352113
+            ],
+            [
+                3,
+                " \nFirst, we know that there are 41 crayons in the drawer. Then, Sam placed 12 crayons in the drawer. So now, there are 41 + 12 = 53 crayons in the drawer.",
+                0.6666666666666667
+            ],
+            [
+                1,
+                " \nThere are 41 crayons in the drawer. \nSam places 12 crayons in the drawer. \nThis means that there are now 41 + 12 = 53 crayons in the drawer.",
+                0.6666666666666667
+            ],
+            [
+                6,
+                " \nThere are 41 crayons in the drawer. Sam placed 12 crayons in the drawer. \nHow many crayons are now there in total?\n\nThere are 41 crayons in the drawer. Sam placed 12 crayons in the drawer. \nHow many crayons are now there in total?\nThere are 41 + 12 = 53 crayons in the drawer in total.",
+                0.6382978723404256
+            ],
+            [
+                5,
+                " \nFirst, we'll figure out how many crayons are in the drawer after Sam places 12 crayons in. We know that there are 41 crayons in the drawer to start with, and Sam is adding 12 more. So, there are 41 + 12 = 53 crayons in the drawer in total.",
+                0.43181818181818177
+            ]
+        ]
+    },
+    {
+        "sample_index": 299,
+        "prompt": "There were a total of 8 football games this year , 4 are played at night . Keith missed 4 of the games . How many football games did Keith go to in total ?<pad> Keith went to 8 - 4 = 4 football games. The answer is 4.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThere were a total of 8 football games this year.\n Keith missed 4 of the games.\nHow many football games did Keith go to in total?\n\nKeith went to a total of 4 football games this year.",
+                0.7804878048780488
+            ],
+            [
+                2,
+                " \nThere were a total of 8 football games this year. \n4 of those were played at night. \nKeith missed 4 of the games. \nThat means Keith went to 4 of the games.",
+                0.6493506493506493
+            ],
+            [
+                1,
+                " \nThere were a total of 8 football games this year. Keith missed 4 of the games. \nKeith went to a total of 4 football games.",
+                0.6285714285714286
+            ],
+            [
+                0,
+                " \nThere were a total of 8 football games this year. Keith missed 4 of the games. This means that Keith went to 4 of the games.",
+                0.5915492957746479
+            ],
+            [
+                4,
+                " \nThere were a total of 8 football games this year. Keith missed 4 of those games. So if we take away the 4 games Keith missed from the total of 8, that leaves us with 4 games that Keith attended.",
+                0.49411764705882355
+            ],
+            [
+                3,
+                " \n\nThere were a total of 8 football games this year. Keith missed 4 of them. \n\nThat means Keith went to 4 of the 8 games.",
+                0.5428571428571428
+            ]
+        ]
+    },
+    {
+        "sample_index": 300,
+        "prompt": "There are 9 pencils and 4 rulers in the drawer . Sally took 4 pencils out of the drawer . How many pencils are there now ?<pad> There are 9 - 4 = 5 pencils left in the drawer. The answer is 5.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThere are 9 pencils and 4 rulers in the drawer. \nSally took 4 pencils out of the drawer. \nHow many pencils are there now?\n\nThere would now be 5 pencils in the drawer.",
+                0.821917808219178
+            ],
+            [
+                3,
+                " \n\nThere are 9 pencils and 4 rulers in the drawer.\nSally took 4 pencils out of the drawer.\nThere are 9-4=5 pencils in the drawer now.",
+                0.7941176470588236
+            ],
+            [
+                0,
+                " \nThere are 9 pencils and 4 rulers in the drawer . Sally took 4 pencils out of the drawer .\nThat means that there are now 9-4 = 5 pencils in the drawer.",
+                0.7605633802816901
+            ],
+            [
+                1,
+                " \n\nThere are 9 pencils and 4 rulers in the drawer.\nSally took 4 pencils out of the drawer. \nThat means there are now 4 less pencils in the drawer. \nSo, now there are 9-4, or 5, pencils in the drawer.",
+                0.7160493827160495
+            ],
+            [
+                2,
+                "\n\nThere are 9 pencils in the drawer. Sally takes 4 pencils out of the drawer. How many pencils are there now?\n\nThere are 9 pencils in the drawer. Sally takes 4 pencils out of the drawer. How many pencils are there now?\n\nThere are 5 pencils in the drawer.",
+                0.6516853932584269
+            ],
+            [
+                6,
+                " \n\nThere are 9 pencils and 4 rulers in the drawer. \nSally took 4 pencils out of the drawer. \nThat means there are now 4 less pencils in the drawer. \nSo, if we start with 9 pencils, and then take away 4, that would give us a total of 5 pencils.",
+                0.5777777777777778
+            ]
+        ]
+    },
+    {
+        "sample_index": 301,
+        "prompt": "Jason has 7 violet balloons and 4 red balloons . He lost 3 of the violet balloons . How many violet balloons does Jason have now ?<pad> Jason has 7 - 3 = 4 violet balloons. The answer is 4.</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nJason has 7 violet balloons and 4 red balloons.\nHe lost 3 of the violet balloons.\n\nThat means he now has 7 - 3 = 4 violet balloons.",
+                0.7301587301587302
+            ],
+            [
+                4,
+                " \n\nJason has 7 violet balloons and 4 red balloons.\nHe lost 3 of the violet balloons.\nThat means he now has 7 - 3 = 4 violet balloons.",
+                0.7301587301587302
+            ],
+            [
+                2,
+                " \n\nJason has 7 violet balloons and 4 red balloons.\nJason lost 3 of the violet balloons.\n\nThat means Jason has 4 violet balloons left.",
+                0.6557377049180328
+            ],
+            [
+                1,
+                " \n\nJason has 7 violet balloons and 4 red balloons. \nHe loses 3 violet balloons. \nThat means he has 7-3 = 4 violet balloons left.",
+                0.6229508196721311
+            ],
+            [
+                7,
+                " \n\nJason has 7 violet balloons.\nHe loses 3 violet balloons.\nHe now has 4 violet balloons.",
+                0.5283018867924528
+            ],
+            [
+                6,
+                " \n\nJason has 7 violet balloons. \nHe then loses 3 violet balloons. \nThat means he now has 7 - 3, or 4, violet balloons.",
+                0.5423728813559323
+            ]
+        ]
+    },
+    {
+        "sample_index": 302,
+        "prompt": "Dan had 7 potatoes and 4 cantelopes in the garden . The rabbits ate 4 of the potatoes . How many potatoes does Dan now have ?<pad> Dan had 7 potatoes and the rabbits ate 4 so he has 7 - 4 = 3 potatoes. The answer is 3.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nDan had 7 potatoes and 4 cantaloupes in the garden.\nThe rabbits ate 4 of the potatoes.\n\nSo now Dan has 7-4=3 potatoes.",
+                0.647887323943662
+            ],
+            [
+                0,
+                " \n\nDan had 7 potatoes and 4 cantaloupes in the garden. \nThe rabbits ate 4 of the potatoes. \n\nThis means that Dan started with 7 potatoes and the rabbits ate 4 of them, so Dan is left with 3 potatoes.",
+                0.6352941176470588
+            ],
+            [
+                1,
+                " \n\nDan had 7 potatoes and 4 cantaloupes in the garden. \nThe rabbits ate 4 of the potatoes. \n\nThis means that Dan started with 7 potatoes, and 4 were taken away. So Dan now has 3 potatoes.",
+                0.6097560975609756
+            ],
+            [
+                4,
+                " \n\nDan had 7 potatoes and 4 cantaloupes in the garden. \nThe rabbits ate 4 of the potatoes. \n\nThat means that Dan had 3 potatoes left.",
+                0.5633802816901409
+            ],
+            [
+                5,
+                " \n\nDan had 7 potatoes. \nThen, the rabbits ate 4 of the potatoes. \nSo, now Dan has 7 - 4 = 3 potatoes.",
+                0.5454545454545454
+            ],
+            [
+                6,
+                " \n\nDan had 7 potatoes and 4 cantaloupes in the garden.\nThe rabbits ate 4 of the potatoes.\n\nThis means that Dan had 3 potatoes left.",
+                0.5633802816901409
+            ]
+        ]
+    },
+    {
+        "sample_index": 303,
+        "prompt": "Sara had 4 quarters and 8 dimes in her bank . Her sister borrowed 4 dimes . How many dimes does Sara have now ?<pad> Sara has 4 quarters x $0.25 / quarter = $0.40 in quarters. Sara has 8 dimes - 4 dimes = 4 dimes left. The answer is 4.</s>",
+        "ranking": [
+            [
+                1,
+                " \nSara had 4 quarters and 8 dimes in her bank. \nHer sister borrowed 4 dimes. \nSo now she has 4 quarters and 4 dimes.",
+                0.5753424657534246
+            ],
+            [
+                6,
+                " \n\nSara had 4 quarters and 8 dimes in her bank. \nHer sister borrowed 4 dimes.\n\nThat means that her sister now has 4 dimes, and Sara has 4 quarters and 4 dimes.",
+                0.5679012345679012
+            ],
+            [
+                7,
+                "\n\nSara had 4 quarters and 8 dimes in her bank.\n\nHer sister borrowed 4 dimes.\n\nThis means that her sister now has 4 dimes, and Sara now has 4 quarters and 4 dimes.",
+                0.5609756097560976
+            ],
+            [
+                4,
+                " \n\nSara has 4 quarters and 8 dimes. \nHer sister borrowed 4 dimes. \nThat means that Sara gave her sister 4 dimes. \nThat means that Sara now has 4 quarters and 4 dimes.",
+                0.46913580246913583
+            ]
+        ]
+    },
+    {
+        "sample_index": 308,
+        "prompt": "Jessica grew 35 watermelons and 30 carrots , but the rabbits ate 27 watermelons . How many watermelons does Jessica have ?<pad> Jessica has 35 - 27 = 8 watermelons left. The answer is 8.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nStep 1: Jessica grew 35 watermelons and 30 carrots.\nStep 2: The rabbits ate 27 watermelons. \nStep 3: Jessica has _____ watermelons. \n\nThe answer is 8.",
+                0.6666666666666666
+            ],
+            [
+                7,
+                "\n\nJessica grew 35 watermelons.\n\nThe rabbits ate 27 watermelons.\n\nThat means that Jessica now has 8 watermelons.",
+                0.5306122448979592
+            ],
+            [
+                0,
+                " \n\nFirst, we are told that Jessica grew 35 watermelons and 30 carrots. \nSecond, we are told that the rabbits ate 27 watermelons. \n\nThis means that Jessica grew 35 watermelons and the rabbits ate 27 of them, so she is left with 8 watermelons.",
+                0.48
+            ],
+            [
+                3,
+                " \n\nStep 1: Jessica grew 35 watermelons and 30 carrots. This is our starting point.\n\nStep 2: But the rabbits ate 27 watermelons. This means that we have to subtract 27 from 35.\n\nStep 3: So, Jessica has 8 watermelons.",
+                0.5070422535211268
+            ],
+            [
+                1,
+                "\n\nFirst, we need to figure out how many watermelons the rabbits ate. We know that Jessica grew 35 watermelons and that the rabbits ate 27 of them, so:\n\n35 - 27 = 8\n\nThat means that Jessica has 8 watermelons left.",
+                0.39436619718309857
+            ],
+            [
+                4,
+                " \n\nWe are told that Jessica grew a total of 35 watermelons and 30 carrots. \nFrom this, we can infer that Jessica's total harvest was 65 vegetables. \nHowever, we are also told that the rabbits ate 27 of her watermelons. \nThis means that Jessica is left with 8 watermelons.",
+                0.3703703703703704
+            ]
+        ]
+    },
+    {
+        "sample_index": 310,
+        "prompt": "Joan has 47 green and 48 red marbles . Fred took 24 of Joan 's green marbles . How many green marbles does Joan now have ?<pad> Joan has 47 green marbles - 24 green marbles = 23 green marbles. The answer is 23.</s>",
+        "ranking": [
+            [
+                5,
+                " Joan has 47 green and 48 red marbles. Fred took 24 of Joan's green marbles. So Joan has 47-24=23 green marbles now.",
+                0.6969696969696971
+            ],
+            [
+                2,
+                " \n\nFirst, Joan has 47 green marbles. \nThen, Fred took away 24 of Joan's green marbles. \nNow, Joan has 47 - 24 = 23 green marbles.",
+                0.6461538461538462
+            ],
+            [
+                1,
+                " Joan has 47 green marbles and 48 red marbles. Fred took 24 of Joan's green marbles. That means he took 24 away from 47. So Joan now has 47-24 = 23 green marbles.",
+                0.64
+            ],
+            [
+                4,
+                " Joan has 47 green and 48 red marbles. We know that 24 of Joan's green marbles were taken by Fred. So, Joan now has 47-24=23 green marbles.",
+                0.6197183098591549
+            ],
+            [
+                7,
+                " \n\nJoan has 47 green marbles. \nFred took 24 of Joan's green marbles. \nThat means Joan is left with 47 - 24 = 23 green marbles.",
+                0.5846153846153846
+            ],
+            [
+                6,
+                " Joan has 47 green marbles. Fred takes away 24 of them. So Joan now has 23 green marbles.",
+                0.4745762711864407
+            ]
+        ]
+    },
+    {
+        "sample_index": 311,
+        "prompt": "There are 42 walnut trees and 12 orange trees currently in the park . Park workers had to cut down 13 walnut trees that were damaged . How many walnut trees will be in the park when the workers are finished ?<pad> Workers cut down 13 walnut trees that were damaged so there will be 42 - 13 = 29 walnut trees left in the park. The answer is 29.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThere are 42 walnut trees and 12 orange trees currently in the park.\n\nThat means that there are a total of 54 trees in the park. \n\nPark workers had to cut down 13 walnut trees that were damaged. \n\nThat means that now there are only 29 walnut trees in the park. \n\nTherefore, when the workers are finished, there will be 29 walnut trees and 12 orange trees in the park.",
+                0.6423357664233577
+            ],
+            [
+                3,
+                " \nWe know there are 42 walnut trees and 12 orange trees in the park. We also know that 13 walnut trees are being cut down. \nWe want to find out how many walnut trees will be in the park when the workers are finished. \nThe number of walnut trees in the park after the workers are finished will be 42 - 13, which equals 29.",
+                0.549618320610687
+            ],
+            [
+                5,
+                " \n\nThere are 42 walnut trees and 12 orange trees currently in the park.\n\nWe know that 42 walnut trees minus 13 walnut trees equals 29 walnut trees. \n\nTherefore, when the workers are finished, there will be 29 walnut trees in the park.",
+                0.5871559633027523
+            ],
+            [
+                7,
+                " \nThere are 42 walnut trees and 12 orange trees in the park. \n13 walnut trees are damaged, so we have to cut them down. \n42-13=29\nSo, there will be 29 walnut trees and 12 orange trees in the park when the workers are finished.",
+                0.5309734513274337
+            ],
+            [
+                0,
+                " \n\nThere are 42 walnut trees and 12 orange trees currently in the park. \n13 walnut trees were damaged and had to be cut down. \n\nThis means that the number of walnut trees in the park will be reduced by 13. \n\nTherefore, the number of walnut trees in the park when the workers are finished will be 42 - 13 = 29.",
+                0.5555555555555555
+            ],
+            [
+                6,
+                " \n\nThere are 42 walnut trees and 12 orange trees currently in the park. \n13 walnut trees were cut down, so that means there are now 29 walnut trees in the park.",
+                0.5510204081632654
+            ]
+        ]
+    },
+    {
+        "sample_index": 328,
+        "prompt": "After paying 6 dollars for the pie , Mary has 52 dollars , her friend has 43 dollars . How much money did she have before buying the pie ?<pad> Mary has 52 + 43 = 67 dollars. Before buying the pie, Mary had 67 - 6 = 58 dollars. The answer is 58.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\n1) We know that Mary has 52 dollars now, and her friend has 43 dollars. \n2) We also know that Mary spent 6 dollars on the pie. \n3) Therefore, we can conclude that before Mary spent any money on the pie, she must have had 58 dollars (52 + 6 = 58).",
+                0.3673469387755102
+            ]
+        ]
+    },
+    {
+        "sample_index": 330,
+        "prompt": "Mary is baking a cake . The recipe calls for 7 cups of flour and 3 cups of sugar . She already put in 2 cups of flour . How many cups of flour does she need to add ?<pad> Mary needs to add 7 - 2 = 5 cups of flour. The answer is 5.</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nMary is baking a cake.\nThe recipe calls for 7 cups of flour and 3 cups of sugar.\n\nWe know that she already put in 2 cups of flour, so she needs to add 5 more cups of flour to equal the 7 cups that the recipe calls for.",
+                0.6930693069306932
+            ],
+            [
+                3,
+                " \n\nThe recipe calls for 7 cups of flour and 3 cups of sugar. \nShe already put in 2 cups of flour. \n\nThat means she needs to add:\n\n7-2=5 more cups of flour\n3 cups of sugar",
+                0.6888888888888889
+            ],
+            [
+                0,
+                " \nMary is baking a cake and the recipe calls for 7 cups of flour. \nShe has already put in 2 cups of flour. \nThat means she needs to add 5 cups of flour.",
+                0.6823529411764707
+            ],
+            [
+                6,
+                " The recipe calls for 7 cups of flour and 3 cups of sugar. She already put in 2 cups of flour. So, that means she needs to add 5 cups of flour to the recipe.",
+                0.689655172413793
+            ],
+            [
+                7,
+                " The recipe calls for 7 cups of flour. Mary has already put in 2 cups of flour. So Mary needs to add 7 - 2 = 5 cups of flour.",
+                0.625
+            ],
+            [
+                2,
+                " \n\nThe recipe calls for 7 cups of flour. \nShe already put in 2 cups of flour. \nThat means she needs to add 5 cups of flour.",
+                0.6153846153846155
+            ]
+        ]
+    },
+    {
+        "sample_index": 336,
+        "prompt": "There are 6 pencils and 7 rulers in the drawer . Benny placed 3 pencils in the drawer . How many pencils are now there in total ?<pad> There are 6 + 3 = 9 pencils in total. The answer is 9.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThere are 6 pencils and 7 rulers in the drawer.\nBenny placed 3 pencils in the drawer.\n\nNow, there are 9 pencils and 7 rulers in the drawer.",
+                0.7164179104477612
+            ],
+            [
+                6,
+                " \n\nThere are 6 pencils and 7 rulers in the drawer.\nBenny placed 3 pencils in the drawer.\n\nTherefore, there are now 9 pencils in total in the drawer.",
+                0.7164179104477612
+            ],
+            [
+                3,
+                " \n\nThere are 6 pencils and 7 rulers in the drawer. \nBenny placed 3 pencils in the drawer. \n\nThat means there are now 9 pencils in the drawer.",
+                0.6969696969696971
+            ],
+            [
+                5,
+                " \n\nThere are 6 pencils and 7 rulers in the drawer.\nBenny placed 3 pencils in the drawer.\n\nNow, there are 9 pencils and 7 rulers in the drawer.",
+                0.7164179104477612
+            ],
+            [
+                4,
+                " \n\nBenny placed 3 pencils in the drawer. \nThat means he took 3 pencils out of wherever they were, and put them in the drawer. \n\nBefore he did that, there were 6 pencils and 7 rulers. \nThat means there were a total of 13 things in the drawer. \n\nNow, after he put the 3 pencils in the drawer, there are a total of 16 things in the drawer. \nThat means there are 9 pencils and 7 rulers in the drawer.",
+                0.3728813559322034
+            ]
+        ]
+    },
+    {
+        "sample_index": 349,
+        "prompt": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?<pad> There are 7 + 6 = 13 crayons in total. There are 13 + 4 = 17 crayons in total. The answer is 17.</s>",
+        "ranking": [
+            [
+                3,
+                " \nFirst, we have 7 crayons in the drawer and 6 crayons on the desk. \nThen, Sam places 4 crayons and 8 scissors on the desk. \nThis means that we have 4 + 6 = 10 crayons on the desk. \nTherefore, we have a total of 7 + 10 = 17 crayons.",
+                0.52
+            ],
+            [
+                0,
+                " \nThere are 7 crayons in the drawer. Sam took 4 out and placed them on the desk. So now there are 3 in the drawer. \nOn the desk, there are 6 crayons and 8 scissors. So in total, on the desk, there are 14 things. \n3 (in the drawer) + 14 (on the desk) = 17\n",
+                0.5046728971962616
+            ]
+        ]
+    },
+    {
+        "sample_index": 354,
+        "prompt": "Fred has 5 yellow balloons , Sam has 6 yellow balloons , and Mary has 7 yellow balloons . The balloons cost 5 dollars . How many yellow balloons do they have in total ?<pad> Fred has 5 yellow balloons, Sam has 6 yellow balloons, and Mary has 7 yellow balloons, so they have 5 + 6 + 7 = 18 yellow balloons in total. The answer is 18.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nFred has 5 yellow balloons.\nSam has 6 yellow balloons.\nMary has 7 yellow balloons.\n\nSo, in total, they have 18 yellow balloons.",
+                0.5116279069767442
+            ],
+            [
+                5,
+                " \nThere are three people and each one has a different number of yellow balloons. \nFred has 5 yellow balloons, Sam has 6 yellow balloons, and Mary has 7 yellow balloons. \nThis means that the total number of yellow balloons is 5 + 6 + 7, which is 18.",
+                0.45871559633027525
+            ],
+            [
+                1,
+                " \nFred has 5 yellow balloons. So we can write: \n5 + Sam's balloons + Mary's balloons = Total number of yellow balloons\nNow we know that Sam has 1 more yellow balloon than Fred, so we can write: \n5 + (1 + Fred's balloons) + Mary's balloons = Total number of yellow balloons\nNow we know that Mary has 2 more yellow balloons than Sam, so we can write: \n5 + (1 + Fred's balloons) + (2 + Sam's balloons) = Total number of yellow balloons\nFrom this, we can see that the total number of yellow balloons",
+                0.3354838709677419
+            ],
+            [
+                3,
+                " \n\nFred has 5 yellow balloons, so he has spent $5. \nSam has 6 yellow balloons, so he has spent $5. \nMary has 7 yellow balloons, so she has spent $5. \n\nTherefore, they have spent a total of $5 + $5 + $5 = $15.",
+                0.40384615384615385
+            ],
+            [
+                4,
+                " \nThey have a total of 18 yellow balloons. \nEach balloon costs 5 dollars. \nSo the total cost for all the yellow balloons is 18 times 5, or 90 dollars.",
+                0.23913043478260873
+            ]
+        ]
+    },
+    {
+        "sample_index": 360,
+        "prompt": "There are 22 orchid bushes and 40 orange trees currently in the park . Park workers will plant 13 orchid bushes today . How many orchid bushes will the park have when the workers are finished ?<pad> The park will have 22 + 13 = 35 orchid bushes when the workers are finished. The answer is 35.</s>",
+        "ranking": [
+            [
+                1,
+                " \nThere are 22 orchid bushes and 40 orange trees currently in the park.\nPark workers will plant 13 orchid bushes today.\nThe park will have 35 orchid bushes when the workers are finished.",
+                0.7586206896551725
+            ],
+            [
+                5,
+                " \n\nThere are 22 orchid bushes and 40 orange trees in the park. \n\nPark workers will plant 13 orchid bushes today. \n\nThis means that there will be (22 + 13) = 35 orchid bushes in the park when the workers finish.",
+                0.6521739130434783
+            ],
+            [
+                6,
+                " \n\nThere are currently 22 orchid bushes and 40 orange trees in the park. \n13 orchid bushes will be planted today. \nThis means that the park will have 35 orchid bushes when the workers are finished.",
+                0.6292134831460674
+            ],
+            [
+                7,
+                " \n\nThere are 22 orchid bushes and 40 orange trees in the park. \nPark workers will plant 13 orchid bushes today. \n\nThis means that after the workers are done, there will be a total of 35 orchid bushes in the park.",
+                0.5957446808510639
+            ],
+            [
+                3,
+                " \n\nThere are 22 orchid bushes and 40 orange trees currently in the park. \n\nThis means that when the workers are finished, there will be 35 orchid bushes in the park.",
+                0.5476190476190477
+            ],
+            [
+                2,
+                " \n\nThere are 22 orchid bushes and 40 orange trees in the park. \nIf 13 orchid bushes are planted today, that means there will be (22 + 13) = 35 orchid bushes in the park.",
+                0.5348837209302325
+            ]
+        ]
+    },
+    {
+        "sample_index": 384,
+        "prompt": "Sally has 9 orange balloons and 4 blue balloons . She lost 2 of the orange balloons . How many orange balloons does Sally have now ?<pad> Sally has 9 - 2 = 7 orange balloons. The answer is 7.</s>",
+        "ranking": [
+            [
+                4,
+                " Sally has 9 orange balloons and 4 blue balloons. She lost 2 of the orange balloons. So now she has 9-2=7 orange balloons.",
+                0.7419354838709677
+            ],
+            [
+                1,
+                " \n\nSally has 9 orange balloons and 4 blue balloons.\nShe lost 2 of the orange balloons.\n\nThat means she now has \n\n9 - 2 = 7 orange balloons.",
+                0.7301587301587302
+            ],
+            [
+                2,
+                " \n\nSally has 9 orange balloons and 4 blue balloons.\nShe lost 2 of the orange balloons.\n\nThat means she now has 7 orange balloons.",
+                0.6885245901639344
+            ],
+            [
+                6,
+                " If Sally has 9 orange balloons and 4 blue balloons, then she must have 9 + 4 = 13 balloons in total. If she lost 2 of the orange balloons, then she must have 9 - 2 = 7 orange balloons remaining.",
+                0.5866666666666667
+            ],
+            [
+                5,
+                " \n\nFirst, Sally has 9 orange balloons. \n\nThen, she loses 2 of those orange balloons. \n\nThat means she has 9-2 = 7 orange balloons left.",
+                0.5245901639344263
+            ],
+            [
+                7,
+                " \n\nSally has 9 orange balloons. \nShe loses 2 orange balloons. \nThat means she now has 7 orange balloons.",
+                0.5090909090909091
+            ]
+        ]
+    },
+    {
+        "sample_index": 386,
+        "prompt": "There are 5 scissors and 3 pencils in the drawer . Jason placed 4 scissors in the drawer . How many scissors are now there in total ?<pad> There are 5 + 4 = 9 scissors in total. The answer is 9.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nThere are 5 scissors and 3 pencils in the drawer.\nJason places 4 scissors in the drawer. \n\nNow, there are 5 + 4 = 9 scissors in total in the drawer.",
+                0.7941176470588235
+            ],
+            [
+                3,
+                " \n\nThere are 5 scissors and 3 pencils in the drawer.\nJason placed 4 scissors in the drawer.\n\nNow, there are 9 scissors in the drawer.",
+                0.7500000000000001
+            ],
+            [
+                0,
+                " \n\nThere are 5 scissors and 3 pencils in the drawer.\nJason placed 4 scissors in the drawer.\n\nThere are now 9 scissors in the drawer.",
+                0.71875
+            ],
+            [
+                5,
+                "\n\nThere are 5 scissors in the drawer.\nJason places 4 scissors in the drawer.\n\nNow, there are 9 scissors in the drawer.",
+                0.6885245901639344
+            ],
+            [
+                7,
+                " \n\nThere are 5 scissors in the drawer. \nJason places 4 more scissors in the drawer. \nNow, there are 9 scissors in the drawer.",
+                0.6774193548387096
+            ],
+            [
+                1,
+                " \n\nThere are 5 scissors in the drawer. \nJason placed 4 scissors in the drawer. \n\nThere are 9 scissors in the drawer.",
+                0.6666666666666666
+            ]
+        ]
+    },
+    {
+        "sample_index": 388,
+        "prompt": "Sam had 7 pennies and 8 dimes in his bank . His sister borrowed 4 dimes . How many dimes does Sam have now ?<pad> Sam has 7 pennies and 8 dimes so he has 7 + 8 = 15 cents. His sister borrowed 4 dimes so he has 8 - 4 = 4 dimes. The answer is 4.</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nSam has 7 pennies and 8 dimes in his bank. \nHis sister borrowed 4 dimes. \nHow many dimes does Sam have now?\n\nSam has 7 pennies and 8 dimes in his bank. \nHis sister borrowed 4 dimes. \nThat means that his sister now has 4 dimes, and Sam has 4 dimes. \nSo Sam has 4 dimes now.",
+                0.6846846846846847
+            ],
+            [
+                0,
+                " \n\nSam had 7 pennies and 8 dimes in his bank. \nThen his sister borrowed 4 dimes. \nSo Sam would have 7 pennies, and 8 - 4 = 4 dimes.",
+                0.5925925925925926
+            ],
+            [
+                3,
+                " \n\nFirst, Sam had 7 pennies and 8 dimes in his bank. \n\nThen, his sister borrowed 4 dimes from him. \n\nThat means that she took 4 dimes from Sam's bank, which means that Sam now has 4 less dimes. \n\nSo now Sam has 7 pennies and 4 dimes in his bank.",
+                0.47619047619047616
+            ],
+            [
+                1,
+                "\n\nSam originally had 7 pennies and 8 dimes. \nHis sister borrowed 4 dimes from him. \nThat means that Sam now has 7 pennies and 4 dimes.",
+                0.5
+            ],
+            [
+                5,
+                " \n\nThe first thing we know is that Sam had 7 pennies and 8 dimes in his bank. \nThen, his sister borrowed 4 dimes from him. \nThat means that she took 4 dimes away from the 8 dimes that Sam originally had. \nSo now, Sam has 8 - 4 = 4 dimes left.",
+                0.4615384615384615
+            ],
+            [
+                2,
+                " \n\nStep 1: Sam has 7 pennies and 8 dimes. \nStep 2: Sam's sister borrows 4 dimes. \nStep 3: Sam now has 4 dimes.",
+                0.3846153846153846
+            ]
+        ]
+    },
+    {
+        "sample_index": 390,
+        "prompt": "There are 3 short trees and 6 tall trees currently in the park . Park workers will plant 9 short trees today . How many short trees will the park have when the workers are finished ?<pad> There are 3 + 9 = 12 short trees in the park now. The answer is 12.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThere are 3 short trees and 6 tall trees currently in the park. \nPark workers will plant 9 short trees today. \nThis means that after the workers are finished, there will be a total of 12 short trees in the park.",
+                0.6956521739130435
+            ],
+            [
+                3,
+                " \nThere are 3 short trees and 6 tall trees. \nThe workers will plant 9 short trees today. \nThat means that when the workers are finished, the park will have 3 + 9 = 12 short trees.",
+                0.6352941176470589
+            ],
+            [
+                7,
+                " \nThere are 3 short trees and 6 tall trees in the park right now. The workers will plant 9 short trees today. So when the workers finish today, there will be a total of 12 short trees in the park.",
+                0.6593406593406592
+            ],
+            [
+                6,
+                " \nThere are currently 3 short trees in the park. \n9 short trees will be planted today. \nThat means that when the workers are finished, there will be a total of 3 + 9 = 12 short trees in the park.",
+                0.5842696629213484
+            ],
+            [
+                2,
+                " \n3 short trees and 6 tall trees currently in the park. \n9 short trees will be planted today. \nThis means that there will be a total of 12 short trees in the park when the workers are finished.",
+                0.5393258426966293
+            ],
+            [
+                4,
+                " If we start with 3 short trees and 6 tall trees, and we plant 9 short trees today, we will end up with 3 + 9 = 12 short trees and 6 tall trees, for a total of 12 short trees.",
+                0.42222222222222217
+            ]
+        ]
+    }
+]

@@ -1,0 +1,1327 @@
+[
+    {
+        "sample_index": 2,
+        "prompt": "Yesterday was April 30, 2021. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/29/2021, (B) 05/09/2021, (C) 04/27/2021, (D) 04/30/2021, (E) 04/30/1996, (F) 04/30/2022.<pad> Answer: D. Yesterday was April 30, 2021. Yesterday was 04/30/2021. The answer is D.</s>",
+        "ranking": [
+            [
+                5,
+                " The date yesterday was April 30, 2021. Today is May 1, 2021. So, yesterday was April 30, 2021. The date yesterday in MM/DD/YYYY is 04/30/2021.",
+                0.17030926048755646
+            ]
+        ]
+    },
+    {
+        "sample_index": 10,
+        "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/31/1993, (B) 07/07/2021, (C) 05/31/2021, (D) 05/30/2021, (E) 05/17/2021, (F) 06/01/2021.<pad> Tomorrow is May 31. Tomorrow is 2 days away from Jun 1 so it is May 31. The answer is (C).</s>",
+        "ranking": [
+            [
+                14,
+                " \n\nThe deadline is Jun 1, 2021, which is 2 days away from now. \n\nThat means that today is May 30, 2021. \n\nTherefore, tomorrow is May 31, 2021. \n\nThe answer is (C).",
+                0.3022720217704773
+            ]
+        ]
+    },
+    {
+        "sample_index": 11,
+        "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/29/2021, (B) 06/12/2021, (C) 06/05/2021, (D) 07/29/2021, (E) 06/17/2021, (F) 05/22/2021.<pad> Yesterday is today, which is 2 days away from the deadline. So, the date yesterday is 05/29/2021. The answer is (A).</s>",
+        "ranking": [
+            [
+                6,
+                " The deadline is Jun 1, 2021, which is 2 days away from now. Yesterday was 2 days ago from now, so it was Jun 1, 2021 - 2 days. The answer is 05/29/2021.",
+                0.2938559651374817
+            ]
+        ]
+    },
+    {
+        "sample_index": 13,
+        "prompt": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/30/2021, (B) 02/19/2021, (C) 05/01/2021, (D) 05/09/2021, (E) 08/03/2021, (F) 07/06/2021.<pad> A month ago is 04/30/2021. So the date a month ago is 04/30/2021. The answer is (A).</s>",
+        "ranking": [
+            [
+                4,
+                " The deadline is Jun 1, 2021. Jun 1, 2021 is 2 days away from now. What is the date a month ago in MM/DD/YYYY?\n\nThe date a month ago would have been 04/30/2021.",
+                0.27568838000297546
+            ]
+        ]
+    },
+    {
+        "sample_index": 19,
+        "prompt": "Tomorrow is 11/12/2019. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 11/14/2019, (B) 12/10/2019, (C) 10/22/2019, (D) 02/12/2020, (E) 11/12/2019.<pad> Tomorrow is 11/12/2019. Tomorrow in MM/DD/YYYY format is 11/12/2019. The answer is (E).</s>",
+        "ranking": [
+            [
+                4,
+                " Tomorrow is the 12th. The month stays the same, so it would be 11/12/2019.",
+                0.17374898493289948
+            ]
+        ]
+    },
+    {
+        "sample_index": 20,
+        "prompt": "Tomorrow is 11/12/2019. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/10/2019, (B) 11/06/2019, (C) 11/10/2019, (D) 11/11/2019, (E) 11/10/2076, (F) 11/17/2019.<pad> Answer: (C). Today is 11/12/2019. Yesterday was 11/10/2019. The answer is (C).</s>",
+        "ranking": [
+            [
+                3,
+                " Tomorrow is 11/12/2019. The day before tomorrow would be 11/11/2019. Therefore, yesterday would be 11/10/2019.",
+                0.24417822062969208
+            ]
+        ]
+    },
+    {
+        "sample_index": 21,
+        "prompt": "Tomorrow is 11/12/2019. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 11/01/2048, (B) 11/02/2019, (C) 10/23/2019, (D) 11/01/2019, (E) 10/27/2019.<pad> 10/12/2019 - 10/12/2019 = 11/01/2019. The answer is (D).</s>",
+        "ranking": [
+            [
+                9,
+                " The day before yesterday was 11/10/2019, so 10 days ago would be 11/01/2019.",
+                0.18352550268173218
+            ]
+        ]
+    },
+    {
+        "sample_index": 22,
+        "prompt": "Tomorrow is 11/12/2019. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/16/2019, (B) 10/12/2019, (C) 10/11/2018, (D) 10/11/2019, (E) 10/10/2019, (F) 10/11/1974.<pad> A month ago is 10/11/2019. A month ago is 10/11/2019. The answer is (D).</s>",
+        "ranking": [
+            [
+                11,
+                " \nThe month before 11/12/2019 is 10/12/2019. \nTherefore, the date a month ago from 11/12/2019 is 10/11/2019. \n",
+                0.15875275433063507
+            ]
+        ]
+    },
+    {
+        "sample_index": 27,
+        "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 08/03/1997, (B) 08/05/1997, (C) 08/03/2097, (D) 08/02/1997, (E) 08/04/1997, (F) 08/17/1997.<pad> Answer: (A).</s>",
+        "ranking": [
+            [
+                13,
+                " \n\nThe question is asking for the date in MM/DD/YYYY format. \n\nToday's date is 8/3/1997. \n\nIn MM/DD/YYYY format, that would be 08/03/1997. \n\nTherefore, the answer is (A).",
+                0.20845715701580048
+            ]
+        ]
+    },
+    {
+        "sample_index": 30,
+        "prompt": "Today, 8/3/1997, is a day that we will never forget. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/24/1997, (B) 07/24/1997, (C) 08/14/1997, (D) 06/11/1997, (E) 08/21/1997, (F) 07/23/1997.<pad> 10 days ago is 07/24/1997. The answer is (B).</s>",
+        "ranking": [
+            [
+                0,
+                " Today is 8/3/1997. 10 days ago would be 7/24/1997.",
+                0.1963455080986023
+            ]
+        ]
+    },
+    {
+        "sample_index": 36,
+        "prompt": "Today is Sep 9, 1909. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/30/1909, (B) 12/11/1909, (C) 09/09/1886, (D) 09/09/1939, (E) 11/19/1909, (F) 09/09/1909.<pad> Today is Sep 9, 1909, so the date today is 09/09/1909. The answer is (F).</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nFirst, we need to figure out how many days have passed since September 9, 1909. \n\nAccording to a quick Google search, today is September 9, 2020. \n\nThis means that there have been 111 years, 0 months, and 0 days since September 9, 1909. \n\nWe can convert this into days by multiplying 111 by 365 (the number of days in a year). \n\nThis gives us 40,915. \n\nWe can check to see if this is correct by counting the number of days between September 9, 1909 and September 9, 2020 on a calendar. ",
+                0.20266254246234894
+            ],
+            [
+                12,
+                " \n\nThe question is asking for the date today in MM/DD/YYYY format. \n\nToday is September 9th. In MM/DD/YYYY format, that would be 09/09/YYYY. \n\nThe question asks for the year 1909. In MM/DD/YYYY format, that would be 09/09/1909. \n\nTherefore, the answer is (F) 09/09/1909.",
+                0.20171695947647095
+            ],
+            [
+                10,
+                " \n\nFirst, the day is 9. \nSecond, the month is September, which is 9. \nLastly, the year is 1909. \n\nPutting it all together, we get 09/09/1909. Therefore, the answer is (F).",
+                0.18705546855926514
+            ]
+        ]
+    },
+    {
+        "sample_index": 44,
+        "prompt": "Today is Sep 9, 1909. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/03/1909, (B) 08/13/1909, (C) 09/10/1909, (D) 09/10/1892, (E) 12/10/1909, (F) 09/24/1909.<pad> 24 hours later is 09/10/1909 or 09/10/1909. The answer is (C).</s>",
+        "ranking": [
+            [
+                10,
+                " Today is September 9th, so if we add 24 hours, it will be September 10th. The year will not change because it is not a leap year, so the answer is C: 09/10/1909.",
+                0.2130124717950821
+            ]
+        ]
+    },
+    {
+        "sample_index": 45,
+        "prompt": "It is 4/19/1969 today. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/17/1969, (B) 04/19/1969, (C) 04/20/1969, (D) 04/12/1969, (E) 04/18/1969, (F) 07/19/1969.<pad> Today is 04/19/1969. The date today is 04/19/1969. The answer is B.</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nThe day is the 19th, so that's easy. \nThe month is April, so that's the 4th month. April has 30 days, so the 19th day of April is the 19th day of the 4th month. \nThe year is 1969. 1969 is the 20th year of the 20th century. Therefore, the 19th day of the 4th month of 1969 is the 19th day of the 4th month of the 20th year of the 20th century. \n\nTherefore, the date today in MM/DD/YYYY is 04/19/1969.",
+                0.21516935527324677
+            ]
+        ]
+    },
+    {
+        "sample_index": 51,
+        "prompt": "It is 4/19/1969 today. What is the date one week ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/02/1969, (B) 04/13/1969, (C) 03/04/1969, (D) 03/28/1969, (E) 02/12/1970, (F) 04/12/1969.<pad> One week ago from today is 04/12/1969. The answer is F.</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nToday is 4/19/1969. \nOne week ago would be 4/12/1969. \n\nTherefore, the answer is (F) 04/12/1969.",
+                0.23602326214313507
+            ],
+            [
+                3,
+                " The day one week ago from today would be 4 days ago, which would be 4/15/1969. However, that's not one of the answer choices, so we can eliminate (A), (B), (C), and (D). Now, we need to think about whether it's before or after April 12th. It's after April 12th, so we can eliminate (E). That means the answer must be (F).",
+                0.19485843181610107
+            ]
+        ]
+    },
+    {
+        "sample_index": 52,
+        "prompt": "It is 4/19/1969 today. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/11/1969, (B) 04/05/1969, (C) 04/26/1969, (D) 05/14/1969, (E) 04/27/1969, (F) 04/25/1969.<pad> One week from today is 04/19/1969. One week from today is 04/19/1969 - 04/19/1969 = 04/26/1969. The answer is (C).</s>",
+        "ranking": [
+            [
+                2,
+                " Today is 4/19/1969. That means the day is 19 and the month is April. If we add 7 days to the date, the day will be 26 and the month will still be April. Therefore, the correct answer is (C) 04/26/1969.",
+                0.22247426211833954
+            ]
+        ]
+    },
+    {
+        "sample_index": 54,
+        "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/16/2016, (B) 02/29/2036, (C) 02/29/2016, (D) 03/07/2016, (E) 02/28/2016, (F) 02/29/1980.<pad> Today is Jane's 16th birthday. Since 2000 is a leap year, today is 02/29/2016. The answer is (C).</s>",
+        "ranking": [
+            [
+                12,
+                " Jane was born on February 29th, so today is February 29th. Jane is 16 years old, so that means that it is 2016. Therefore, the answer is 02/29/2016.",
+                0.20188267529010773
+            ]
+        ]
+    },
+    {
+        "sample_index": 60,
+        "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/22/2016, (B) 06/22/2015, (C) 02/23/2016, (D) 11/22/2016, (E) 04/22/2015, (F) 04/22/2016.<pad> Since Jane's birthday is today, then she is 16 years old today. Since today is her 16th birthday, then one week ago from today would be 02/22/2016. The answer is A.</s>",
+        "ranking": [
+            [
+                5,
+                " Jane was born on February 29th, 2000. February 29th only occurs during leap years, so 2000 was a leap year. Every 4 years is a leap year, except for years that are divisible by 100 but not by 400. Therefore, 2004, 2008, 2012, and 2016 are leap years, but 1700, 1800, 1900, and 2100 are not leap years. \n\nJane turned 16 one week ago on 02/22/2016.",
+                0.19533181190490723
+            ]
+        ]
+    },
+    {
+        "sample_index": 61,
+        "prompt": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/07/2016, (B) 02/23/2016, (C) 03/07/2070, (D) 03/06/2016, (E) 03/08/2016.<pad> Since today is Jane's 16th birthday, then the date one week from today will be her 16th birthday. The answer is (A).</s>",
+        "ranking": [
+            [
+                12,
+                " Jane was born on February 29th, 2000. In 2004, there was no February 29th, so her birthday that year would have been on March 1st. Therefore, one week from today, the date would be March 7th, 2016. Therefore, the answer is A.",
+                0.19978183507919312
+            ],
+            [
+                2,
+                " Jane's 16th birthday is on 02/29/2016. One week from her birthday would be 03/07/2016. \n\nThe answer is A.",
+                0.18449145555496216
+            ]
+        ]
+    },
+    {
+        "sample_index": 64,
+        "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/17/2017, (B) 03/25/2017, (C) 02/20/2017, (D) 03/01/2017, (E) 03/01/2076, (F) 03/01/2116.<pad> Since Jane was born on the last day of February in 2001, then today is her 16-year-old birthday. Tomorrow is her 16-year-old birthday. So, the date tomorrow is 03/01/2017. The answer is D.</s>",
+        "ranking": [
+            [
+                6,
+                " Jane was born on February 29, 2001. February 29 is a leap day, which means that it only occurs every 4 years. In a non-leap year, February only has 28 days. So, the answer must be either (A) or (D). \n\nIf Jane was born on February 28, 2001, then tomorrow would be March 1, 2017. \n\nHowever, if Jane was born on February 29, 2001, then tomorrow would be March 1, 2017, because February 29 would not exist in a non-leap year. \n\nTherefore, the answer is (D).",
+                0.22278650104999542
+            ],
+            [
+                7,
+                " Jane's 16th birthday was on 02/28/2017, so the date tomorrow is 03/01/2017.",
+                0.14434313774108887
+            ]
+        ]
+    },
+    {
+        "sample_index": 71,
+        "prompt": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/02/2017, (B) 02/15/2017, (C) 05/04/2017, (D) 03/01/2017, (E) 03/01/1919, (F) 03/01/2005.<pad> 24 hours after her 16th birthday is 03/01/2017. The answer is D.</s>",
+        "ranking": [
+            [
+                13,
+                " Jane was born on February 28, 2001. 16 years later would be February 28, 2017. However, because it is a leap year, there is an extra day, so February 28, 2017 is followed by February 29, 2017. The day after that would be March 1, 2017. Therefore, the correct answer is (D) 03/01/2017.",
+                0.1984008401632309
+            ],
+            [
+                1,
+                " Jane's 16th birthday is 02/28/2017. One day later would be 03/01/2017.",
+                0.18449431657791138
+            ]
+        ]
+    },
+    {
+        "sample_index": 76,
+        "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/02/1928, (B) 12/03/2007, (C) 01/02/2007, (D) 12/02/2007, (E) 11/04/2007, (F) 11/18/2007.<pad> A month ago is 12/02/2007. The answer is D.</s>",
+        "ranking": [
+            [
+                8,
+                " \n\nJane and John were married on January 2, 1958. \n\nFifty years ago from that date would be January 2, 2008. \n\nA month ago from that date would be December 2, 2007. \n\nTherefore, the answer is (D).",
+                0.2096114307641983
+            ],
+            [
+                12,
+                " We know that they got married on Jan 2, 1958. That's 58 years ago. \n\n58 years ago from 2007 is 1949. So it can't be 2007. \n\n58 years ago from Jan 2 is 1949. So it can't be Jan 2, 2007. \n\nIt can't be Nov 4, 2007 because that's not a month ago from today. \n\nIt can't be Nov 18, 2007 because that's not a month ago from today. \n\nThat only leaves Dec 2, 2007. \n\nTherefore, the answer is D.",
+                0.19740323722362518
+            ]
+        ]
+    },
+    {
+        "sample_index": 79,
+        "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/09/2008, (B) 08/09/2008, (C) 12/12/2007, (D) 12/30/2007, (E) 09/09/2008, (F) 11/09/2008.<pad> Today is Jan 2, 2008. One week from today is Jan 2, 2008. The answer is (A).</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nJane and John married on Jan 2, 1958. \n\nToday is their golden wedding anniversary. \n\nWhat is the date one week from today in MM/DD/YYYY?\n\n\nA: 01/09/2008",
+                0.393343448638916
+            ],
+            [
+                8,
+                " One week from today would be January 9th, so the answer choice would have to start with 01/09/. The year is a little trickier, but we can figure it out by counting. Since they were married in 1958, and it is now 2008, that means they have been married for 50 years. So, one week from today would be 01/09/2008, and the answer is (A).",
+                0.17646126449108124
+            ]
+        ]
+    },
+    {
+        "sample_index": 80,
+        "prompt": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/02/2008, (B) 01/03/2008, (C) 01/17/2008, (D) 01/11/2008, (E) 01/06/2008, (F) 07/03/2007.<pad> 24 hours after Jan 2 is Jan 3 or Jan 3rd. Jan 2 is Jan 2 and Jan 3 is Jan 3. The answer is (B).</s>",
+        "ranking": [
+            [
+                12,
+                " \n\nJane and John married on Jan 2, 1958. \n\nToday is their golden wedding anniversary. \n\nThe date 24 hours later in MM/DD/YYYY is 01/03/2008.",
+                0.29809650778770447
+            ],
+            [
+                1,
+                " \n\nThe couple's golden anniversary is on January 2, 2008. \nThis is fifty years after they were married, so the date must be January 2, 1958. \nTherefore, the day after their anniversary would be January 3, 2008. \n\nThe answer is (B).",
+                0.16877381503582
+            ]
+        ]
+    },
+    {
+        "sample_index": 83,
+        "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/21/2019, (B) 02/18/2020, (C) 02/29/2020, (D) 11/30/2065, (E) 11/29/2019, (F) 11/30/2019.<pad> Since today is her 3 year work anniversary, then yesterday is (F) 11/30/2019. The answer is (F).</s>",
+        "ranking": [
+            [
+                13,
+                " Jane's work anniversary is today, which means that she started her job exactly 3 years ago. We're looking for the date of her second day at work, which was December 2. \n\n3 years ago from December 2 would be December 2, 2016. \n\n1 year ago from December 2 would be December 2, 2017. \n\n2 years ago from December 2 would be December 2, 2018. \n\nTherefore, the date yesterday, September 20, 2019, was December 2, 2019. The answer is (F).",
+                0.2066865712404251
+            ]
+        ]
+    },
+    {
+        "sample_index": 86,
+        "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/01/2019, (B) 01/01/2018, (C) 12/01/2018, (D) 09/23/2018, (E) 12/08/2018.<pad> One year ago from today in MM/DD/YYYY is 12/01/2018. The answer is C.</s>",
+        "ranking": [
+            [
+                7,
+                " Jane got her job in 2016, so her work anniversary would be on December 2, 2019. One year ago from December 2, 2019 would be December 2, 2018. Therefore, the answer is (C) 12/01/2018.",
+                0.2037259191274643
+            ]
+        ]
+    },
+    {
+        "sample_index": 89,
+        "prompt": "Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/02/2020, (B) 12/01/2019, (C) 12/02/2103, (D) 12/02/2019, (E) 12/30/2019, (F) 12/02/2093.<pad> On Dec 2, it was Jane's second day at work. On Dec 2, it was 24 hours later. The answer is (D).</s>",
+        "ranking": [
+            [
+                4,
+                " Jane got her job in 2016, so her first day of work was in 2016. Today is her 3-year work anniversary, so that means that her work anniversary is on December 2nd. That means that the date 24 hours later in MM/DD/YYYY is 12/03/2016.",
+                0.21155793964862823
+            ]
+        ]
+    },
+    {
+        "sample_index": 90,
+        "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/12/1961, (B) 11/12/2020, (C) 12/12/2020, (D) 09/12/2020, (E) 09/17/2020.<pad> Today is 176 days after Jane quit her job on Mar 20, 2020. So today is 09/12/2020. The answer is D.</s>",
+        "ranking": [
+            [
+                8,
+                " \n\nJane quits her job on March 20, 2020. \n176 days have passed since then. \n\n3/20/2020 + 176 days = 9/12/2020. \n\nThe answer is D.",
+                0.287191241979599
+            ],
+            [
+                12,
+                " Jane quit her job on March 20th. March has 31 days, so we add 31 to 20 and get 51. April has 30 days, so we add 30 to 51 and get 81. May has 31 days, so we add 31 to 81 and get 112. June has 30 days, so we add 30 to 112 and get 142.\nJuly has 31 days, so we add 31 to 142 and get 173. August has 31 days, so we add 31 to 173 and get 204. September has 30 days, so we add 30 to 204 and get 234. \n\nThe answer is D) 09/12/2020",
+                0.19841992855072021
+            ]
+        ]
+    },
+    {
+        "sample_index": 93,
+        "prompt": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/09/2020, (B) 09/30/2020, (C) 09/02/2020, (D) 09/02/1939, (E) 09/02/2021, (F) 09/01/2020.<pad> Since Jane quit her job on Mar 20, 2020, 176 days have passed. So, 10 days ago is 09/02/2020. The answer is C.</s>",
+        "ranking": [
+            [
+                3,
+                " Jane quited her job on Mar 20, 2020. 176 days have passed since then. So, 176 days before Mar 20, 2020 is Oct 23, 2019. 10 days ago from Oct 23, 2019 is Oct 13, 2019. Therefore, the date 10 days ago in MM/DD/YYYY is 10/13/2019.",
+                0.2910628020763397
+            ]
+        ]
+    },
+    {
+        "sample_index": 103,
+        "prompt": "2015 is coming in 36 hours. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 11/29/2014, (B) 03/07/2015, (C) 12/05/2014, (D) 12/20/2014, (E) 11/23/2014, (F) 11/28/2014.<pad> If 2015 is coming in 36 hours, then it is coming in 2 days. 2 days before 01/01/2015 is 12/30/2014, so today is 12/30/2014. So one week from today will be 01/05/2015. The answer is A.</s>",
+        "ranking": [
+            [
+                9,
+                " \n\nFirst, we need to find out what a month ago is. We can do this by subtracting 1 from the month. \n\nFor example, if the month is currently January, then a month ago would be December. \n\nIf the month is currently February, then a month ago would be January, and so on. \n\nNow that we know how to find a month ago, we can plug in the month and year to get our answer. \n\nFor example, if today is January 10, 2015, then a month ago would be December 10, 2014. \n\nTherefore,",
+                0.18317599594593048
+            ],
+            [
+                3,
+                " \n\nA month ago would be December 2014. \n\nThe days of the month would range from December 1st to December 31st. \n\nTherefore, the answer is 12/31/2014.",
+                0.16437490284442902
+            ]
+        ]
+    },
+    {
+        "sample_index": 109,
+        "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/03/2035, (B) 01/09/1987, (C) 02/03/1986, (D) 12/06/1986, (E) 01/03/1987, (F) 01/04/1987.<pad> Answer: (E).</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nThe day after 02/01/1987 is 02/02/1987. \nThe day after that is 02/03/1987. \nTherefore, the answer is (E) 01/03/1987.",
+                0.21087093651294708
+            ],
+            [
+                6,
+                " \n\nToday is January 2nd. \n\nIn the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. \n\nWhat is the date tomorrow in MM/DD/YYYY? \n\nThe date tomorrow is 01/03/1987.",
+                0.1962546557188034
+            ]
+        ]
+    },
+    {
+        "sample_index": 110,
+        "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/08/1987, (B) 01/01/1987, (C) 01/01/2015, (D) 10/19/1986, (E) 01/01/1934, (F) 12/29/1986.<pad> Answer: (B).</s>",
+        "ranking": [
+            [
+                4,
+                " \nIn the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them.\nThis means that the date in the UK today is February 1, 1987. \nYesterday would be January 31, 1987. \nThe date in the US yesterday was January 31, 1987. \nTherefore, the date in the US today is February 1, 1987. \nThe correct answer is (B).",
+                0.36075034737586975
+            ],
+            [
+                13,
+                " The question is asking what the date was yesterday. In the UK, people put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. \n\nThe day before 02 is 01, so the date yesterday was 01/01/1987.\n\nTherefore, the answer is (B) 01/01/1987.",
+                0.21830374002456665
+            ]
+        ]
+    },
+    {
+        "sample_index": 112,
+        "prompt": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/06/1987, (B) 12/02/2062, (C) 03/02/1986, (D) 12/02/2032, (E) 12/02/1986, (F) 12/01/1986.<pad> A month ago is 02/01/1987 to them. So, the date a month ago is 02/01/1987 - 12/02/1986 = 12/02/1986. The answer is E.</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nIn the UK, the day comes before the month. \n\nTherefore, 1 month ago today would be 12/02. \n\nThe year is 1987, so 1 month ago would be 12/02/1986. \n\nThe answer is (E).",
+                0.19773757457733154
+            ]
+        ]
+    },
+    {
+        "sample_index": 118,
+        "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/30/2002, (B) 03/29/2002, (C) 08/07/2002, (D) 07/29/2002, (E) 10/16/2002, (F) 09/29/2002.<pad> Tomorrow is Jul 29, 2002. So tomorrow is 07/29/2002. The answer is D.</s>",
+        "ranking": [
+            [
+                0,
+                " Jane booked a flight for tomorrow. We are being asked what the date is, tomorrow, in MM/DD/YYYY format. \n\nThe month is July, so the month is 07. \nThe day is the 29th. \nThe year is 2002. \n\nSo, the answer is 07/29/2002.",
+                0.2819003760814667
+            ],
+            [
+                11,
+                " The question is asking for the date tomorrow in MM/DD/YYYY format. \n\nThe month is easy enough - it's July, so the month is 07. \nThe day is a little more difficult. We need to figure out what tomorrow is. Today is July 28, 2002. One day from today would be July 29, 2002. Therefore, the day tomorrow is 29. \nThe year is also easy. 2002 is the year, so it stays the same. \n\nBringing it all together, we get 07/29/2002. Therefore, the correct answer is (D).",
+                0.20235693454742432
+            ]
+        ]
+    },
+    {
+        "sample_index": 122,
+        "prompt": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/10/2001, (B) 07/24/2001, (C) 01/28/2002, (D) 07/28/2001, (E) 07/28/2095, (F) 09/28/2001.<pad> One year from today is Jul 29, 2002. One year ago from today in MM/DD/YYYY is 07/28/2001. The answer is D.</s>",
+        "ranking": [
+            [
+                5,
+                " Jane booked a flight for tomorrow, Jul 29, 2002. This means that today is Jul 28, 2002. One year ago from today would be Jul 28, 2001. Therefore, the answer is (D) 07/28/2001.",
+                0.30300381779670715
+            ],
+            [
+                9,
+                " Jane booked her flight one year ago today, on July 29, 2001. One year before that would be July 29, 2000. However, that's not one of the answer choices, so we can eliminate it. We're looking for an answer in the format MM/DD/YYYY. \nThe next option is 01/28/2002, but that can't be right because it's in the future. We can eliminate that, too.\nThe next option is 07/24/2001, but that's before Jane booked her flight, so we can eliminate that as well.\nThat leaves us with these answer choices:",
+                0.22752340137958527
+            ]
+        ]
+    },
+    {
+        "sample_index": 126,
+        "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/16/1933, (B) 12/21/2009, (C) 11/30/2009, (D) 02/16/2010, (E) 02/06/2010, (F) 05/24/2010.<pad> Today is the 16th of February 2010. Since Jane has visited the bookstore 5 times, the date today is 02/16/2010. The answer is D.</s>",
+        "ranking": [
+            [
+                15,
+                " \n\nJane visits the bookstore on the 16th of each month starting from the October of 2009. \nIt is her 5th visit to the bookstore today. \n\nThe first step is to count 5 months starting from October 2009. The 5th month would be February 2010. \n\nTherefore, the answer is D: 02/16/2010.",
+                0.3536529242992401
+            ],
+            [
+                4,
+                " Jane has visited the bookstore on the 16th of each month starting from October 2009. That means her visits have fallen on 10/16/2009, 11/16/2009, 12/16/2009, 01/16/2010, 02/16/2010, 03/16/2010, 04/16/2010, 05/16/2010, 06/16/2010, 07/16/2010, 08/16/2010, 09/16/2010, 10/16/2010, 11/16/2010, 12/16/2010, 01/16/2011, 02/16/2011,... and so",
+                0.26634466648101807
+            ],
+            [
+                7,
+                " Jane visits the bookstore on the 16th of each month. That means her visits fall on the 16th of January, February, March, April, etc. \n\nThe first visit in October 2009 would be 10/16/2009.\nThe second visit would be 11/16/2009.\nThe third visit would be 12/16/2009.\nThe fourth visit would be 01/16/2010.\nThe fifth visit would be 02/16/2010.\n\nThe answer is D.",
+                0.26046666502952576
+            ]
+        ]
+    },
+    {
+        "sample_index": 133,
+        "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/22/2010, (B) 02/23/2010, (C) 02/24/2010, (D) 03/01/2010, (E) 01/26/2010, (F) 02/19/2010.<pad> Since Jane visits the bookstore on the 16th of each month starting from the October of 2009, then she has visited the bookstore 5 times. Since today is the 5th visit, then one week from today will be 02/23/2010. The answer is B.</s>",
+        "ranking": [
+            [
+                2,
+                " Jane visits the bookstore on the 16th of each month. So, her first visit was on 10/16/2009, the second was on 11/16/2009, and so on. Today is her fifth visit, so it is 02/16/2010. Therefore, one week from today, the 23rd, will be 02/23/2010.",
+                0.24756014347076416
+            ]
+        ]
+    },
+    {
+        "sample_index": 134,
+        "prompt": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/17/2010, (B) 02/03/2010, (C) 02/16/2010, (D) 02/21/2010, (E) 03/27/2010, (F) 02/23/2010.<pad> Since Jane visits the bookstore on the 16th of each month starting from the October of 2009, then today is the 5th visit. The date 24 hours later is the 16th of February 2010. The answer is (A).</s>",
+        "ranking": [
+            [
+                8,
+                " \n\nJane visits the bookstore on the 16th of each month starting from the October of 2009. \n\nThat means her first visit was on 10/16/2009 and the second was on 11/16/2009. Her fifth visit would be on 2/16/2010. \n\nIt is her 5th visit to the bookstore today.\n\nToday is 2/16/2010. \n\nWhat is the date 24 hours later in MM/DD/YYYY?\n\n24 hours later would be 2/17/2010. \n\nTherefore, the correct answer is A.",
+                0.2904278337955475
+            ]
+        ]
+    },
+    {
+        "sample_index": 138,
+        "prompt": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/02/2003, (B) 03/02/2001, (C) 11/25/2001, (D) 03/02/2002, (E) 03/16/2002, (F) 02/23/2002.<pad> 10 days ago is 3/11/2002 - 1 day. So the date 10 days ago is 3/11/2002 - 1 day. The answer is (D).</s>",
+        "ranking": [
+            [
+                10,
+                " Jane thinks today is 3/11/2002, but it is in fact 3/12/2002, which is 1 day later. 10 days ago would be 3/2/2002. \n\nThe answer is (D) 03/02/2002.",
+                0.28113922476768494
+            ]
+        ]
+    },
+    {
+        "sample_index": 144,
+        "prompt": "Today is the first day of 2007. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/01/2007, (B) 01/22/2007, (C) 01/01/1951, (D) 12/18/2006, (E) 01/01/2096, (F) 01/01/2007.<pad> Today is the first day of 2007. The date today is 01/01/2007. The answer is F.</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe first day of 2007 is January 1st. \nThe date today is January 1st. \nTherefore, the date today is 01/01/2007. \n\nThe answer is (F) 01/01/2007.",
+                0.24779732525348663
+            ]
+        ]
+    },
+    {
+        "sample_index": 145,
+        "prompt": "Today is the first day of 2007. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/02/2007, (B) 01/08/2007, (C) 03/12/2007, (D) 01/01/2007, (E) 01/02/1946.<pad> Answer: A. Today is the first day of 2007. Tomorrow is the second day of 2007. The answer is (A).</s>",
+        "ranking": [
+            [
+                10,
+                " \n\nToday is the first day of 2007. \nThe day after the first day is the second day. \nTherefore, tomorrow's date is 01/02/2007. \n\nThe answer is (A).",
+                0.2292931228876114
+            ]
+        ]
+    },
+    {
+        "sample_index": 146,
+        "prompt": "Today is the first day of 2007. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/01/2007, (B) 12/31/2006, (C) 01/07/2007, (D) 01/18/2007, (E) 01/09/2007, (F) 05/31/2006.<pad> Answer: B. Today is the first day of 2007. Yesterday is 12/31/2006. The answer is (B).</s>",
+        "ranking": [
+            [
+                6,
+                " Today is the first day of 2007, so yesterday was the last day of 2006. 2006 was a leap year, so the last day of 2006 was December 31st, or 12/31/2006.",
+                0.24120278656482697
+            ],
+            [
+                3,
+                " \n\nThe first day of 2007 is 01/01/2007. \nThe day before 01/01/2007 is 12/31/2006. \n\nTherefore, the answer is B.",
+                0.19556109607219696
+            ]
+        ]
+    },
+    {
+        "sample_index": 149,
+        "prompt": "Today is the first day of 2007. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 11/13/2005, (B) 01/01/2098, (C) 10/01/2005, (D) 10/21/2005, (E) 04/01/2006, (F) 01/01/2006.<pad> One year ago from today is 01/01/2006. The answer is (F).</s>",
+        "ranking": [
+            [
+                9,
+                " Today is 01/01/2007. One year ago would be 01/01/2006.",
+                0.20797748863697052
+            ]
+        ]
+    },
+    {
+        "sample_index": 152,
+        "prompt": "Today is the first day of 2007. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/11/2007, (B) 01/01/2007, (C) 10/21/2006, (D) 01/02/1931, (E) 12/12/2006, (F) 01/02/2007.<pad> 24 hours after today is 01/02/2007. The answer is F.</s>",
+        "ranking": [
+            [
+                8,
+                " The first day of 2007 is 01/01/2007. 24 hours later would be 01/02/2007. Therefore, the answer is (F).",
+                0.2319558709859848
+            ]
+        ]
+    },
+    {
+        "sample_index": 155,
+        "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/10/1986, (B) 04/10/1985, (C) 04/07/1985, (D) 04/09/1985, (E) 05/13/1985, (F) 04/11/1986.<pad> Yesterday is Apr 10 - 3 = Apr 9. The answer is (D).</s>",
+        "ranking": [
+            [
+                1,
+                " Today is April 10, 1985. Jane's appointment is 3 days later, which means her appointment is on April 13, 1985. The day before Jane's appointment is April 12, 1985. Therefore, the answer is (D).",
+                0.25428566336631775
+            ]
+        ]
+    },
+    {
+        "sample_index": 158,
+        "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/10/1985, (B) 05/13/1985, (C) 04/12/1986, (D) 04/10/1984, (E) 03/10/1986, (F) 04/07/1985.<pad> One year ago from today is Apr 10, 1985. Three days later, Jane's appointment will be 3 days later. One year ago from today in MM/DD/YYYY is 04/10/1984. The answer is D.</s>",
+        "ranking": [
+            [
+                0,
+                " Today is Apr 10, 1985. Jane's appointment will be 3 days later. The day after tomorrow is Apr 11, 1985 and 2 days after that is Apr 12, 1985. So, Jane's appointment is on Apr 12, 1985. One year ago from today, Apr 10, 1985, was Apr 10, 1984.",
+                0.2745702564716339
+            ]
+        ]
+    },
+    {
+        "sample_index": 160,
+        "prompt": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/10/1986, (B) 05/10/1975, (C) 04/07/1985, (D) 04/17/1985, (E) 04/12/1986, (F) 04/10/1985.<pad> One week from today is Apr 17, 1985. One week from today is 04/17/1985. The answer is D.</s>",
+        "ranking": [
+            [
+                5,
+                " Today is Apr 10, 1985. Jane's appointment will be 3 days later. So, Jane's appointment is Apr 13, 1985. The date one week from today is Apr 20, 1985. Therefore, the answer is (D).",
+                0.28245097398757935
+            ]
+        ]
+    },
+    {
+        "sample_index": 162,
+        "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/08/1983, (B) 01/22/2007, (C) 03/02/1973, (D) 03/05/1973, (E) 04/05/1973, (F) 01/02/1973.<pad> Answer: D.</s>",
+        "ranking": [
+            [
+                9,
+                " If it is Jane's second time in the year 1973 to see a meteor shower, that means that the first time was on another date in 1973. It can't be on 03/05/1973, because that's the date given in the question. It can't be on 01/02/1973, because that's too early in the year for a meteor shower. It can't be on 04/05/1973, because that's too late in the year for a meteor shower. It must be on 03/02/1973 or 01/22/2007. But we're given that it is currently 03/05/1973",
+                0.20811812579631805
+            ],
+            [
+                14,
+                " \n\nFirst, we know that it is Jane's \"second time in the year 1973 to see a meteor shower.\" This implies that the year is 1973. \n\nSecond, we are told that \"today is 3/5.\" Therefore, the date today is 03/05/1973. \n\nThe answer is (D).",
+                0.19973774254322052
+            ]
+        ]
+    },
+    {
+        "sample_index": 166,
+        "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/05/2007, (B) 01/02/1973, (C) 03/08/1983, (D) 04/05/1973, (E) 02/05/1973, (F) 03/05/1973.<pad> A month ago is 3/5 - 1 month ago = 2/5. The answer is (E).</s>",
+        "ranking": [
+            [
+                12,
+                " We're told that it's Jane's \"second time in the year 1973 to see a meteor shower.\" So, the first time she saw a meteor shower in 1973 was one month ago. \n\nThe date one month ago from March 5th, 1973 is February 5th, 1973. \n\nTherefore, the answer is (E).",
+                0.24282662570476532
+            ],
+            [
+                15,
+                " A month ago from 3/5/1973 would be 2/5/1973.",
+                0.15629689395427704
+            ],
+            [
+                4,
+                " Jane saw a meteor shower a month ago, so we are looking for a date in February. The year can't be 2007 because that would mean Jane is time traveling, so we can eliminate answer choice A. We also know that Jane is in 1973, so answer choice B can be eliminated. We can eliminate answer choice C because Jane is in 1973, not 1983. We can eliminate D because April 5th is not in February. That leaves us with E and F. E is the correct answer because February 5th is a month ago from March 5th.",
+                0.19076012074947357
+            ]
+        ]
+    },
+    {
+        "sample_index": 170,
+        "prompt": "Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/05/1972, (B) 03/02/1973, (C) 04/05/1973, (D) 01/02/1973, (E) 03/06/1973, (F) 03/08/1983.<pad> 24 hours later is 3/6. The answer is (E).</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nThe date is 3/5. \nIt is Jane's second time in the year 1973 to see a meteor shower. \nThat means it is also her second time in the year 1973. \nThe date 24 hours later is 3/6.",
+                0.2889189124107361
+            ]
+        ]
+    },
+    {
+        "sample_index": 173,
+        "prompt": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/28/2011, (B) 01/26/2011, (C) 01/21/2070, (D) 06/21/2011, (E) 01/20/2011, (F) 01/21/2011.<pad> Answer: F.</s>",
+        "ranking": [
+            [
+                6,
+                " \nFirst, we need to know how many days ago it was. We're told that it was yesterday, so it was 1 day ago. \nNext, we need to know how many days are in a week. There are 7 days in a week. \nThat means that 1 day ago is the same as 1 week ago minus 1 day. \nNow we can do the math: \n1 week ago = 7 days ago \n7 days ago - 1 day ago = 6 days ago \n6 days ago = 6 days ago \nNow we need to know what day of the week it is today",
+                0.19365167617797852
+            ],
+            [
+                2,
+                " \nThe date was yesterday, so that narrows it down to choices (B), (E), and (F). \nFurther, we are given the information that Jane ate 2 pizzas and 5 wings. This means that the date was not 01/28/2011, because that is National Pizza Day. This leaves us with choices (E) and (F). \nThe date was 01/21/2011.",
+                0.18860293924808502
+            ]
+        ]
+    },
+    {
+        "sample_index": 182,
+        "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/17/2063, (B) 06/17/2019, (C) 06/08/2019, (D) 05/20/2019, (E) 05/18/2019, (F) 05/13/2019.<pad> If Jane thinks today is 6/18/2019, and John thinks today is 6/19/2019, then yesterday is 6/18/2019. The answer is (B).</s>",
+        "ranking": [
+            [
+                9,
+                " Jane thinks today is 6/18/2019, and John thinks today is 6/19/2019. Jane is correct, so John is one day behind. Yesterday for John was 6/18/2019, which is also Jane's today. Therefore, the answer is (B) 06/17/2019.",
+                0.3224145472049713
+            ]
+        ]
+    },
+    {
+        "sample_index": 184,
+        "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/31/2019, (B) 03/18/2019, (C) 05/18/2019, (D) 05/18/1989, (E) 05/17/2019, (F) 05/10/2019.<pad> A month ago is equal to one month. So a month ago is 05/18/2019. The answer is C.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nJane thinks today is 6/18/2019. \nJohn thinks today is 6/19/2019. \n\nJane is correct, so today is 6/18/2019. \n\nA month ago today would be 5/18/2019. \n\nTherefore, the answer is (C) 05/18/2019.",
+                0.3015643358230591
+            ]
+        ]
+    },
+    {
+        "sample_index": 188,
+        "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/19/1934, (B) 05/05/2019, (C) 06/19/2019, (D) 06/26/2019, (E) 09/20/2019, (F) 06/11/2019.<pad> 24 hours later is 6/19/2019. The answer is (C).</s>",
+        "ranking": [
+            [
+                5,
+                " Jane thinks that it is 6/18/2019 and John thinks it is 6/19/2019. Jane is correct, so the date is 6/18/2019. 24 hours later would be 6/19/2019. Therefore, the answer is (C) 06/19/2019.",
+                0.30728521943092346
+            ],
+            [
+                6,
+                " Jane thinks today is 6/18/2019, so if we add 24 hours, it would be 6/19/2019. Therefore, the answer is (C) 06/19/2019.",
+                0.21416635811328888
+            ]
+        ]
+    },
+    {
+        "sample_index": 189,
+        "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/20/2019, (B) 06/19/2019, (C) 01/19/2020, (D) 06/18/2019, (E) 06/19/2040, (F) 07/03/2019.<pad> Today is 6/19/2019. So the date is (B). The answer is (B).</s>",
+        "ranking": [
+            [
+                8,
+                " \nJane thinks today is 6/18/2019, so that means it is currently the evening of 6/18 or the morning of 6/19 where she is. \nJohn thinks today is 6/19/2019, so that means it is currently the evening of 6/19 or the morning of 6/20 where he is. \nThe only answer choice that matches both of these is B, which is 6/19/2019.",
+                0.2538450360298157
+            ]
+        ]
+    },
+    {
+        "sample_index": 190,
+        "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/20/2019, (B) 12/20/2018, (C) 06/10/2019, (D) 06/25/2019, (E) 02/20/2019.<pad> (A)</s>",
+        "ranking": [
+            [
+                9,
+                " Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. \n\nThis means that the current date is 6/19/2019, and tomorrow's date will be 6/20/2019.",
+                0.39383330941200256
+            ],
+            [
+                10,
+                " Jane thinks that it is currently 6/18/2019. If John is correct, then that means it is currently 6/19/2019. The question asks for tomorrow's date in MM/DD/YYYY format, which would be 06/20/2019.",
+                0.23413999378681183
+            ]
+        ]
+    },
+    {
+        "sample_index": 191,
+        "prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/18/2019, (B) 06/18/2066, (C) 06/18/1933, (D) 05/28/2019, (E) 11/18/2019, (F) 02/18/2019.<pad> If today is 6/18/2019, then yesterday was 6/18/2019. The answer is (A).</s>",
+        "ranking": [
+            [
+                3,
+                " Jane thinks today is 6/18/2019, which means that yesterday was 6/17/2019. John thinks today is 6/19/2019, which means that yesterday was 6/18/2019. So, the answer is (A) 06/18/2019.",
+                0.32100731134414673
+            ]
+        ]
+    },
+    {
+        "sample_index": 198,
+        "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 08/06/2002, (B) 05/06/1964, (C) 05/06/1935, (D) 05/06/2095, (E) 05/06/1912, (F) 05/06/2002.<pad> Ten years ago is May 6, 1992. Today is May 6, 2002. The answer is (F).</s>",
+        "ranking": [
+            [
+                8,
+                " \n\nJane says May 6, 1992 is like yesterday. This means that, to her, it feels as if it just happened recently. \nHowever, the question says that it actually happened 10 years ago. \nThis means that today's date is 10 years after May 6, 1992. \nTherefore, today's date is 05/06/2002. \n\nThe answer is (F).",
+                0.2030820995569229
+            ],
+            [
+                6,
+                " \n\nWe are given that Jane thinks that May 6, 1992 is like yesterday. This means that, to Jane, the date today is May 6, 2002. \n\nFrom this, we can eliminate answer choices (B), (C), (D), and (F). \n\nNext, we are told that the date is actually ten years ago. This means that, in reality, the date today is May 6, 1992 + 10 = May 6, 2002. \n\nFrom this, we can eliminate answer choices (A) and (E). \n\nThe answer is (F).",
+                0.18448983132839203
+            ]
+        ]
+    },
+    {
+        "sample_index": 199,
+        "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/07/2003, (B) 05/07/2002, (C) 05/07/2036, (D) 05/28/2002, (E) 04/16/2002.<pad> Ten years ago is May 6, 1992. Tomorrow is May 7, 2002. The answer is (B).</s>",
+        "ranking": [
+            [
+                9,
+                " Jane says that May 6, 1992 is like yesterday, so that means today is May 7, 2002. Tomorrow would be May 8, 2002. Therefore, the answer is (B).",
+                0.17953623831272125
+            ]
+        ]
+    },
+    {
+        "sample_index": 205,
+        "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/13/2044, (B) 11/13/2001, (C) 06/10/2002, (D) 03/13/2003, (E) 05/13/2002.<pad> Ten years ago is May 6, 1992. One week from today is May 13th, 2002. The answer is E.</s>",
+        "ranking": [
+            [
+                5,
+                " Jane says that May 6, 1992 is like yesterday. That means today is May 6, 2002. One week from today would be May 13, 2002. Therefore, the answer is E.",
+                0.18622922897338867
+            ]
+        ]
+    },
+    {
+        "sample_index": 206,
+        "prompt": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/07/2002, (B) 05/17/2002, (C) 05/07/1982, (D) 05/04/2002, (E) 05/15/2002, (F) 09/07/2001.<pad> Ten years ago is May 6, 1992. The date 24 hours later is May 7, 1992. The answer is (A).</s>",
+        "ranking": [
+            [
+                2,
+                " \n\nMay 6, 1992 is like yesterday to Jane, but that is actually ten years ago. \n\nThis means that it is currently May 6, 2002. \n\n24 hours later in MM/DD/YYYY would be 05/07/2002.",
+                0.27079328894615173
+            ]
+        ]
+    },
+    {
+        "sample_index": 208,
+        "prompt": "Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/25/2006, (B) 12/11/1937, (C) 07/25/1937, (D) 12/04/1937, (E) 01/04/1938, (F) 12/25/1937.<pad> Tomorrow is 12/25/1937. The answer is (F).</s>",
+        "ranking": [
+            [
+                12,
+                " \n\nToday is Christmas Eve of 1937. \nThat means tomorrow is Christmas Day of 1937. \nTherefore, the date tomorrow is 12/25/1937. \n\nThe answer is (F).",
+                0.23019163310527802
+            ],
+            [
+                5,
+                " \n\nThe question is asking for the date tomorrow, Christmas Day, in MM/DD/YYYY format. \n\nWe know that today is Christmas Eve, December 24th, in 1937. \n\nTherefore, tomorrow is December 25th, or 12/25. \n\nThe year is 1937, so the full date is 12/25/1937. \n\nTherefore, the answer is (F).",
+                0.22691456973552704
+            ]
+        ]
+    },
+    {
+        "sample_index": 210,
+        "prompt": "Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/14/1988, (B) 12/14/2007, (C) 12/14/1937, (D) 12/14/1950, (E) 07/14/1938, (F) 12/14/2026.<pad> 10 days ago is 12/14/1937. The answer is (C).</s>",
+        "ranking": [
+            [
+                9,
+                " \n\nToday is Christmas Eve of 1937, so today's date is 12/24/1937. \n\n10 days ago would be 12/14/1937.",
+                0.20766210556030273
+            ]
+        ]
+    },
+    {
+        "sample_index": 212,
+        "prompt": "Today is Christmas Eve of 1937. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/10/1937, (B) 03/24/1936, (C) 12/24/1862, (D) 10/24/1936, (E) 12/29/1936, (F) 12/24/1936.<pad> One year ago from today is 12/24/1936. The answer is (F).</s>",
+        "ranking": [
+            [
+                4,
+                " \n\nOne year ago from today's date, 12/24/1937, would be 12/24/1936. \n\nTherefore, the answer is (F).",
+                0.19752930104732513
+            ]
+        ]
+    },
+    {
+        "sample_index": 213,
+        "prompt": "Today is Christmas Eve of 1937. What is the date one week ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/16/1937, (B) 12/18/1937, (C) 08/17/1937, (D) 09/18/1937, (E) 12/17/1937.<pad> One week ago from today is 12/17/1937. The answer is E.</s>",
+        "ranking": [
+            [
+                4,
+                " Today is December 24, 1937. This means that yesterday was December 23 and that two days ago was December 22. One week ago would be December 17. Therefore, the answer is (E) 12/17/1937.",
+                0.24078981578350067
+            ]
+        ]
+    },
+    {
+        "sample_index": 217,
+        "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/03/2020, (B) 02/04/2020, (C) 02/03/1964, (D) 02/03/2020, (E) 11/03/2020, (F) 04/03/2020.<pad> Palindrome day of 2020 is 02/03/2020. Tomorrow is 02/03/2020. The answer is (D).</s>",
+        "ranking": [
+            [
+                11,
+                " The question asks for the date tomorrow in MM/DD/YYYY format. Today's date is 02/02/2020. The next day is 02/03/2020. Therefore, the answer is D.",
+                0.19466924667358398
+            ]
+        ]
+    },
+    {
+        "sample_index": 223,
+        "prompt": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/09/2020, (B) 02/13/2020, (C) 12/09/2020, (D) 02/27/2020, (E) 02/23/2020, (F) 02/09/2095.<pad> The date one week from today is 02/09/2020. The answer is (A).</s>",
+        "ranking": [
+            [
+                11,
+                " \n\nThe date today is 02/02/2020. \n\nThe next day is 02/03/2020. \n\nThe next day is 02/04/2020. \n\nThe next day is 02/05/2020. \n\nThe next day is 02/06/2020. \n\nThe next day is 02/07/2020. \n\nThe next day is 02/08/2020. \n\nThe next day is 02/09/2020. \n\nThe next day is 02/10/2020. \n\nThe next day is 02/11/",
+                0.21727927029132843
+            ],
+            [
+                8,
+                " Today's date is 08/02/2020. If we add 7 days to that, we get 08/09/2020. Therefore, the correct answer is (A).",
+                0.18813981115818024
+            ]
+        ]
+    },
+    {
+        "sample_index": 225,
+        "prompt": "This is the last day of 1899. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/31/1899, (B) 01/09/1900, (C) 12/31/1885, (D) 09/26/1899, (E) 12/22/1899, (F) 11/30/1899.<pad> Today is 12/31/1899. The answer is (A).</s>",
+        "ranking": [
+            [
+                6,
+                " \n\nThe last day of 1899 is December 31st. \n\nIn the mm/dd/yyyy format, that would be 12/31/1899. \n\nTherefore, the answer is A.",
+                0.19801969826221466
+            ]
+        ]
+    },
+    {
+        "sample_index": 226,
+        "prompt": "This is the last day of 1899. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/01/1899, (B) 02/06/1900, (C) 01/01/1900, (D) 01/22/1900, (E) 01/08/1900, (F) 01/01/1827.<pad> Tomorrow is 01/01/1900. The answer is (C).</s>",
+        "ranking": [
+            [
+                10,
+                " The last day of 1899 is 12/31/1899. Tomorrow is 01/01/1900. Therefore, the answer is C.",
+                0.24009041488170624
+            ]
+        ]
+    },
+    {
+        "sample_index": 229,
+        "prompt": "This is the last day of 1899. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/07/1900, (B) 11/30/1843, (C) 12/01/1899, (D) 11/30/1983, (E) 11/30/1899, (F) 11/29/1899.<pad> A month ago is 11/30/1899. The answer is (E).</s>",
+        "ranking": [
+            [
+                6,
+                " \nThe last day of 1899 is 12/31/1899. \nA month ago would be 11/30/1899. \nTherefore, the answer is (E).",
+                0.22512750327587128
+            ]
+        ]
+    },
+    {
+        "sample_index": 232,
+        "prompt": "This is the last day of 1899. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/22/1900, (B) 01/13/1900, (C) 01/07/1900, (D) 02/07/1900, (E) 10/07/1900, (F) 01/07/1828.<pad> One week from today is 01/07/1900. The answer is C.</s>",
+        "ranking": [
+            [
+                8,
+                " The last day of 1899 is 12/31/1899. One week from that day is 01/07/1900. Therefore, the answer is (C).",
+                0.21075260639190674
+            ]
+        ]
+    },
+    {
+        "sample_index": 233,
+        "prompt": "This is the last day of 1899. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/02/1900, (B) 03/27/1900, (C) 12/31/1899, (D) 01/01/1845, (E) 01/01/1900, (F) 01/01/1964.<pad> 24 hours later is 01/01/1900. The answer is (E).</s>",
+        "ranking": [
+            [
+                13,
+                " \n\nThe last day of 1899 is 12/31/1899. \n\n24 hours later would be 12/31/1899 at 11:59 PM + 1 minute, which would be 01/01/1900 at 12:00 AM.\n\nTherefore, the answer is 01/01/1900.",
+                0.2209584265947342
+            ]
+        ]
+    },
+    {
+        "sample_index": 234,
+        "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/07/1943, (B) 06/02/2013, (C) 05/25/1943, (D) 07/25/1943, (E) 06/02/1943, (F) 06/02/1965.<pad> Today is 06/02/1943. The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date today in MM/DD/YYYY? The answer is (E).</s>",
+        "ranking": [
+            [
+                7,
+                " \n\nThe concert was scheduled to be on 06/01/1943, but was delayed by one day. \n\nThat means the concert was originally supposed to be on 06/01, but because it was delayed, it is now on 06/02. \n\n06/02/1943 is the correct answer.",
+                0.29255685210227966
+            ]
+        ]
+    },
+    {
+        "sample_index": 239,
+        "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/03/1942, (B) 06/23/1942, (C) 06/30/1942, (D) 06/02/1942, (E) 06/09/1942, (F) 09/02/1942.<pad> One day after 06/01/1943 is 06/02/1943, so today is 06/02/1943. One year ago from today is 06/02/1942. The answer is D.</s>",
+        "ranking": [
+            [
+                5,
+                " \n\nThe concert was scheduled to be on 06/01/1943, but was delayed by one day to today. \n\nThis means that the concert was on 06/02/1943. \n\nOne year ago from today would be 06/02/1942. \n\nThe answer is (D) 06/02/1942.",
+                0.2864990532398224
+            ]
+        ]
+    },
+    {
+        "sample_index": 240,
+        "prompt": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one week ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/26/1942, (B) 06/07/1943, (C) 05/25/1943, (D) 03/20/1943, (E) 05/26/1943, (F) 05/23/1943.<pad> One day after 06/01/1943 is 06/02/1943, so today is 06/02/1943. 10 days before today is 05/23/1943. The answer is E.</s>",
+        "ranking": [
+            [
+                11,
+                " \n\nThe concert was scheduled to be on 06/01/1943. \nIt was delayed by one day to today. \n\nWhat is today's date? \n\nThe date is 06/02/1943. \n\nOne week ago from today would be 05/26/1943. \n\nThe answer is (E).",
+                0.28588736057281494
+            ]
+        ]
+    },
+    {
+        "sample_index": 249,
+        "prompt": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/01/1972, (B) 07/01/2008, (C) 05/13/1972, (D) 07/09/1972, (E) 08/12/1972, (F) 12/01/1972.<pad> One week ago from today is 07/01/1972. The answer is (A).</s>",
+        "ranking": [
+            [
+                9,
+                " Jane scheduled 3 appointments with 5 poeple for tomorrow. The day tomorrow is Tuesday, July 9, 1972. \n\nOne week ago from today would be Tuesday, July 2, 1972. Therefore, the answer is (A).",
+                0.20607654750347137
+            ]
+        ]
+    },
+    {
+        "sample_index": 252,
+        "prompt": "The current local time is 3:02 pm of 5/4/2004. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 05/05/2004, (B) 05/03/2004, (C) 05/04/2005, (D) 04/28/2004, (E) 05/04/2004, (F) 05/11/2004.<pad> Answer: E. The current local time is 3:02 pm of 5/4/2004. Today is 05/04/2004. The answer is E.</s>",
+        "ranking": [
+            [
+                9,
+                " \n\nThe current local time is 3:02 pm of 5/4/2004. \n\nThis means that it is currently 3:02 pm on May 4th, 2004. \n\nThe question is asking for the date today in MM/DD/YYYY format. \n\nToday is still May 4th, so the answer would be 05/04/2004.",
+                0.2924254238605499
+            ],
+            [
+                1,
+                " \nThe current local time is 3:02 pm of 5/4/2004. \n3:02 pm of 5/4/2004 is 15:02 of 5/4/2004. \n15:02 of 5/4/2004 is the same as 03:02 pm of 5/4/2004. \n03:02 pm of 5/4/2004 is the same as 15:02 of 5/4/2004. \n15:02 of 5/4/2004 is 3:02 pm of 5/4/2004.\n\nThe current local time is 3:02 pm of",
+                0.26479649543762207
+            ]
+        ]
+    },
+    {
+        "sample_index": 261,
+        "prompt": "Today is the second day of the third month of 1966. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/02/1965, (B) 12/02/1966, (C) 03/16/1966, (D) 03/09/1966, (E) 03/02/1966, (F) 06/09/1966.<pad> E. Today is the second day of the third month of 1966. The date today in MM/DD/YYYY is 03/02/1966. The answer is (E).</s>",
+        "ranking": [
+            [
+                15,
+                " \n\nThe first day of the third month of 1966 was March 1, 1966. \nThe second day of the third month of 1966 was March 2, 1966. \n\nTherefore, the answer is (E) 03/02/1966.",
+                0.23445482552051544
+            ]
+        ]
+    },
+    {
+        "sample_index": 268,
+        "prompt": "Today is the second day of the third month of 1966. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/09/1966, (B) 03/26/1966, (C) 12/09/1965, (D) 03/02/1966, (E) 02/22/1966, (F) 03/28/1966.<pad> One week from today is 03/09/1966. The answer is A.</s>",
+        "ranking": [
+            [
+                12,
+                " Today is the second day of the third month of 1966. One week from today would be the ninth day of the third month of 1966. The date one week from today in MM/DD/YYYY would be 03/09/1966.",
+                0.2600647211074829
+            ]
+        ]
+    },
+    {
+        "sample_index": 269,
+        "prompt": "Today is the second day of the third month of 1966. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 03/02/1966, (B) 03/03/2021, (C) 03/03/1966, (D) 04/03/1966, (E) 03/04/1966, (F) 03/03/1965.<pad> 24 hours later is 03/03/1966. The answer is (C).</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nToday is the second day of the third month of 1966. \n\nThat means that, right now, it is 2/3/1966. \n\n24 hours later will be 3/3/1966. \n\nThe answer is C.",
+                0.27964186668395996
+            ]
+        ]
+    },
+    {
+        "sample_index": 270,
+        "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/07/2003, (B) 08/08/2003, (C) 09/07/2003, (D) 12/05/2003, (E) 09/06/2003, (F) 11/20/2003.<pad> Today is 9/7. The date today is 09/07/2003. The answer is C.</s>",
+        "ranking": [
+            [
+                2,
+                " Jane is watching NFL 2003. That means it's September, so the month is 09. The day is the 7th, so the day is 07. The year is 2003, so the year is 03. Therefore, the date is 09/07/2003.",
+                0.2342080920934677
+            ],
+            [
+                1,
+                " \n\nFirst, we need to look at the question and figure out what information we are given and what we need to find. In this question, we are given the day, Jane's activity, and the year. We need to find the date. \n\nFrom the information given, we can eliminate answer choices (B), (D), and (F) because the months are not correct. \n\nNext, we need to look at the day and figure out if it is before, after, or on September 7. In this case, it is on September 7, so we can eliminate answer choices (A)",
+                0.17833203077316284
+            ]
+        ]
+    },
+    {
+        "sample_index": 271,
+        "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/08/1916, (B) 09/01/2003, (C) 09/08/2003, (D) 09/13/2003, (E) 08/18/2003, (F) 09/15/2003.<pad> Tomorrow is 09/8. So the date tomorrow is 09/08/2003. The answer is (C).</s>",
+        "ranking": [
+            [
+                7,
+                " Today is 9/7. Tomorrow is 9/8. So the date tomorrow in MM/DD/YYYY is 09/08/2003.",
+                0.24801190197467804
+            ]
+        ]
+    },
+    {
+        "sample_index": 272,
+        "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/21/2003, (B) 09/06/2003, (C) 09/06/2102, (D) 10/23/2003, (E) 09/05/2003.<pad> Yesterday is 9/6. So yesterday's date is 09/06/2003. The answer is (B).</s>",
+        "ranking": [
+            [
+                9,
+                " Today is 9/7. That means yesterday was 9/6. In MM/DD/YYYY, that would be 09/06/2003. Therefore, the answer is (B).",
+                0.22584354877471924
+            ]
+        ]
+    },
+    {
+        "sample_index": 275,
+        "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/07/1918, (B) 08/24/2002, (C) 09/08/2002, (D) 09/28/2002, (E) 12/07/2002, (F) 09/07/2002.<pad> One year ago from today is 09/07/2002. The answer is (F).</s>",
+        "ranking": [
+            [
+                11,
+                " \n\nToday is 9/7. \n\nOne year ago from today was 9/7. \n\nThe year before that was 9/7.\n\nTherefore, the date one year ago from today in MM/DD/YYYY is 9/7/2002.",
+                0.20946572721004486
+            ]
+        ]
+    },
+    {
+        "sample_index": 278,
+        "prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/10/2003, (B) 09/08/2003, (C) 09/07/2003, (D) 09/08/1917, (E) 08/29/2003.<pad> 24 hours later is 09/08/2003. The answer is (B).</s>",
+        "ranking": [
+            [
+                9,
+                " \n\nThe date is September 7th. \nJane is watching NFL 2003. \nThat means it is 2003. \n24 hours later would be September 8th, 2003. \n\nThe answer is B.",
+                0.23144252598285675
+            ]
+        ]
+    },
+    {
+        "sample_index": 281,
+        "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/31/1929, (B) 12/31/1856, (C) 12/31/1838, (D) 04/01/1930, (E) 01/10/1930, (F) 01/03/1930.<pad> (A)</s>",
+        "ranking": [
+            [
+                11,
+                " If yesterday was December 31, 1929, today could not be December 32, 1929 because December has only 31 days. \n\nTherefore, the date yesterday was 12/31/1929.",
+                0.22428815066814423
+            ],
+            [
+                4,
+                " \n\nFirst, we know that December has 31 days, so the day after 12/31 would be 1/1. \n\nThe year can't be 1930, because that would make the date 1/1/1930, which is after today. \n\nThe year can't be 1856, because that would make the date 1/1/1856, which is before yesterday. \n\nThe year can't be 1838, because that would make the date 1/1/1838, which is before yesterday. \n\nThe only answer choice that is consistent with what we know is A",
+                0.19721896946430206
+            ]
+        ]
+    },
+    {
+        "sample_index": 282,
+        "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/31/1929, (B) 12/22/1929, (C) 12/22/1973, (D) 11/19/1929, (E) 09/22/1929.<pad> 10 days ago in MM/DD/YYYY would be 12/22/1929. The answer is (B).</s>",
+        "ranking": [
+            [
+                12,
+                " Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. This means today is 01/01/1930. 10 days ago would be 12/22/1929.",
+                0.32730916142463684
+            ],
+            [
+                11,
+                " \nFirst, we need to realize that we're looking for the date 10 days ago, not the day 10 days ago. Because it's asking for the date in MM/DD/YYYY format, that means that we're looking for a specific day on the calendar 10 days ago. \nSecond, we need to identify what day 10 days ago was. We can count on our fingers, or use a calendar to help us. We can see that 10 days ago was December 21, 1929. \nLastly, we need to put that information into the correct format, which would be 12/21/1929. ",
+                0.20584511756896973
+            ]
+        ]
+    },
+    {
+        "sample_index": 283,
+        "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date a month ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/01/1929, (B) 12/04/1929, (C) 04/01/1930, (D) 12/11/1929, (E) 12/01/1973, (F) 12/02/1929.<pad> A month ago is 12/31/1929 - 12/32/1929 = 12/01/1929. The answer is (A).</s>",
+        "ranking": [
+            [
+                1,
+                " A month ago from 12/31/1929 would be 11/31/1929. But since November has only 30 days, the correct answer must be 12/01/1929.",
+                0.1953834444284439
+            ]
+        ]
+    },
+    {
+        "sample_index": 284,
+        "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/01/1898, (B) 01/01/1929, (C) 01/01/1994, (D) 08/01/1929, (E) 01/08/1929, (F) 01/01/1891.<pad> One year ago from today in MM/DD/YYYY would be 12/31/1929. The answer is (B).</s>",
+        "ranking": [
+            [
+                1,
+                " In order to figure out what the date was one year ago from today, we need to know what today's date is. The question tells us that today is not 12/32/1929, because December only has 31 days. Therefore, we can eliminate answers (A), (B), and (E). \n\nThe question also tells us that yesterday was 12/31/1929. This means that today's date is 01/01/1930. Therefore, the date one year ago from today is 01/01/1929, and the correct answer is (B).",
+                0.22361397743225098
+            ],
+            [
+                12,
+                " \n\nThe date one year ago from 12/31/1929 is 12/31/1928. \nThe date one year ago from 01/01/1929 is 01/01/1928.\n\nTherefore, the answer is B.",
+                0.19253844022750854
+            ]
+        ]
+    },
+    {
+        "sample_index": 286,
+        "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/08/1930, (B) 04/08/1930, (C) 01/08/1872, (D) 01/08/1860, (E) 01/02/1930.<pad> One week from today is 01/08/1930. The answer is (A).</s>",
+        "ranking": [
+            [
+                4,
+                " \nYesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. \n\nThe date one week from today is 01/07/1930.",
+                0.35427406430244446
+            ]
+        ]
+    },
+    {
+        "sample_index": 287,
+        "prompt": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 08/02/1930, (B) 01/02/1877, (C) 11/06/1929, (D) 01/02/1930, (E) 03/30/1930, (F) 01/02/1884.<pad> 24 hours after 12/31/1929 is 01/02/1930. The answer is (D).</s>",
+        "ranking": [
+            [
+                11,
+                " The last day of December 1929 was December 31, 1929. The next day after that would be January 1, 1930. Therefore, the date 24 hours later in MM/DD/YYYY would be 01/02/1930.",
+                0.24000273644924164
+            ],
+            [
+                6,
+                " The question is asking for the date 24 hours later, which would be 1/1/1930. January has 31 days, so the date cannot be 01/02/1877 or 01/02/1884. It also cannot be 03/30/1930 because that is not a real date. The only other answer choices are 08/02/1930, 11/06/1929, and 01/02/1930, and 01/02/1930 is the only one that is a real date, so the answer must be (D) 01/02/1930.",
+                0.19917082786560059
+            ]
+        ]
+    },
+    {
+        "sample_index": 294,
+        "prompt": "The day before yesterday was 11/23/1933. What is the date one week ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 11/04/1933, (B) 11/11/1933, (C) 11/18/1933, (D) 11/13/1933, (E) 11/17/1933, (F) 12/16/1933.<pad> One week ago from today in MM/DD/YYYY would be 11/24/1933. The answer is (C).</s>",
+        "ranking": [
+            [
+                3,
+                " \n\nThe day before yesterday was 11/23/1933. \nYesterday was 11/24/1933. \nToday is 11/25/1933. \n\nTherefore, one week ago today would be 11/18/1933. \n\nThe answer is (C).",
+                0.27626797556877136
+            ]
+        ]
+    },
+    {
+        "sample_index": 295,
+        "prompt": "The day before yesterday was 11/23/1933. What is the date one week from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 12/02/1974, (B) 12/23/1933, (C) 12/02/1933, (D) 11/11/1933, (E) 11/25/1933, (F) 12/16/1933.<pad> One week from today is 12/02/1933. The answer is C.</s>",
+        "ranking": [
+            [
+                0,
+                " The day before yesterday was 11/23/1933. So, yesterday was 11/24/1933. Today is 11/25/1933. Tomorrow is 11/26/1933. The day after tomorrow is 11/27/1933. One week from today is 12/02/1933. Therefore, the answer is (C).",
+                0.2787868082523346
+            ]
+        ]
+    },
+    {
+        "sample_index": 300,
+        "prompt": "In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 11/13/2002, (B) 11/26/2002, (C) 11/19/2002, (D) 08/18/2002, (E) 11/12/2002, (F) 11/12/2099.<pad> Thanksgiving of 2001 is on the fourth Thursday of November. So, the date 10 days ago is 11/12/2002. The answer is E.</s>",
+        "ranking": [
+            [
+                14,
+                " \n\nThe fourth Thursday of November 2001 fell on the 22nd. \n10 days before that would have been the 12th. \nTherefore, the date 10 days ago from Thanksgiving 2001 would have been 11/12/2001. \n\nThe answer is (E).",
+                0.22300469875335693
+            ]
+        ]
+    },
+    {
+        "sample_index": 307,
+        "prompt": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/16/1924, (B) 10/17/1924, (C) 10/16/1922, (D) 07/16/1925, (E) 10/16/2010, (F) 10/15/1924.<pad> Tomorrow is 10/16/1924. Tomorrow is 10/16/1924. The answer is (A).</s>",
+        "ranking": [
+            [
+                8,
+                " The meeting is happening tomorrow, which means that the current day is 10/15/1924. One day later would be 10/16/1924, which is choice (A).",
+                0.22783152759075165
+            ]
+        ]
+    },
+    {
+        "sample_index": 308,
+        "prompt": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 10/14/2004, (B) 10/15/1924, (C) 09/14/1925, (D) 10/22/1924, (E) 10/14/1935, (F) 10/14/1924.<pad> Answer: (F).</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nThe meeting is scheduled for tomorrow, 10/16/1924. \nThat means that today is 10/15/1924. \nThe day before today would be 10/14/1924. \n\nTherefore, the answer is (F) 10/14/1924.",
+                0.18355531990528107
+            ]
+        ]
+    },
+    {
+        "sample_index": 316,
+        "prompt": "Jane is celebrating the last day of Jan 2012. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/25/2012, (B) 02/02/2012, (C) 02/11/2012, (D) 02/01/2012, (E) 02/15/2012, (F) 04/22/2012.<pad> Jan 2012 is ending and Jan 2012 is 1 day. Jan 2012 is 1 month and 1 day. Jan 2012 is 1 - 1 = 2 days. The answer is (D).</s>",
+        "ranking": [
+            [
+                3,
+                " Jane is celebrating the last day of Jan 2012. The day after the last day of Jan 2012 is Feb 1st, 2012. Therefore, the answer is D.",
+                0.23857522010803223
+            ]
+        ]
+    },
+    {
+        "sample_index": 320,
+        "prompt": "Jane is celebrating the last day of Jan 2012. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/31/2011, (B) 04/20/2011, (C) 02/01/2011, (D) 02/08/2011, (E) 06/30/2011, (F) 10/31/2011.<pad> One year ago from today is Jan 2012 - Jan 2012. One year ago from today is Jan 2012 - Jan 2011. The answer is (A).</s>",
+        "ranking": [
+            [
+                12,
+                " Jane is celebrating the last day of Jan 2012. The last day of Jan 2012 is Jan 31. So, one year ago from today, Jan 31, would be Jan 31 2011. Therefore, the answer is (A).",
+                0.21696119010448456
+            ]
+        ]
+    },
+    {
+        "sample_index": 324,
+        "prompt": "It was Sept. 1st, 2021 a week ago. What is the date today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 09/08/2021, (B) 09/22/2021, (C) 09/09/2021, (D) 08/11/2021, (E) 09/07/2021, (F) 09/08/2006.<pad> Answer: A.</s>",
+        "ranking": [
+            [
+                2,
+                " A week ago was Sept. 1st, 2021. So, today would be Sept. 8th, 2021. Therefore, the answer is (A) 09/08/2021.",
+                0.17029601335525513
+            ]
+        ]
+    },
+    {
+        "sample_index": 344,
+        "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date yesterday in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/26/2017, (B) 06/25/2017, (C) 06/17/2017, (D) 06/17/2111, (E) 07/18/2017, (F) 07/13/2017.<pad> Since May 9th is today, then yesterday is May 9th, 2017. The answer is (C).</s>",
+        "ranking": [
+            [
+                8,
+                " \n\nMay 9th, 2017 was 40 days ago. \n\n40 days ago was June 18th, 2017. \n\nTherefore, June 17th, 2017 was the day before, or yesterday. \n\nThe answer is (C).",
+                0.19152550399303436
+            ]
+        ]
+    },
+    {
+        "sample_index": 347,
+        "prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/18/2016, (B) 06/25/2016, (C) 06/22/2016, (D) 09/18/2016, (E) 06/18/2030, (F) 07/18/2015.<pad> One year ago from today is May 9th, 2017. So one year ago from today is May 9th, 2017 - May 9th, 2017 = May 18th, 2016. The answer is (A).</s>",
+        "ranking": [
+            [
+                6,
+                " \n40 eggs in 40 days means that Jane ate one egg per day. \nIf today is the day Jane ran out of eggs, that means that one year ago, Jane had 39 eggs. \n39 eggs in 39 days means that Jane ate one egg per day. \nTherefore, one year ago from the day Jane ran out of eggs is the day Jane started with 40 eggs. \nThe day Jane started with 40 eggs was 05/09/2016. \nTherefore, one year ago from today is 05/09/2016. \nAnswer: (A) 06/18/2016",
+                0.18784205615520477
+            ],
+            [
+                8,
+                " We know that Jane bought 40 eggs on May 9th, 2017 and ate one egg every day. We want to know the date one year ago from today. \n\nToday is June 18th, 2018. \n\nOne year ago from today was June 18th, 2017.",
+                0.16284669935703278
+            ]
+        ]
+    },
+    {
+        "sample_index": 352,
+        "prompt": "Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 04/09/2008, (B) 09/01/2008, (C) 04/01/2008, (D) 03/31/2008, (E) 04/01/2058, (F) 03/14/2008.<pad> The first quarter of 2008 ends on March 31st. The second quarter of 2008 begins on April 1st. The answer is (C).</s>",
+        "ranking": [
+            [
+                1,
+                " \n\nToday is the last day of the first quarter of 2008. This quarter includes the months of January, February, and March. \n\nThe first day of the next quarter would be April 1st. \n\nTherefore, tomorrow's date would be 04/01/2008.",
+                0.2539116442203522
+            ]
+        ]
+    },
+    {
+        "sample_index": 354,
+        "prompt": "Today is the last day of the first quarter of 2008. What is the date 10 days ago in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 06/24/2008, (B) 03/22/2008, (C) 06/04/2008, (D) 03/21/2008, (E) 10/21/2008, (F) 03/21/2104.<pad> The first quarter of 2008 ends on March 31st. The first quarter of 2008 is from March 1st to March 31st. The answer is (D).</s>",
+        "ranking": [
+            [
+                0,
+                " \n\nToday is the last day of the first quarter of 2008. This means that today is March 31st, 2008. \n\n10 days ago would be March 21st, 2008. \n\nTherefore, the answer is (D).",
+                0.27892449498176575
+            ]
+        ]
+    },
+    {
+        "sample_index": 356,
+        "prompt": "Today is the last day of the first quarter of 2008. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 07/09/2007, (B) 04/01/2007, (C) 03/31/2007, (D) 03/31/2051, (E) 03/31/2103.<pad> One year ago from today is 03/31/2007. The answer is (C).</s>",
+        "ranking": [
+            [
+                7,
+                " One year ago today was April 1st. Today is the last day of the first quarter, so one year ago today was also the last day of the first quarter. The last day of the first quarter of 2007 was March 31st. Therefore, the answer is 03/31/2007.",
+                0.2267623096704483
+            ]
+        ]
+    },
+    {
+        "sample_index": 365,
+        "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 01/02/2018, (B) 10/29/2017, (C) 01/12/2018, (D) 05/07/2017, (E) 01/08/2018, (F) 01/07/2018.<pad> If the first day of 2019 was Tuesday, then 01/01/2019 was a Tuesday. Today is the first Monday of 2019. So one year ago from today in MM/DD/YYYY would be 01/07/2018. The answer is F.</s>",
+        "ranking": [
+            [
+                14,
+                " The first day of 2019 is a Tuesday, and today is the first Monday of 2019. That means that today is January 7, 2019. One year ago from today would be January 7, 2018. The answer is (F).",
+                0.27867624163627625
+            ]
+        ]
+    },
+    {
+        "sample_index": 368,
+        "prompt": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date 24 hours later in MM/DD/YYYY?\nWhich choice is true? Answer choices: (A) 02/08/2018, (B) 10/22/2018, (C) 01/08/2019, (D) 01/01/2019, (E) 01/08/2043, (F) 01/08/1960.<pad> 24 hours after today is the second Tuesday of 2019. The answer is (C).</s>",
+        "ranking": [
+            [
+                15,
+                " \n\nThe first day of 2019 is a Tuesday, and today is the first Monday of 2019. \n\nThat means that today is January 7th, 2019. \n\n24 hours later would be January 8th, 2019. \n\nTherefore, the correct answer is (C) 01/08/2019.",
+                0.31631383299827576
+            ]
+        ]
+    }
+]
